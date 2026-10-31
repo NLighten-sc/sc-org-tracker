@@ -1,0 +1,691 @@
+{
+ "_source": "Mission broker records; keys match the app's mission title key — Game2.dcb + global.ini (patch 4.10.2)",
+ "game_version": "4.10.2",
+ "givers": {
+  "[x] clean up": [
+   "Tar Pits"
+  ],
+  "[x] gone missing": [
+   "Rough & Ready"
+  ],
+  "[x] rank - [x] cargo haul": [
+   "Covalex Independent Contractors"
+  ],
+  "[x] rank - direct [x] cargo haul": [
+   "Covalex Independent Contractors"
+  ],
+  "[x] reported missing": [
+   "MT Protection Services"
+  ],
+  "[x] time trial: [x]": [
+   "Wildstar Racing"
+  ],
+  "[x] vanished": [
+   "Rough & Ready"
+  ],
+  "[x] whereabouts unknown": [
+   "MT Protection Services"
+  ],
+  "[x]’s time has come": [
+   "Tar Pits"
+  ],
+  "a batch from scratch": [
+   "Wallace Klim"
+  ],
+  "a mother's plea": [
+   "Gloria Theolone"
+  ],
+  "a swift reprisal": [
+   "Headhunters"
+  ],
+  "active bounty evaluation": [
+   "MT Protection Services"
+  ],
+  "active bounty reevaluation": [
+   "MT Protection Services"
+  ],
+  "active bounty: [x] (mrt)": [
+   "MT Protection Services"
+  ],
+  "advanced tracker license certification": [
+   "Bounty Hunters Guild"
+  ],
+  "agent of chaos": [
+   "XenoThreat"
+  ],
+  "aid the blockade": [
+   "Ruto"
+  ],
+  "all things come to an end": [
+   "Vaughn"
+  ],
+  "annihilate sentries": [
+   "XenoThreat"
+  ],
+  "another attempt at red wind delivery": [
+   "Red Wind Linehaul"
+  ],
+  "apprehend bounty: [x] (hrt)": [
+   "MT Protection Services"
+  ],
+  "assist in defending site": [
+   "Hurston Dynamics"
+  ],
+  "away from prying eyes": [
+   "Ruto"
+  ],
+  "blacjac bounty trial contract": [
+   "BlacJac Security"
+  ],
+  "bounty assignment: [x] (hrt)": [
+   "Northrock Service Group"
+  ],
+  "bounty extraction: [x] (mrt)": [
+   "Crusader Security"
+  ],
+  "bounty located: [x] (mrt)": [
+   "Hurston Dynamics"
+  ],
+  "capture arlington gang leader maltrox arlington": [
+   "Eckhart Security"
+  ],
+  "capture arlington gang member kass dent": [
+   "Eckhart Security"
+  ],
+  "capture arlington gang member les arlington": [
+   "Eckhart Security"
+  ],
+  "capture arlington gang member nicks cantwell": [
+   "Eckhart Security"
+  ],
+  "capture arlington gang member oslo arlington": [
+   "Eckhart Security"
+  ],
+  "capture arlington gang member sam ‘weepy’ arlington": [
+   "Eckhart Security"
+  ],
+  "cdf alert: [x] blockade runners needed": [
+   "Civilian Defense Force"
+  ],
+  "cdf alert: attack on xenothreat": [
+   "CIVILIAN DEFENSE FORCE INITIATIVE"
+  ],
+  "cdf alert: xenothreat ambush - support needed": [
+   "CIVILIAN DEFENSE FORCE INITIATIVE"
+  ],
+  "clear claimjumpers": [
+   "Shubin Interstellar"
+  ],
+  "clear criminal nest": [
+   "Crusader Security"
+  ],
+  "clear out drugs": [
+   "BlacJac Security"
+  ],
+  "clear out site": [
+   "BlacJac Security"
+  ],
+  "clear site of contraband": [
+   "MT Protection Services"
+  ],
+  "clear site of drugs": [
+   "MT Protection Services"
+  ],
+  "clear site of narcotics": [
+   "MT Protection Services"
+  ],
+  "confidential material stolen": [
+   "Citizens for Prosperity"
+  ],
+  "confiscate contraband": [
+   "BlacJac Security",
+   "Crusader Security",
+   "Hurston Security",
+   "MT Protection Services"
+  ],
+  "covalex cargo hauling re-evaluation": [
+   "Covalex Independent Contractors"
+  ],
+  "covalex evaluation": [
+   "Covalex Independent Contractors"
+  ],
+  "covalex local delivery route": [
+   "Covalex",
+   "Covalex Independent Contractors"
+  ],
+  "covalex local shipment route": [
+   "Covalex"
+  ],
+  "covalex package handler": [
+   "Covalex"
+  ],
+  "covalex re-evaluation": [
+   "Covalex Independent Contractors"
+  ],
+  "dangerous take": [
+   "Tar Pits"
+  ],
+  "death do us part": [
+   "Ruto"
+  ],
+  "defend location against minor threats": [
+   "MT Protection Services"
+  ],
+  "defend location against moderate threats": [
+   "MT Protection Services"
+  ],
+  "defend location against serious threats": [
+   "MT Protection Services"
+  ],
+  "defend location and deliver confidential materials": [
+   "MT Protection Services"
+  ],
+  "defend occupants": [
+   "MT Protection Services"
+  ],
+  "defend site and retrieve confidential materials": [
+   "Hurston Dynamics"
+  ],
+  "defend site from dangerous threat": [
+   "BlacJac Security"
+  ],
+  "defend site from minor threat": [
+   "BlacJac Security"
+  ],
+  "defend site from threat": [
+   "BlacJac Security"
+  ],
+  "delicate dealings": [
+   "Bit Zeros"
+  ],
+  "delivery for [x] ready": [
+   "Citizens for Prosperity"
+  ],
+  "demolition mission": [
+   "Tar Pits"
+  ],
+  "destroy dangerous drugs": [
+   "BlacJac Security"
+  ],
+  "destroy deadly contraband": [
+   "Crusader Security"
+  ],
+  "destroy illegal drugs": [
+   "Crusader Security"
+  ],
+  "destroy toxic narcotics": [
+   "Crusader Security"
+  ],
+  "double dealing": [
+   "Rough & Ready"
+  ],
+  "double trouble": [
+   "Ruto"
+  ],
+  "eckhart security job op": [
+   "Miles Eckhart"
+  ],
+  "eliminate contraband stash": [
+   "Hurston Dynamics"
+  ],
+  "eliminate drug stash": [
+   "Hurston Dynamics"
+  ],
+  "eliminate eavesdroppers": [
+   "Headhunters"
+  ],
+  "eliminate narcotic stash": [
+   "Hurston Dynamics"
+  ],
+  "eliminate xenothreat idris": [
+   "Citizens for Prosperity"
+  ],
+  "elusive bounty: [x] (hrt)": [
+   "Hurston Dynamics"
+  ],
+  "end nine tails' occupation at orison": [
+   "Civilian Defense Force"
+  ],
+  "entrenched bounty: [x] (mrt)": [
+   "Hurston Dynamics"
+  ],
+  "eradicate all nests": [
+   "Hurston Dynamics"
+  ],
+  "eradicate eavesdroppers": [
+   "Headhunters"
+  ],
+  "eradicate sentries": [
+   "XenoThreat"
+  ],
+  "erase eavesdropper": [
+   "Headhunters"
+  ],
+  "evasive bounty: [x] (vhrt)": [
+   "Hurston Dynamics"
+  ],
+  "evict illegal occupants": [
+   "Hurston Dynamics"
+  ],
+  "expel claimjumpers": [
+   "Shubin Interstellar"
+  ],
+  "exterminate eavesdroppers": [
+   "Headhunters"
+  ],
+  "exterminate nest of [x]": [
+   "Hurston Dynamics"
+  ],
+  "extermination job": [
+   "Rough & Ready"
+  ],
+  "failed delivery": [
+   "Rough & Ready"
+  ],
+  "fight for a free pyro": [
+   "XenoThreat"
+  ],
+  "friends to the end": [
+   "Ruto"
+  ],
+  "fuel to the fire": [
+   "Rough & Ready"
+  ],
+  "fugitive recovery certification": [
+   "Bounty Hunters Guild"
+  ],
+  "get the goods": [
+   "Ruto"
+  ],
+  "good help’s hard to find": [
+   "Ruto"
+  ],
+  "grab and go": [
+   "Ruto"
+  ],
+  "guard facility against dangerous hostiles": [
+   "Hurston Dynamics"
+  ],
+  "guard facility against hostiles": [
+   "Hurston Dynamics"
+  ],
+  "guard facility against threat": [
+   "Hurston Dynamics"
+  ],
+  "guard site against dangerous hostiles": [
+   "Crusader Security"
+  ],
+  "guard site against hostiles": [
+   "Crusader Security"
+  ],
+  "guard site against serious hostiles": [
+   "Crusader Security"
+  ],
+  "head hunting": [
+   "XenoThreat"
+  ],
+  "help me get my stuff back": [
+   "Ed Biollo"
+  ],
+  "hit 'em where it hurts": [
+   "Bit Zeros"
+  ],
+  "idris stolen by arlington gang": [
+   "Eckhart Security"
+  ],
+  "idris war game": [
+   "Civilian Defense Force"
+  ],
+  "illegal blockade - neutralizing nine tails fleet": [
+   "Crusader Security"
+  ],
+  "illegal blockade - seeking nine tails fleet responsible": [
+   "Crusader Security"
+  ],
+  "illegal blockade – medical supplies needed": [
+   "Crusader Security"
+  ],
+  "in the wake of disaster": [
+   "Clovus Darneely"
+  ],
+  "inmate maintenance opportunity": [
+   "Klescher Rehabilitation Facilities"
+  ],
+  "inventory clear out": [
+   "Ruto"
+  ],
+  "journeyman tracker license certification": [
+   "Bounty Hunters Guild"
+  ],
+  "kill order: \"citizens\" at [x]": [
+   "XenoThreat"
+  ],
+  "let's help each other": [
+   "Ruto"
+  ],
+  "limited supply": [
+   "Ruto"
+  ],
+  "ling contractor re-evaluation": [
+   "Ling Family Hauling"
+  ],
+  "ling family local delivery route": [
+   "Ling Family Hauling"
+  ],
+  "ling family seeking new contractors": [
+   "Ling Family Hauling"
+  ],
+  "live and let an independent contractor deal out revenge": [
+   "Ruto"
+  ],
+  "long overdue": [
+   "Rough & Ready"
+  ],
+  "lookin' for zeta-prolanide": [
+   "N/A"
+  ],
+  "looking for closure": [
+   "Sam Besser"
+  ],
+  "major malfunction": [
+   "Bit Zeros"
+  ],
+  "makin’ a mess": [
+   "Ruto"
+  ],
+  "master tracker license certification": [
+   "Bounty Hunters Guild"
+  ],
+  "missing person report: [x]": [
+   "Hurston Dynamics"
+  ],
+  "missing: [x]": [
+   "Citizens for Prosperity"
+  ],
+  "money from nothing": [
+   "Ruto"
+  ],
+  "multiple deliveries ready": [
+   "Citizens for Prosperity"
+  ],
+  "my dad's stuff": [
+   "Baylor Ward"
+  ],
+  "need an out?": [
+   "Ruto"
+  ],
+  "neutralize outlaw incursion": [
+   "Hurston Dynamics"
+  ],
+  "opportunity for independent cargo hauler": [
+   "Covalex Independent Contractors"
+  ],
+  "oust claimjumpers": [
+   "Shubin Interstellar"
+  ],
+  "out of stock": [
+   "Ruto"
+  ],
+  "overdrive initative: attack on xenothreat": [
+   "CIVILIAN DEFENSE FORCE INITIATIVE"
+  ],
+  "overdrive initative: xenothreat ambush - support needed": [
+   "CIVILIAN DEFENSE FORCE INITIATIVE"
+  ],
+  "overdrive initiative: emergency at kareah": [
+   "Civilian Defense Force"
+  ],
+  "overdrive initiative: intel raid": [
+   "Civilian Defense Force"
+  ],
+  "overdrive initiative: priority targets": [
+   "Civilian Defense Force"
+  ],
+  "overdrive initiative: reward": [
+   "Civilian Defense Force"
+  ],
+  "overdrive initiative: supply request": [
+   "Civilian Defense Force"
+  ],
+  "overdrive initiative: xenothreat incursion": [
+   "Civilian Defense Force"
+  ],
+  "overdrive initiative: xenothreat surveillance": [
+   "Civilian Defense Force"
+  ],
+  "ownership reassignment": [
+   "Bit Zeros"
+  ],
+  "parting gift": [
+   "Rough & Ready"
+  ],
+  "permanently delete": [
+   "Bit Zeros"
+  ],
+  "personal effects": [
+   "Anya Sugari"
+  ],
+  "price of business": [
+   "XenoThreat"
+  ],
+  "production oversight": [
+   "Wallace Klim"
+  ],
+  "protect site": [
+   "BlacJac Security"
+  ],
+  "protect site and procure confidential materials": [
+   "BlacJac Security"
+  ],
+  "protect site trial contract": [
+   "BlacJac Security"
+  ],
+  "provide backup": [
+   "Crusader Security"
+  ],
+  "red wind discreet courier run": [
+   "Red Wind Linehaul"
+  ],
+  "red wind in need of discreet couriers": [
+   "Red Wind Linehaul"
+  ],
+  "red wind local delivery route": [
+   "Red Wind Linehaul"
+  ],
+  "red wind local shipment route": [
+   "Red Wind Linehaul"
+  ],
+  "red wind package handler": [
+   "Red Wind Linehaul"
+  ],
+  "red wind seeking new pilots": [
+   "Red Wind Linehaul"
+  ],
+  "remove claimjumpers": [
+   "Shubin Interstellar"
+  ],
+  "remove hostile force": [
+   "MT Protection Services"
+  ],
+  "remove illegal occupants": [
+   "MT Protection Services"
+  ],
+  "repossess supplies": [
+   "XenoThreat"
+  ],
+  "reputation management": [
+   "Headhunters"
+  ],
+  "retrieval op": [
+   "Northrock Service Group"
+  ],
+  "revenge 01 (wip)": [
+   "Jo Jangles (WIP)"
+  ],
+  "ripe for retribution": [
+   "Headhunters"
+  ],
+  "ripe for the taking": [
+   "Ruto"
+  ],
+  "running the gauntlet": [
+   "Civilian Defense Force"
+  ],
+  "scrap [x]": [
+   "Tar Pits"
+  ],
+  "secure bounty: [x] (vhrt)": [
+   "MT Protection Services"
+  ],
+  "security contractor evaluation": [
+   "Hurston Dynamics",
+   "MT Protection Services"
+  ],
+  "security contractor reevaluation": [
+   "Hurston Dynamics",
+   "MT Protection Services"
+  ],
+  "security work assessment": [
+   "Crusader Security"
+  ],
+  "security work reassessment": [
+   "Crusader Security"
+  ],
+  "server not found": [
+   "Bit Zeros"
+  ],
+  "shipping error - qt sensitive cargo": [
+   "Covalex Independent Contractors"
+  ],
+  "silence sentries": [
+   "XenoThreat"
+  ],
+  "silence spying op": [
+   "Rough & Ready"
+  ],
+  "simultaneous release": [
+   "Ruto"
+  ],
+  "squash spying op": [
+   "Rough & Ready"
+  ],
+  "steal subsidies": [
+   "XenoThreat"
+  ],
+  "stolen supplies": [
+   "Citizens for Prosperity"
+  ],
+  "stomp spying op": [
+   "Rough & Ready"
+  ],
+  "stop spying op": [
+   "Rough & Ready"
+  ],
+  "strike saboteur": [
+   "Rough & Ready"
+  ],
+  "supply line sabotage": [
+   "XenoThreat"
+  ],
+  "support security forces and secure confidential materials": [
+   "Crusader Security"
+  ],
+  "surveillance termination": [
+   "XenoThreat"
+  ],
+  "suspect apprehension certification": [
+   "Bounty Hunters Guild"
+  ],
+  "they will be missed": [
+   "Vaughn"
+  ],
+  "together forever": [
+   "Ruto"
+  ],
+  "too many cooks": [
+   "Ruto"
+  ],
+  "total server wipe": [
+   "XenoThreat"
+  ],
+  "track down gang member": [
+   "XenoThreat"
+  ],
+  "track down spy": [
+   "XenoThreat"
+  ],
+  "track down traitor": [
+   "XenoThreat"
+  ],
+  "tracker beginner's permit certification": [
+   "Bounty Hunters Guild"
+  ],
+  "tracker license certification": [
+   "Bounty Hunters Guild"
+  ],
+  "tracker training permit certification": [
+   "Bounty Hunters Guild"
+  ],
+  "trigger a trap": [
+   "Rough & Ready"
+  ],
+  "tutorial - your first flight": [
+   "How to Play Guide"
+  ],
+  "tutorial - your first outing": [
+   "How to Play Guide"
+  ],
+  "tutorial - your first steps": [
+   "How to Play Guide"
+  ],
+  "twice the headache": [
+   "Ruto"
+  ],
+  "two for the price of two": [
+   "Ruto"
+  ],
+  "udm local delivery evaluation": [
+   "Unified Distribution Management"
+  ],
+  "udm local delivery re-evaluation": [
+   "Unified Distribution Management"
+  ],
+  "udm local delivery route": [
+   "Unified Distribution Management"
+  ],
+  "udm local shipment route": [
+   "Unified Distribution Management"
+  ],
+  "udm package handler": [
+   "Unified Distribution Management"
+  ],
+  "udm package pick up": [
+   "Unified Distribution Management"
+  ],
+  "unexpected inheritance": [
+   "Thrace Pinter"
+  ],
+  "unwanted guests": [
+   "Citizens for Prosperity",
+   "Rough & Ready"
+  ],
+  "up in smoke": [
+   "Bit Zeros"
+  ],
+  "urgent: boarding action in progress": [
+   "Northrock Service Group"
+  ],
+  "wanted by arccorp: [x] (?rt)": [
+   "BlacJac Security"
+  ],
+  "wildlife control: [x]": [
+   "MT Protection Services"
+  ],
+  "wildlife population adjustment": [
+   "MT Protection Services"
+  ],
+  "wipe out drug stash": [
+   "BlacJac Security"
+  ]
+ }
+}

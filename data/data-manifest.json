@@ -1,0 +1,78 @@
+{
+  "patch_version": "4.10.2",
+  "published_at": "2026-10-30T00:00:00Z",
+  "files": {
+    "materials.json": {
+      "version": "4.10.2-r2",
+      "url": "materials.json"
+    },
+    "wikelo-contracts.json": {
+      "version": "4.10.2-r3",
+      "url": "wikelo-contracts.json"
+    },
+    "crafting-blueprints.json": {
+      "version": "4.10.2-r2",
+      "url": "crafting-blueprints.json"
+    },
+    "log-patterns.json": {
+      "version": "4.10.2-r12",
+      "url": "log-patterns.json"
+    },
+    "locations.json": {
+      "version": "4.10.2-r1",
+      "url": "locations.json"
+    },
+    "refineries.json": {
+      "version": "4.10.2-r1",
+      "url": "refineries.json"
+    },
+    "item-names.json": {
+      "version": "4.10.2-r1",
+      "url": "item-names.json"
+    },
+    "starmap.json": {
+      "version": "4.10.2-r1",
+      "url": "starmap.json"
+    },
+    "commodities.json": {
+      "version": "4.10.2-r1",
+      "url": "commodities.json"
+    },
+    "item-catalog.json": {
+      "version": "4.10.2-r2",
+      "url": "item-catalog.json"
+    },
+    "mining-locations.json": {
+      "version": "4.10.2-r2",
+      "url": "mining-locations.json"
+    },
+    "mining-properties.json": {
+      "version": "4.10.2-r1",
+      "url": "mining-properties.json"
+    },
+    "item-images.json": {
+      "version": "4.10.2-r1",
+      "url": "item-images.json"
+    },
+    "item-sources.json": {
+      "version": "4.10.2-r1",
+      "url": "item-sources.json"
+    },
+    "refining-methods.json": {
+      "version": "4.10.2-r1",
+      "url": "refining-methods.json"
+    },
+    "mission-givers.json": {
+      "version": "4.10.2-r1",
+      "url": "mission-givers.json"
+    },
+    "blueprint-quality.json": {
+      "version": "4.10.2-r2",
+      "url": "blueprint-quality.json"
+    },
+    "blueprint-sources.json": {
+      "version": "4.10.2-r1",
+      "url": "blueprint-sources.json"
+    }
+  }
+}

@@ -1,0 +1,294 @@
+{
+ "_source": "Contract rewards, loot tables and harvestable spawns — Game2.dcb + global.ini (patch 4.10.2)",
+ "game_version": "4.10.2",
+ "materials": {
+  "bluemoon_fungus": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [
+    "Harvested from plants"
+   ],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "carinite_pure": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [
+    "Hand-mined deposits"
+   ],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "valakkar_pearl_aa": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [
+    "Hand-mined deposits"
+   ],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "valakkar_pearl_aaa": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [
+    "Hand-mined deposits"
+   ],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "vanduul_plating": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [
+    "Welcome to Nyx Corpse"
+   ],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "vanduul_metal": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [
+    "Welcome to Nyx Corpse"
+   ],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "metamaterial_146": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": [
+    "metamaterial-test-146"
+   ]
+  },
+  "metamaterial_152": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": [
+    "metamaterial-test-152"
+   ]
+  },
+  "asd_secure_drive": {
+   "missions": [
+    "Jorrit Dossier: Access Research Files (×5)",
+    "Jorrit Dossier: Updated Energy Anomaly Data",
+    "Jorrit Dossier: Updated Power Usage Data",
+    "Jorrit Dossier: Updated Security Data",
+    "Jorrit Dossier: Updated Seismic Data"
+   ],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "wikelo_favor": {
+   "missions": [],
+   "wikelo": [
+    "Trade Council Scrip for Favors?",
+    "Trade Merc Scrip for Favors?",
+    "Trade Worm Parts for Favors?",
+    "Turn Things to Favor"
+   ],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "polaris_bit": {
+   "missions": [],
+   "wikelo": [
+    "Want Polaris? Need something special."
+   ],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "council_scrip": {
+   "missions": [
+    "Ambush Op (×5)",
+    "Defend [Location] From Mercs (×6)",
+    "Defend [Objects] From Mercs (×7)",
+    "Eliminate Annoyance (×2)",
+    "Elite Op (×16)",
+    "Guard [Location] From Rivals (×6)",
+    "Guard [Objects] At All Costs (×9)",
+    "Help Headhunters at [DefendLocationWrapperLocation] (×7)",
+    "Hunt Some Heads (×16)",
+    "Keep [Location] Safe (×2)",
+    "Keep [Objects] Safe From Upstarts (×2)",
+    "Looking For Trouble (×14)",
+    "Protect Our Site (×3)",
+    "Protect [Objects] From Luggers (×3)",
+    "Provide Protection at [Location] (×3)",
+    "Reprisal Attack (×8)",
+    "Restore Order at [DefendLocationWrapperLocation] (×9)",
+    "Scout and Scan (×4)",
+    "Secure Our Airspace (×5)",
+    "Secure [Location] from Upstarts (×3)",
+    "Secure [Objects] From Rivals (×4)",
+    "See What’s Out There (×2)",
+    "Setting a Trap",
+    "Silent Strike (×3)",
+    "Space Patrol (×8)",
+    "Stand Our Ground (×18)",
+    "Stop Attack at [DefendLocationWrapperLocation] (×8)",
+    "Stop Gang From Destroying [Objects] (×6)",
+    "Stop Rival Attack at [Location] (×4)",
+    "Surprise Party",
+    "Tactical Strike (×12)"
+   ],
+   "wikelo": [],
+   "enemies": [
+    "CQC",
+    "Enemies",
+    "Grenadier",
+    "Juggernaut",
+    "Sniper"
+   ],
+   "loot": [
+    "Event Backpack Soo",
+    "Event Helmet Soo",
+    "Event Superheavysuit Soo",
+    "Soo Weaponscache Common",
+    "Soo Weaponscache Rare",
+    "Special Scrip Council"
+   ],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "mg_scrip": {
+   "missions": [
+    "Combat Gauntlet - Scenario #1",
+    "Combat Gauntlet - Scenario #2 (×3)",
+    "Combat Gauntlet - Scenario #3 (×5)",
+    "Combat Gauntlet - Scenario #4 (×10)",
+    "Combat Gauntlet - Scenario #5 (×12)",
+    "Combat Gauntlet - Scenario #6 (×14)",
+    "Combat Gauntlet - Scenario #7 (×16)",
+    "Combat Gauntlet - Scenario #8 (×20)",
+    "Dangerous Ambush (×12)",
+    "Executive Protection Detail (×3)",
+    "Experienced Protection Detail Needed (×5)",
+    "Happy Invictus (×10)",
+    "Highly Dangerous Ambush (×16)",
+    "Hunt the Polaris (×30)",
+    "Launch Surprise Attack (×5)",
+    "Low Risk Protection Detail (×2)",
+    "Navy Patrol Training – Scenario #1 (×5)",
+    "Navy Patrol Training – Scenario #2 (×10)",
+    "Navy Patrol Training – Scenario #3 (×15)",
+    "New Opportunity - Ambush Strike",
+    "Orange Level Contract: Potential Security Threat (×14)",
+    "Orange Level Contract: Protect Our Client’s Interests (×7)",
+    "Orange Level Contract: Return the Favor (×8)",
+    "Orange Level Contract: Security Patrol (×8)",
+    "Orange Level Contract: Ship Protection Needed (×5)",
+    "Orange Level Contract: Spring a Trap (×5)",
+    "Orange Lvl. Contract: Defend [Objects] (×4)",
+    "Orange Lvl. Contract: Defend [Objects] and Escort Employees (×3)",
+    "Orange Lvl. Contract: Protect [Objects] (×6)",
+    "Orange Lvl. Contract: Protect [Objects] and Escort Employees (×4)",
+    "Patrol Dangerous Outlaw Sector (×18)",
+    "Patrol Dangerous Sector (×14)",
+    "Patrol Dangerous Travel Lanes (×8)",
+    "Patrol Extremely Dangerous Sector (×24)",
+    "Patrol Outlaw Hunting Grounds (×14)",
+    "Patrol Risky Travel Lanes (×4)",
+    "Patrol Travel Lanes (×2)",
+    "Patrol Vanduul Hunting Ground (×24)",
+    "Patrol to Prevent Possible Attack (×18)",
+    "Protection Detail Needed. High Risk. (×8)",
+    "Red Level Contract: Ambush Attack Squad (×12)",
+    "Red Level Contract: High-Risk Security Patrol (×18)",
+    "Red Level Contract: Save Ships at [DefendLocationWrapperLocation] (×8)",
+    "Red Level Contract: Secure Threatened Space (×24)",
+    "Red Level Contract: Support VIP Clients (×9)",
+    "Red Level Contract: Surprise Attack (×16)",
+    "Red Lvl. Contract: Defend [Objects] (×7)",
+    "Red Lvl. Contract: Defend [Objects] and Escort Employees (×6)",
+    "Red Lvl. Contract: Protect [Objects] (×9)",
+    "Red Lvl. Contract: Protect [Objects] and Escort Employees (×6)",
+    "Retrieve Additional Smuggler Intel (×30)",
+    "Settle a Score",
+    "Time to Teach a Lesson (×3)",
+    "Top Tier Operator Needed (×9)",
+    "Tricky Ambush (×8)",
+    "VIP Client Needs Protection (×7)",
+    "Vanduul-Tech Smugglers (×50)",
+    "Yellow Level Contract: Ambush An Amateur",
+    "Yellow Level Contract: Defend [DefendLocationWrapperLocation] (×3)",
+    "Yellow Level Contract: Routine Patrol (×2)",
+    "Yellow Level Contract: Security Sweep (×4)",
+    "Yellow Level Contract: Stand Up to Aggressors (×2)",
+    "Yellow Level Contract: Surprise Strike (×3)",
+    "Yellow Lvl. Contract: Defend [Objects] (×2)",
+    "Yellow Lvl. Contract: Defend [Objects] and Escort Employees (×2)",
+    "Yellow Lvl. Contract: Protect [Objects] (×3)",
+    "Yellow Lvl. Contract: Protect [Objects] and Escort Employees (×2)",
+    "Yellow Lvl. Contract: Protect [Objects] and Escort Employees (×3)"
+   ],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [
+    "Special Scrip Merc"
+   ],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  }
+ }
+}

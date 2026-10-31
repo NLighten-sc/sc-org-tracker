@@ -1,0 +1,51 @@
+{
+ "_source": "Refining process records (the game files hold names only, no yield or time figures) — Game2.dcb + global.ini (patch 4.10.2)",
+ "game_version": "4.10.2",
+ "methods": [
+  {
+   "name": "Pyrometric Chromalysis",
+   "speed": "Fast",
+   "care": "Careful"
+  },
+  {
+   "name": "Gaskin Process",
+   "speed": "Fast",
+   "care": "Normal"
+  },
+  {
+   "name": "XCR Reaction",
+   "speed": "Fast",
+   "care": "Wasteful"
+  },
+  {
+   "name": "Ferron Exchange",
+   "speed": "Normal",
+   "care": "Careful"
+  },
+  {
+   "name": "Electrostarolysis",
+   "speed": "Normal",
+   "care": "Normal"
+  },
+  {
+   "name": "Cormack Method",
+   "speed": "Normal",
+   "care": "Wasteful"
+  },
+  {
+   "name": "Dinyx Solventation",
+   "speed": "Slow",
+   "care": "Careful"
+  },
+  {
+   "name": "Thermonatic Deposition",
+   "speed": "Slow",
+   "care": "Normal"
+  },
+  {
+   "name": "Kazen Winnowing",
+   "speed": "Slow",
+   "care": "Wasteful"
+  }
+ ]
+}

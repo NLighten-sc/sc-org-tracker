@@ -1,0 +1,250 @@
+[
+  {
+    "location_id": "arc_l1",
+    "location_name": "ARC-L1 Wide Forest Station",
+    "system": "stanton",
+    "bonuses": [
+      { "material_id": "quartz",       "yield_modifier":  11 },
+      { "material_id": "beryl",        "yield_modifier":   7 },
+      { "material_id": "titanium",     "yield_modifier":   5 },
+      { "material_id": "quantainium",  "yield_modifier":   3 },
+      { "material_id": "bexalite",     "yield_modifier":  -6 },
+      { "material_id": "agricium",     "yield_modifier":  -5 },
+      { "material_id": "laranite",     "yield_modifier":  -4 }
+    ]
+  },
+  {
+    "location_id": "arc_l2",
+    "location_name": "ARC-L2 Lively Pathway Station",
+    "system": "stanton",
+    "bonuses": [
+      { "material_id": "gold",         "yield_modifier":   7 },
+      { "material_id": "copper",       "yield_modifier":   6 },
+      { "material_id": "quantainium",  "yield_modifier":   3 },
+      { "material_id": "titanium",     "yield_modifier":   3 },
+      { "material_id": "bexalite",     "yield_modifier":  -5 },
+      { "material_id": "laranite",     "yield_modifier":  -4 },
+      { "material_id": "borase",       "yield_modifier":  -2 }
+    ]
+  },
+  {
+    "location_id": "arc_l4",
+    "location_name": "ARC-L4 Faint Glen Station",
+    "system": "stanton",
+    "bonuses": [
+      { "material_id": "taranite",     "yield_modifier":   5 },
+      { "material_id": "aluminum",     "yield_modifier":  -2 },
+      { "material_id": "copper",       "yield_modifier":  -1 },
+      { "material_id": "iron",         "yield_modifier":  -1 }
+    ]
+  },
+  {
+    "location_id": "cru_l1",
+    "location_name": "CRU-L1 Ambitious Dream Station",
+    "system": "stanton",
+    "bonuses": [
+      { "material_id": "corundum",     "yield_modifier":   7 },
+      { "material_id": "beryl",        "yield_modifier":   7 },
+      { "material_id": "iron",         "yield_modifier":   2 },
+      { "material_id": "tungsten",     "yield_modifier":   2 },
+      { "material_id": "bexalite",     "yield_modifier":  -4 },
+      { "material_id": "quantainium",  "yield_modifier":  -3 },
+      { "material_id": "laranite",     "yield_modifier":  -2 }
+    ]
+  },
+  {
+    "location_id": "hur_l1",
+    "location_name": "HUR-L1 Green Glade Station",
+    "system": "stanton",
+    "bonuses": [
+      { "material_id": "tungsten",     "yield_modifier":   4 },
+      { "material_id": "quantainium",  "yield_modifier":   2 },
+      { "material_id": "laranite",     "yield_modifier":   2 },
+      { "material_id": "borase",       "yield_modifier":   1 },
+      { "material_id": "titanium",     "yield_modifier":  -3 },
+      { "material_id": "gold",         "yield_modifier":  -2 },
+      { "material_id": "bexalite",     "yield_modifier":  -2 }
+    ]
+  },
+  {
+    "location_id": "hur_l2",
+    "location_name": "HUR-L2 Faithful Dream Station",
+    "system": "stanton",
+    "bonuses": [
+      { "material_id": "quantainium",  "yield_modifier":   2 },
+      { "material_id": "beryl",        "yield_modifier":   1 },
+      { "material_id": "corundum",     "yield_modifier":   1 },
+      { "material_id": "gold",         "yield_modifier":   1 },
+      { "material_id": "titanium",     "yield_modifier":  -2 },
+      { "material_id": "tungsten",     "yield_modifier":  -1 }
+    ]
+  },
+  {
+    "location_id": "mic_l1",
+    "location_name": "MIC-L1 Shallow Frontier Station",
+    "system": "stanton",
+    "bonuses": [
+      { "material_id": "agricium",     "yield_modifier":   8 },
+      { "material_id": "aluminum",     "yield_modifier":   7 },
+      { "material_id": "copper",       "yield_modifier":   4 },
+      { "material_id": "corundum",     "yield_modifier":   2 },
+      { "material_id": "gold",         "yield_modifier":  -5 },
+      { "material_id": "bexalite",     "yield_modifier":  -4 },
+      { "material_id": "titanium",     "yield_modifier":  -3 }
+    ]
+  },
+  {
+    "location_id": "mic_l2",
+    "location_name": "MIC-L2 Long Forest Station",
+    "system": "stanton",
+    "bonuses": [
+      { "material_id": "tungsten",     "yield_modifier":   9 },
+      { "material_id": "bexalite",     "yield_modifier":   9 },
+      { "material_id": "gold",         "yield_modifier":   9 },
+      { "material_id": "titanium",     "yield_modifier":   6 },
+      { "material_id": "laranite",     "yield_modifier":  -5 },
+      { "material_id": "quantainium",  "yield_modifier":  -4 },
+      { "material_id": "borase",       "yield_modifier":  -3 }
+    ]
+  },
+  {
+    "location_id": "mic_l5",
+    "location_name": "MIC-L5 Modern Icarus Station",
+    "system": "stanton",
+    "bonuses": [
+      { "material_id": "titanium",     "yield_modifier":  13 },
+      { "material_id": "bexalite",     "yield_modifier":  12 },
+      { "material_id": "borase",       "yield_modifier":   9 },
+      { "material_id": "copper",       "yield_modifier":   9 },
+      { "material_id": "gold",         "yield_modifier":  -7 },
+      { "material_id": "laranite",     "yield_modifier":  -5 },
+      { "material_id": "quantainium",  "yield_modifier":  -3 }
+    ]
+  },
+  {
+    "location_id": "pyro_gateway_stan",
+    "location_name": "Pyro Gateway (Stanton side)",
+    "system": "stanton",
+    "bonuses": [
+      { "material_id": "quartz",       "yield_modifier":  11 },
+      { "material_id": "beryl",        "yield_modifier":   7 },
+      { "material_id": "titanium",     "yield_modifier":   5 },
+      { "material_id": "quantainium",  "yield_modifier":   3 },
+      { "material_id": "bexalite",     "yield_modifier":  -6 },
+      { "material_id": "agricium",     "yield_modifier":  -5 },
+      { "material_id": "laranite",     "yield_modifier":  -4 }
+    ]
+  },
+  {
+    "location_id": "nyx_gateway_stan",
+    "location_name": "Nyx Gateway (Stanton side)",
+    "system": "stanton",
+    "bonuses": [
+      { "material_id": "quartz",       "yield_modifier":  11 },
+      { "material_id": "beryl",        "yield_modifier":   7 },
+      { "material_id": "titanium",     "yield_modifier":   5 },
+      { "material_id": "quantainium",  "yield_modifier":   3 },
+      { "material_id": "bexalite",     "yield_modifier":  -6 },
+      { "material_id": "agricium",     "yield_modifier":  -5 },
+      { "material_id": "laranite",     "yield_modifier":  -4 }
+    ]
+  },
+  {
+    "location_id": "terra_gateway",
+    "location_name": "Terra Gateway",
+    "system": "stanton",
+    "bonuses": [
+      { "material_id": "agricium",     "yield_modifier":   8 },
+      { "material_id": "aluminum",     "yield_modifier":   7 },
+      { "material_id": "copper",       "yield_modifier":   4 },
+      { "material_id": "corundum",     "yield_modifier":   2 },
+      { "material_id": "gold",         "yield_modifier":  -5 },
+      { "material_id": "bexalite",     "yield_modifier":  -4 },
+      { "material_id": "titanium",     "yield_modifier":  -3 }
+    ]
+  },
+  {
+    "location_id": "ruin_station",
+    "location_name": "Ruin Station",
+    "system": "pyro",
+    "bonuses": [
+      { "material_id": "tungsten",     "yield_modifier":   4 },
+      { "material_id": "laranite",     "yield_modifier":   2 },
+      { "material_id": "quantainium",  "yield_modifier":   2 },
+      { "material_id": "borase",       "yield_modifier":   1 },
+      { "material_id": "titanium",     "yield_modifier":  -3 },
+      { "material_id": "gold",         "yield_modifier":  -2 },
+      { "material_id": "bexalite",     "yield_modifier":  -2 }
+    ]
+  },
+  {
+    "location_id": "checkmate_station",
+    "location_name": "Checkmate Station",
+    "system": "pyro",
+    "bonuses": [
+      { "material_id": "tungsten",     "yield_modifier":   4 },
+      { "material_id": "laranite",     "yield_modifier":   2 },
+      { "material_id": "quantainium",  "yield_modifier":   2 },
+      { "material_id": "borase",       "yield_modifier":   1 },
+      { "material_id": "titanium",     "yield_modifier":  -3 },
+      { "material_id": "gold",         "yield_modifier":  -2 },
+      { "material_id": "bexalite",     "yield_modifier":  -2 }
+    ]
+  },
+  {
+    "location_id": "orbituary",
+    "location_name": "Orbituary",
+    "system": "pyro",
+    "bonuses": [
+      { "material_id": "tungsten",     "yield_modifier":   4 },
+      { "material_id": "quantainium",  "yield_modifier":   2 },
+      { "material_id": "laranite",     "yield_modifier":   2 },
+      { "material_id": "borase",       "yield_modifier":   1 },
+      { "material_id": "titanium",     "yield_modifier":  -3 },
+      { "material_id": "gold",         "yield_modifier":  -2 },
+      { "material_id": "bexalite",     "yield_modifier":  -2 }
+    ]
+  },
+  {
+    "location_id": "nyx_gateway_pyr",
+    "location_name": "Nyx Gateway (Pyro side)",
+    "system": "pyro",
+    "bonuses": [
+      { "material_id": "tungsten",     "yield_modifier":   4 },
+      { "material_id": "quantainium",  "yield_modifier":   2 },
+      { "material_id": "laranite",     "yield_modifier":   2 },
+      { "material_id": "borase",       "yield_modifier":   1 },
+      { "material_id": "titanium",     "yield_modifier":  -3 },
+      { "material_id": "gold",         "yield_modifier":  -2 },
+      { "material_id": "bexalite",     "yield_modifier":  -2 }
+    ]
+  },
+  {
+    "location_id": "stanton_gateway_pyr",
+    "location_name": "Stanton Gateway (Pyro side)",
+    "system": "pyro",
+    "bonuses": [
+      { "material_id": "tungsten",     "yield_modifier":   4 },
+      { "material_id": "quantainium",  "yield_modifier":   2 },
+      { "material_id": "laranite",     "yield_modifier":   2 },
+      { "material_id": "borase",       "yield_modifier":   1 },
+      { "material_id": "titanium",     "yield_modifier":  -3 },
+      { "material_id": "gold",         "yield_modifier":  -2 },
+      { "material_id": "bexalite",     "yield_modifier":  -2 }
+    ]
+  },
+  {
+    "location_id": "levski",
+    "location_name": "Levski",
+    "system": "nyx",
+    "bonuses": [
+      { "material_id": "pressurized_ice", "yield_modifier":  10 },
+      { "material_id": "tin",             "yield_modifier":   9 },
+      { "material_id": "taranite",        "yield_modifier":   8 },
+      { "material_id": "iron",            "yield_modifier":   8 },
+      { "material_id": "bexalite",        "yield_modifier":  -5 },
+      { "material_id": "quantainium",     "yield_modifier":  -4 },
+      { "material_id": "gold",            "yield_modifier":  -3 }
+    ]
+  }
+]

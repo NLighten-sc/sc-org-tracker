@@ -1,0 +1,21 @@
+{
+  "_comment": "Map of internal game log codes to display names. Add entries as new items are discovered in Game.log.",
+  "AGRICIUM": "Agricium",
+  "ALUMINUM": "Aluminum",
+  "COPPER": "Copper",
+  "GOLD": "Gold",
+  "IRON": "Iron",
+  "TIN": "Tin",
+  "TITANIUM": "Titanium",
+  "TUNGSTEN": "Tungsten",
+  "BERYL": "Beryl",
+  "BEXALITE": "Bexalite",
+  "BORASE": "Borase",
+  "CARINITE": "Carinite",
+  "CORUNDUM": "Corundum",
+  "LARANITE": "Laranite",
+  "QUARTZ": "Quartz",
+  "TARANITE": "Taranite",
+  "QUANTAINIUM": "Quantainium",
+  "PRESSURIZED_ICE": "Pressurized Ice"
+}

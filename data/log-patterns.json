@@ -1,0 +1,148 @@
+{
+  "data_version": "4.10.2-r12",
+  "patch_version": "4.10.2",
+  "_comment": "Verified against real Game.log files (patches 3.21-4.10.2). Named groups are read by the parser. 'toggle' links a pattern to a Settings > Log Reader switch.",
+  "patterns": {
+    "commodity_buy": {
+      "toggle": "commodity_buy",
+      "regex": "<CEntityComponentCommodityUIProvider::SendCommodityBuyRequest>.*?shopName\\[(?<shop>[^\\]]*)\\].*?price\\[(?<price>[\\d.]+)\\].*?resourceGUID\\[(?<code>[0-9a-fA-F-]+)\\].*?quantity\\[(?<qty>[\\d.]+)(?: (?<unit>cSCU))?\\]"
+    },
+    "commodity_sell": {
+      "toggle": "commodity_sell",
+      "regex": "<CEntityComponentCommodityUIProvider::SendCommoditySellRequest>.*?shopName\\[(?<shop>[^\\]]*)\\].*?amount\\[(?<price>[\\d.]+)\\].*?resourceGUID\\[(?<code>[0-9a-fA-F-]+)\\].*?quantity\\[(?<qty>[\\d.]+)(?: (?<unit>cSCU))?\\]"
+    },
+    "shop_purchase": {
+      "toggle": "shop_purchase",
+      "regex": "<CEntityComponent(?:ShopUIProvider::SendShopBuyRequest|ShoppingProvider::SendStandardItemBuyRequest)>.*?shopName\\[(?<shop>[^\\]]*)\\].*?client_price\\[(?<price>[\\d.]+)\\].*?itemClassGUID\\[(?<uuid>[0-9a-fA-F-]+)\\] itemName\\[(?<code>[^\\]]+)\\].*?quantity\\[(?<qty>\\d+)\\]"
+    },
+    "shop_sale": {
+      "toggle": "shop_purchase",
+      "regex": "<CEntityComponentShopUIProvider::SendShopSellRequest>.*?shopName\\[(?<shop>[^\\]]*)\\].*?client_price\\[(?<price>[\\d.]+)\\].*?itemClassGUID\\[(?<uuid>[0-9a-fA-F-]+)\\] itemName\\[(?<code>[^\\]]+)\\].*?quantity\\[(?<qty>\\d+)\\]"
+    },
+    "blueprint_learned": {
+      "toggle": "blueprint_learned",
+      "regex": "<SHUDEvent_OnNotification> Added notification \"Received Blueprint: (?<name>.+?): \" \\[\\d+\\]"
+    },
+    "refinery_complete": {
+      "toggle": "refinery_complete",
+      "regex": "<SHUDEvent_OnNotification> Added notification \"(?:A|(?<count>\\d+)) Refinery Work Orders? ha(?:s|ve) been Completed at (?<station>.+?): \" \\[\\d+\\]"
+    },
+    "contract_accepted": {
+      "toggle": "contract",
+      "regex": "<SHUDEvent_OnNotification> Added notification \"Contract Accepted:\\s+(?<name>.+?): \" \\[\\d+\\](?:.*?MissionId: \\[(?<mission>[0-9a-fA-F-]+)\\])?"
+    },
+    "contract_complete": {
+      "toggle": "contract",
+      "regex": "<SHUDEvent_OnNotification> Added notification \"Contract Complete:\\s+(?<name>.+?): \" \\[\\d+\\](?:.*?MissionId: \\[(?<mission>[0-9a-fA-F-]+)\\])?"
+    },
+    "contract_failed": {
+      "toggle": "contract",
+      "regex": "<SHUDEvent_OnNotification> Added notification \"Contract Failed:\\s+(?<name>.+?): \" \\[\\d+\\](?:.*?MissionId: \\[(?<mission>[0-9a-fA-F-]+)\\])?"
+    },
+    "mission_ended": {
+      "toggle": "contract",
+      "regex": "<MissionEnded> Received MissionEnded push message for: mission_id (?<mission>[0-9a-fA-F-]+) - mission_state MISSION_STATE_(?<state>[A-Z]+)"
+    },
+    "location_change": {
+      "toggle": "location_change",
+      "regex": "<RequestLocationInventory> Player\\[[^\\]]*\\] requested inventory for Location\\[(?<code>[^\\]]+)\\]"
+    },
+    "ship_exit": {
+      "toggle": "ship",
+      "regex": "releasing control token for '(?<code>[A-Za-z0-9_]+?)_\\d+'"
+    },
+    "gear_attached": {
+      "toggle": "gear",
+      "_comment": "Loadout when the character loads in (begins with the Body_ItemPort line), then single items equipped later. Ids starting 2000000 belong to the front-end preview character.",
+      "regex": "<AttachmentReceived> Player\\[[^\\]]*\\] Attachment\\[[^,\\]]*, (?<code>[A-Za-z0-9_]+), (?<eid>(?!2000000)\\d+)\\] Status\\[persistent\\] Port\\[(?<port>[^\\]]+)\\]"
+    },
+    "gear_storage": {
+      "toggle": "gear",
+      "_comment": "Station storage opened: its storage number and how many item stacks it holds. Item names are not logged.",
+      "regex": "Freight Inventory Grid InventoryDataRequest Successful for Player\\[[^\\]]*\\] Inventory\\[\\d+:Location:(?<num>\\d+)\\] Inventory Result Item Count:\\[(?<count>\\d+)\\]"
+    },
+    "gear_move": {
+      "toggle": "gear",
+      "_comment": "Every inventory request the player makes: Move (drag, with amount), Store (put away; the item is in Item[]), Interaction (equip from a container). Inventories are <player>:Location:<n> for station storage, <id>:Container:0 for the backpack/armour, INVALID for hands/body. 4.10 tags it <Inventory Mgmt Request Queued>, older builds <InventoryManagementRequest>.",
+      "regex": "<(?:Inventory Mgmt Request Queued|InventoryManagementRequest)> Queued Request\\[(?<req>\\d+)\\] Type\\[(?<type>Move|Store|Interaction|Drop)\\] for .*? Source Inventory\\[(?<src>[^\\]]+)\\] Target Inventory\\[(?<dst>[^\\]]+)\\]\\. Source\\[(?<code>[^\\]]*)\\] amount\\[(?<amount>\\d+)\\].*? Item\\[(?<item>[^\\]]*)\\]"
+    },
+    "gear_move_result": {
+      "toggle": "gear",
+      "_comment": "The outcome of a request above; anything but Succeed is undone",
+      "regex": "<Player Inventory Request Complete> Request\\[(?<req>\\d+)\\] for .*? Type\\[(?:Move|Store|Interaction|Drop)\\] Result\\[(?<result>[A-Za-z]+)\\]"
+    },
+    "gear_placed": {
+      "toggle": "gear",
+      "_comment": "An item put down in the world from the hands",
+      "regex": "<\\[ActorState\\] Place> .*?placed '(?<code>[A-Za-z0-9_]+?)_\\d+' \\[\\d+\\] loosely in environment"
+    },
+    "gear_container_open": {
+      "toggle": "gear",
+      "_comment": "A container being opened, by entity name and its inventory id: the player's own backpack/armour, a loot box, an NPC's armour, a crate",
+      "regex": "<Inventory Token Flow> Requesting access token for User\\[[^\\]]+\\] on Inventory\\[(?<code>[A-Za-z0-9_]+?)_\\d+, (?<cid>\\d+)\\]"
+    },
+    "gear_died": {
+      "toggle": "gear",
+      "_comment": "On death every item left on the body is listed, one line each; the first one marks the death",
+      "regex": "<Adding non kept item \\[CSCActorCorpseUtils::PopulateItemPortForItemRecoveryEntitlement\\]> Item '(?<code>[A-Za-z0-9_]+?)_\\d+ - Class"
+    },
+    "hangar_zone": {
+      "toggle": "hangar_items",
+      "_comment": "Something entering or leaving a hangar (tractor-beamed boxes, items carried in or out). Flaps at the boundary, so it is only judged once settled.",
+      "regex": "<CEntityComponentInstancedInterior::OnEntity(?<dir>Enter|Leave)Zone> .*?InstancedInterior \\[(?<zone>[^\\]]*hangar[^\\]]*)\\] \\[\\d+\\] -> Entity \\[(?<code>[A-Za-z0-9_]+?)_(?<eid>\\d{6,})\\]"
+    },
+    "gear_storage_query": {
+      "toggle": "gear",
+      "_comment": "Station storage listed in the inventory screen (also on load-in at that station); no count is logged",
+      "regex": "<Query Inventory> Request\\[\\d+\\] Inventory\\[\\d+:Location:(?<num>\\d+)\\]"
+    },
+    "gear_elevator_up": {
+      "toggle": "gear",
+      "_comment": "Freight elevator sent up from station storage: how many stacks and which storage, but never which items",
+      "regex": "<CEntityComponentFreightElevatorUIProvider::FillUnstowRequest> .*? - Entities: (?<count>[1-9]\\d*), Location: (?<num>\\d+)"
+    },
+    "gear_elevator_down": {
+      "toggle": "gear",
+      "_comment": "Freight elevator going down into storage. Nothing about its load is logged; the next storage count shows how many stacks arrived.",
+      "regex": "<CSCLoadingPlatformManager::OnLoadingPlatformStateChanged> .*?LoadingPlatformManager_FreightElevator[^\\]]*\\] Platform state changed to LoweringPlatform"
+    }
+  },
+  "session_header": {
+    "env_session": "@env_session:\\s*'[a-z]+-sc-alpha-(?<ver>\\d+)-(?<build>\\d+)'"
+  },
+  "location_codes": {
+    "Stanton1_Lorville":     "lorville",
+    "Stanton2_Orison":       "orison",
+    "Stanton3_Area18":       "area18",
+    "Stanton4_NewBabbage":   "new_babbage",
+    "RR_HUR_LEO":            "everus_harbor",
+    "RR_CRU_LEO":            "seraphim_station",
+    "RR_ARC_LEO":            "baijini_point",
+    "RR_MIC_LEO":            "port_tressler",
+    "GrimHEX":               "grimhex",
+    "RR_ARC_L1":             "arc_l1",
+    "RR_ARC_L2":             "arc_l2",
+    "RR_ARC_L4":             "arc_l4",
+    "RR_CRU_L1":             "cru_l1",
+    "RR_HUR_L1":             "hur_l1",
+    "RR_HUR_L2":             "hur_l2",
+    "RR_MIC_L1":             "mic_l1",
+    "RR_MIC_L2":             "mic_l2",
+    "RR_MIC_L5":             "mic_l5",
+    "RR_JP_StantonPyro":     "pyro_gateway_stan",
+    "RR_JP_PyroStanton":     "stanton_gateway_pyr",
+    "RR_JP_PyroNyx":         "nyx_gateway_pyr",
+    "RR_JP_StantonMagnus": "nyx_gateway_stan",
+    "RR_JP_NyxCastra": "sm:6396623a-61bd-4ced-9c8b-77c47753ef8f",
+    "TheCollectorAsteroid_Stanton1": "sm:02069d4a-e37a-474c-9229-691ce013bdc1",
+    "TheCollectorAsteroid_Stanton2": "sm:920f7536-09dc-483e-9d87-2557a3425559",
+    "TheCollectorAsteroid_Stanton4": "sm:67ae7907-1fd9-4e84-a83f-2b7e96b2bf60",
+    "TheCollectorsAsteriod_Stanton1": "sm:02069d4a-e37a-474c-9229-691ce013bdc1",
+    "TheCollectorsAsteriod_Stanton2": "sm:920f7536-09dc-483e-9d87-2557a3425559",
+    "TheCollectorsAsteriod_Stanton4": "sm:67ae7907-1fd9-4e84-a83f-2b7e96b2bf60",
+    "AsteroidClusterBase_Nyx_Social_Keeger_001": "sm:0bbad0b9-54f6-4f05-9feb-11a5791e049f",
+    "AsteroidClusterBase_Nyx_Social_Keeger_002": "sm:db2883b7-5d6e-4eb2-9e00-4f86e8e49447",
+    "RR_P5_L2":              "gaslight",
+    "Nyx_Levski":            "levski"
+  }
+}

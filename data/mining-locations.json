@@ -1,0 +1,7492 @@
+{
+ "_source": "Harvestable provider presets → rock compositions → mineable elements — Game2.dcb + global.ini (patch 4.10.2)",
+ "game_version": "4.10.2",
+ "_note": "share = % of that method's rocks at the location that are this rock type; chance = % of those rocks carrying the material; min/max = % of the rock it makes up",
+ "locations": {
+  "nyx_glaciemring": {
+   "name": "Glaciem Ring",
+   "system": "Nyx",
+   "starmap_id": "sm:15be8bc1-cb5b-4a94-ba1c-742baf7c1f0b"
+  },
+  "nyx_keegerbelt": {
+   "name": "Keeger Belt",
+   "system": "Nyx",
+   "starmap_id": "sm:db2883b7-5d6e-4eb2-9e00-4f86e8e49447"
+  },
+  "pyro_akirocluster": {
+   "name": "Akiro Cluster",
+   "system": "Pyro",
+   "starmap_id": "sm:5658fbae-e6d2-493d-bfa5-6f23c230f12e"
+  },
+  "pyro_cool01": {
+   "name": "Pyro asteroid fields (cool, 1)",
+   "system": "Pyro",
+   "starmap_id": null
+  },
+  "pyro_cool02": {
+   "name": "Pyro asteroid fields (cool, 2)",
+   "system": "Pyro",
+   "starmap_id": null
+  },
+  "pyro_deepspaceasteroids": {
+   "name": "Pyro deep-space asteroids",
+   "system": "Pyro",
+   "starmap_id": null
+  },
+  "pyro_warm01": {
+   "name": "Pyro asteroid fields (warm, 1)",
+   "system": "Pyro",
+   "starmap_id": null
+  },
+  "pyro_warm02": {
+   "name": "Pyro asteroid fields (warm, 2)",
+   "system": "Pyro",
+   "starmap_id": null
+  },
+  "pyro1": {
+   "name": "Pyro I",
+   "system": "Pyro",
+   "starmap_id": "sm:bd473b11-e20d-415f-bac3-e9e8099582b2"
+  },
+  "pyro2": {
+   "name": "Monox",
+   "system": "Pyro",
+   "starmap_id": "sm:ee842006-2374-4fe9-939d-8f02ac8cd4f3"
+  },
+  "pyro3": {
+   "name": "Bloom",
+   "system": "Pyro",
+   "starmap_id": "sm:59637d5a-c67a-47eb-96dc-b648298f0023"
+  },
+  "pyro4": {
+   "name": "Pyro IV",
+   "system": "Pyro",
+   "starmap_id": "sm:ac826dfb-7142-4a15-bcdd-8e15d337ad1f"
+  },
+  "pyro5a": {
+   "name": "Ignis",
+   "system": "Pyro",
+   "starmap_id": "sm:88c11b95-0d17-4d48-ad6f-2bbaad4a472f"
+  },
+  "pyro5b": {
+   "name": "Vatra",
+   "system": "Pyro",
+   "starmap_id": "sm:baccdeb5-1960-487e-beab-d7b51f1871d1"
+  },
+  "pyro5c": {
+   "name": "Adir",
+   "system": "Pyro",
+   "starmap_id": "sm:d8935d2e-1b10-4b50-b188-80e35dd0876a"
+  },
+  "pyro5d": {
+   "name": "Fairo",
+   "system": "Pyro",
+   "starmap_id": "sm:73733370-d920-4056-9326-8c1f8b5a8a04"
+  },
+  "pyro5e": {
+   "name": "Fuego",
+   "system": "Pyro",
+   "starmap_id": "sm:5a680a01-11c3-40f9-a200-42832cf8707a"
+  },
+  "pyro5f": {
+   "name": "Vuur",
+   "system": "Pyro",
+   "starmap_id": "sm:b5240b3a-ee0e-4c3f-b93c-f7aaadc81b2e"
+  },
+  "pyro6": {
+   "name": "Terminus",
+   "system": "Pyro",
+   "starmap_id": "sm:8c462714-a82e-4d91-8d13-33b325a8efa5"
+  },
+  "asteroidcluster_low_yield": {
+   "name": "Stanton asteroid clusters (low yield)",
+   "system": "Stanton",
+   "starmap_id": null
+  },
+  "asteroidcluster_medium_yield": {
+   "name": "Stanton asteroid clusters (medium yield)",
+   "system": "Stanton",
+   "starmap_id": null
+  },
+  "aaronhalo": {
+   "name": "Aaron Halo",
+   "system": "Stanton",
+   "starmap_id": null
+  },
+  "lagrange_a": {
+   "name": "Stanton Lagrange fields (type A)",
+   "system": "Stanton",
+   "starmap_id": null
+  },
+  "lagrange_b": {
+   "name": "Stanton Lagrange fields (type B)",
+   "system": "Stanton",
+   "starmap_id": null
+  },
+  "lagrange_c": {
+   "name": "Stanton Lagrange fields (type C)",
+   "system": "Stanton",
+   "starmap_id": null
+  },
+  "lagrange_d": {
+   "name": "Stanton Lagrange fields (type D)",
+   "system": "Stanton",
+   "starmap_id": null
+  },
+  "lagrange_e": {
+   "name": "Stanton Lagrange fields (type E)",
+   "system": "Stanton",
+   "starmap_id": null
+  },
+  "lagrange_f": {
+   "name": "Stanton Lagrange fields (type F)",
+   "system": "Stanton",
+   "starmap_id": null
+  },
+  "lagrange_g": {
+   "name": "Stanton Lagrange fields (type G)",
+   "system": "Stanton",
+   "starmap_id": null
+  },
+  "lagrange_occupied": {
+   "name": "Stanton Lagrange fields (station)",
+   "system": "Stanton",
+   "starmap_id": null
+  },
+  "resourcerush_gold": {
+   "name": "Resource Rush event field",
+   "system": "Stanton",
+   "starmap_id": null
+  },
+  "resourcerush_gold_highdensity": {
+   "name": "Resource Rush event field (dense)",
+   "system": "Stanton",
+   "starmap_id": null
+  },
+  "stanton2c_belt": {
+   "name": "Yela asteroid belt",
+   "system": "Stanton",
+   "starmap_id": null
+  },
+  "stanton1": {
+   "name": "Hurston",
+   "system": "Stanton",
+   "starmap_id": "sm:551af60b-7727-4936-acc7-763d25d7a1de"
+  },
+  "stanton1a": {
+   "name": "Arial",
+   "system": "Stanton",
+   "starmap_id": "sm:f3fa9d13-3fdc-41f3-b5e5-25f0b74c0728"
+  },
+  "stanton1b": {
+   "name": "Aberdeen",
+   "system": "Stanton",
+   "starmap_id": "sm:f8f07f5b-1c0e-47c9-aa50-46963065bf18"
+  },
+  "stanton1c": {
+   "name": "Magda",
+   "system": "Stanton",
+   "starmap_id": "sm:6f22b292-38d6-4429-b504-99b39514a2f8"
+  },
+  "stanton1d": {
+   "name": "Ita",
+   "system": "Stanton",
+   "starmap_id": "sm:11368ee6-a2de-4948-a9b0-608ce565f3e3"
+  },
+  "stanton2a": {
+   "name": "Cellin",
+   "system": "Stanton",
+   "starmap_id": "sm:b41a1bc9-5bca-489b-8273-de90f18ec60d"
+  },
+  "stanton2b": {
+   "name": "Daymar",
+   "system": "Stanton",
+   "starmap_id": "sm:e658b2b1-fae7-4945-89b8-b332f235d59b"
+  },
+  "stanton2c": {
+   "name": "Yela",
+   "system": "Stanton",
+   "starmap_id": "sm:ee63a520-43df-4e1c-8af7-8b8df06b3dd2"
+  },
+  "stanton3a": {
+   "name": "Lyria",
+   "system": "Stanton",
+   "starmap_id": "sm:452de0e6-e31d-4e2c-b249-1c4244cb713b"
+  },
+  "stanton3b": {
+   "name": "Wala",
+   "system": "Stanton",
+   "starmap_id": "sm:d6f1ccd9-fbfb-4086-9608-8466ef2c1c93"
+  },
+  "stanton4": {
+   "name": "microTech",
+   "system": "Stanton",
+   "starmap_id": "sm:5a529db7-1a4e-45b0-bdcb-a5a0c7a7fc57"
+  },
+  "stanton4a": {
+   "name": "Calliope",
+   "system": "Stanton",
+   "starmap_id": "sm:3304263b-f133-41f8-85e7-79693e5bb2de"
+  },
+  "stanton4b": {
+   "name": "Clio",
+   "system": "Stanton",
+   "starmap_id": "sm:2a21d86f-ebf0-4052-a134-c414c9998592"
+  },
+  "stanton4c": {
+   "name": "Euterpe",
+   "system": "Stanton",
+   "starmap_id": "sm:732dedf3-9530-4972-98ab-2fcae64669db"
+  }
+ },
+ "materials": {
+  "pressurized_ice": [
+   {
+    "loc": "stanton4b",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 40,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "stanton4c",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 40,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "stanton4",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 32.7,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "stanton4a",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 32.6,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro_cool01",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 26.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro_cool02",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 26.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 20.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 20.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 20.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "stanton2c_belt",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 20.5,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 19.6,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 19.6,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "lagrange_b",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 17.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "lagrange_d",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 17.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "lagrange_e",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 17.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "lagrange_g",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 17.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "lagrange_occupied",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 17.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 14.9,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 10.4,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "stanton4b",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 40,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton4c",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 40,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton4",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 32.7,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton4a",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 32.6,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro_cool01",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 26.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro_cool02",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 26.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 20.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 20.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 20.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton2c_belt",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 20.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 19.6,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 19.6,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_b",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 17.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_d",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 17.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_e",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 17.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_g",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 17.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_occupied",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 17.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 14.9,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Raw Ice",
+    "share": 10.4,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   }
+  ],
+  "iron": [
+   {
+    "loc": "pyro5c",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 43.5,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro5b",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 36,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 35,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 34.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "stanton3a",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 34.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro1",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 32.7,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "stanton4a",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 32.7,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro2",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "stanton4",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro_warm01",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 26.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro_warm02",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 26.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 26.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 26.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 26.7,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro4",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 25.7,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "stanton3b",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 25.7,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 20.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "stanton2c_belt",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 20.5,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "lagrange_b",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "lagrange_d",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "lagrange_e",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "lagrange_g",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "lagrange_occupied",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 14.8,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 10.3,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro5c",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 43.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro5b",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 36,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 35,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 34.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton3a",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 34.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro1",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 32.7,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton4a",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 32.7,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro2",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton4",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro_warm01",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 26.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro_warm02",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 26.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 26.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 26.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 26.7,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro4",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 25.7,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton3b",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 25.7,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 20.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton2c_belt",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 20.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_b",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_d",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_e",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_g",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_occupied",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 14.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Iron (Ore)",
+    "share": 10.3,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   }
+  ],
+  "lindinium": [
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Lindinium (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Lindinium (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Lindinium (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Lindinium (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   }
+  ],
+  "tungsten": [
+   {
+    "loc": "pyro_warm02",
+    "method": "ship",
+    "deposit": "Tungsten (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro5c",
+    "method": "ship",
+    "deposit": "Tungsten (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Tungsten (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "lagrange_f",
+    "method": "ship",
+    "deposit": "Tungsten (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro_warm02",
+    "method": "ship",
+    "deposit": "Tungsten (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro5c",
+    "method": "ship",
+    "deposit": "Tungsten (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Tungsten (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_f",
+    "method": "ship",
+    "deposit": "Tungsten (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro4",
+    "method": "ship",
+    "deposit": "Laranite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Laranite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton3a",
+    "method": "ship",
+    "deposit": "Laranite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton3b",
+    "method": "ship",
+    "deposit": "Laranite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Lindinium (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Lindinium (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   }
+  ],
+  "bexalite": [
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro_warm01",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "lagrange_e",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 9,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 9,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro_warm01",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "lagrange_e",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 9,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 9,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro_cool01",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_warm02",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro4",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5a",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5b",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5c",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_b",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 9,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 9,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   }
+  ],
+  "borase": [
+   {
+    "loc": "pyro_cool01",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro4",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro5c",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 9,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro_cool01",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro4",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro5c",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 9,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_warm01",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_warm02",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5a",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5b",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_b",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_e",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 9,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 9,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 9,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   }
+  ],
+  "gold": [
+   {
+    "loc": "pyro_warm02",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro5a",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro5b",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "lagrange_b",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 9,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro_warm02",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro5a",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro5b",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "lagrange_b",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Gold (Ore)",
+    "share": 9,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_cool01",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_warm01",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro4",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5c",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_e",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 9,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Borase (Ore)",
+    "share": 9,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Bexalite (Raw)",
+    "share": 9,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Savrilium (Ore)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Savrilium (Ore)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   }
+  ],
+  "savrilium": [
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Savrilium (Ore)",
+    "share": 2,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Savrilium (Ore)",
+    "share": 2,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Savrilium (Ore)",
+    "share": 2,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Savrilium (Ore)",
+    "share": 2,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   }
+  ],
+  "torite": [
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Torite (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Torite (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Torite (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Torite (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "lagrange_c",
+    "method": "ship",
+    "deposit": "Torite (Ore)",
+    "share": 28.4,
+    "chance": 100,
+    "min": 34.3,
+    "max": 84.3
+   },
+   {
+    "loc": "nyx_glaciemring",
+    "method": "ship",
+    "deposit": "Torite (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Torite (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Torite (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Torite (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_c",
+    "method": "ship",
+    "deposit": "Torite (Ore)",
+    "share": 28.4,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   }
+  ],
+  "aluminum": [
+   {
+    "loc": "stanton1",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 44,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 34.8,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "stanton1d",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 34.7,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 29.7,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "lagrange_c",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 23.9,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 22,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 20.8,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "lagrange_f",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 14.9,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 10.3,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 29.8,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 44,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "lagrange_c",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 23.9,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 34.8,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "stanton1d",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 34.7,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 22,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 29.7,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "lagrange_f",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "lagrange_c",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 23.9,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 14.9,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 22,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 20.8,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "lagrange_f",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 14.9,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 10.3,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   }
+  ],
+  "corundum": [
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 29.8,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "lagrange_c",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 23.9,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 22,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "lagrange_f",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 14.9,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton1",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 44,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 34.8,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1d",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 34.7,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 29.8,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 29.7,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "lagrange_c",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 23.9,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 22,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "lagrange_c",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 23.9,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 22,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "nyx_keegerbelt",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 20.8,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "lagrange_f",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 17.9,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "lagrange_f",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Corundum (Raw)",
+    "share": 14.9,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 14.9,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Aluminum (Ore)",
+    "share": 10.3,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   }
+  ],
+  "silicon": [
+   {
+    "loc": "pyro5a",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 36,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro5b",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 36,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton2b",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 34.8,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 26.8,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro_cool01",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 26.7,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro_cool02",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 26.7,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 25.8,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 25.8,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 19.6,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 19.6,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 14.9,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 10.3,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro5a",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 36,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro5b",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 36,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton2b",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 34.8,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 26.8,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro_cool01",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 26.7,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro_cool02",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 26.7,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 25.8,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 25.8,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 19.6,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 19.6,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 14.9,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 35,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2b",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 34.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro2",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 32.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton4",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 32.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton4a",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 26.8,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 26.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 25.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 25.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 10.3,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "lagrange_c",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 23.9,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 22,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_f",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 14.9,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   }
+  ],
+  "hephaestanite": [
+   {
+    "loc": "pyro2",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 32.7,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "stanton4",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 32.7,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "stanton4a",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 26.8,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 26.7,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "lagrange_c",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 23.9,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 22,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "lagrange_f",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "pyro2",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 32.7,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "stanton4",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 32.7,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "stanton4a",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 26.8,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 26.7,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "pyro5a",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 36,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5a",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 36,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5b",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 36,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5b",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 36,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 35,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2b",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 34.8,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2b",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 34.8,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2b",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 34.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_c",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 23.9,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 22,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 26.8,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 26.8,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_cool01",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 26.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_cool01",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 26.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_cool02",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 26.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_cool02",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 26.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 25.8,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 25.8,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 25.8,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 25.8,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 25.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 25.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "lagrange_f",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 19.6,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 19.6,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 19.6,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 19.6,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 14.9,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 14.9,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 14.9,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 10.3,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Raw Silicon",
+    "share": 10.3,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   }
+  ],
+  "copper": [
+   {
+    "loc": "stanton4b",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 40,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton4c",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 40,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton3a",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 34.8,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro1",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro_warm01",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 26.7,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro_warm02",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 26.7,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton3b",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 25.8,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro4",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 25.7,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 20.8,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton2c_belt",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 20.5,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "lagrange_b",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "lagrange_d",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "lagrange_e",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "lagrange_g",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "lagrange_occupied",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 14.9,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 10.3,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton4b",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 40,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton4c",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 40,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton1",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 44,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton3a",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 34.8,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro1",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro5a",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 36,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1d",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 34.8,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro1",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro2",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro_warm01",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 26.7,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro_warm02",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 26.7,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton3b",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 25.8,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro4",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 25.7,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 20.8,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton2c_belt",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 20.5,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 22,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "lagrange_b",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "lagrange_d",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "lagrange_e",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "lagrange_g",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "lagrange_occupied",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 14.9,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 14.8,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 10.3,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   }
+  ],
+  "tin": [
+   {
+    "loc": "stanton1",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 44,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro5a",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 36,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "stanton1d",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 34.8,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro1",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro2",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 22,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 14.8,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "stanton1",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 44,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro5a",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 36,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton1d",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 34.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro1",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro2",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton4b",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 40,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton4c",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 40,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 22,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton3a",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 34.8,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro1",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro_warm01",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 26.7,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro_warm02",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 26.7,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton3b",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 25.8,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro4",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 25.7,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Tin (Ore)",
+    "share": 14.8,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 20.8,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton2c_belt",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 20.5,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 19.6,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "lagrange_b",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "lagrange_d",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "lagrange_e",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "lagrange_g",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "lagrange_occupied",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 14.9,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Copper (Ore)",
+    "share": 10.3,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   }
+  ],
+  "riccite": [
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro5a",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro5b",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro5c",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro5a",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro5b",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro5c",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   }
+  ],
+  "laranite": [
+   {
+    "loc": "pyro4",
+    "method": "ship",
+    "deposit": "Laranite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Laranite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton3a",
+    "method": "ship",
+    "deposit": "Laranite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton3b",
+    "method": "ship",
+    "deposit": "Laranite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro4",
+    "method": "ship",
+    "deposit": "Laranite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Laranite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton3a",
+    "method": "ship",
+    "deposit": "Laranite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton3b",
+    "method": "ship",
+    "deposit": "Laranite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro_warm02",
+    "method": "ship",
+    "deposit": "Tungsten (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro5c",
+    "method": "ship",
+    "deposit": "Tungsten (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro5d",
+    "method": "ship",
+    "deposit": "Tungsten (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "lagrange_f",
+    "method": "ship",
+    "deposit": "Tungsten (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro5a",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro5b",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro5c",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Riccite (Ore)",
+    "share": 10,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   }
+  ],
+  "stileron": [
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro1",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro2",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro4",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro1",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro2",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro4",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   }
+  ],
+  "taranite": [
+   {
+    "loc": "pyro_cool02",
+    "method": "ship",
+    "deposit": "Taranite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 38.3,
+    "max": 88.3
+   },
+   {
+    "loc": "lagrange_f",
+    "method": "ship",
+    "deposit": "Taranite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 38.3,
+    "max": 88.3
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Taranite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 38.3,
+    "max": 88.3
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Taranite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 38.3,
+    "max": 88.3
+   },
+   {
+    "loc": "stanton4b",
+    "method": "ship",
+    "deposit": "Taranite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 38.3,
+    "max": 88.3
+   },
+   {
+    "loc": "stanton4c",
+    "method": "ship",
+    "deposit": "Taranite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 38.3,
+    "max": 88.3
+   },
+   {
+    "loc": "pyro_cool02",
+    "method": "ship",
+    "deposit": "Taranite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "lagrange_f",
+    "method": "ship",
+    "deposit": "Taranite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Taranite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Taranite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton4b",
+    "method": "ship",
+    "deposit": "Taranite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton4c",
+    "method": "ship",
+    "deposit": "Taranite (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro_akirocluster",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro1",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro2",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro4",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Stileron",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   }
+  ],
+  "titanium": [
+   {
+    "loc": "pyro_cool01",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "lagrange_e",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "stanton2c_belt",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro_cool01",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_e",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton2c_belt",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro_cool02",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_warm01",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_b",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_d",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_g",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_occupied",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton1d",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2b",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   }
+  ],
+  "agricium": [
+   {
+    "loc": "pyro_warm01",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "lagrange_d",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "lagrange_g",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "lagrange_occupied",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "stanton2b",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 24.3,
+    "max": 74.3
+   },
+   {
+    "loc": "pyro_warm01",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_d",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_g",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "lagrange_occupied",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton2b",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 9.7,
+    "max": 15.7
+   },
+   {
+    "loc": "pyro_cool01",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_cool02",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_b",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_e",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2c_belt",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton1d",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2c_belt",
+    "method": "ship",
+    "deposit": "Ouratite",
+    "share": 10,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1",
+    "method": "ship",
+    "deposit": "Ouratite",
+    "share": 10,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Ouratite",
+    "share": 10,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Ouratite",
+    "share": 10,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   }
+  ],
+  "aslarite": [
+   {
+    "loc": "pyro_cool02",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "lagrange_b",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "stanton1d",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "pyro_cool02",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "lagrange_b",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "stanton1d",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "pyro_cool01",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro_warm01",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_d",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_e",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_g",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_occupied",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2c_belt",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2b",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 28.5,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Aslarite (Raw)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Agricium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro6",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Titanium (Ore)",
+    "share": 14.2,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   }
+  ],
+  "quartz": [
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 35,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton2b",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 34.7,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 25.7,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 25.7,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 14.9,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "pyro3",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 35,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton2b",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 34.7,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 25.7,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 25.7,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro_deepspaceasteroids",
+    "method": "ship",
+    "deposit": "Quartz (Raw)",
+    "share": 14.9,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "pyro2",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 32.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton4",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 32.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton4a",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 32.6,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5f",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 26.8,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "pyro5e",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 26.7,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_c",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 23.9,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 22,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_a",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   },
+   {
+    "loc": "lagrange_f",
+    "method": "ship",
+    "deposit": "Hephaestanite (R)",
+    "share": 17.8,
+    "chance": 100,
+    "min": 2,
+    "max": 5
+   }
+  ],
+  "aphorite": [
+   {
+    "loc": "pyro3",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 61.1,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5e",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 61.1,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro6",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 61.1,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton3a",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 61.1,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton3b",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 61.1,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 61.1,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4a",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 61.1,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4b",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 61.1,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4c",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 61.1,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro1",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 58.6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro2",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 58.6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro4",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 58.6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5b",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 58.6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5c",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 58.6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5d",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 58.6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5f",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 58.6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 58.6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1a",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 58.6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1b",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 58.6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1c",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 58.6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1d",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 58.6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2a",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 58.6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2b",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 58.6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2c",
+    "method": "hand",
+    "deposit": "Aphorite",
+    "share": 58.6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   }
+  ],
+  "dolivine": [
+   {
+    "loc": "pyro3",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 36.9,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5e",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 36.9,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro6",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 36.9,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton3a",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 36.9,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton3b",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 36.9,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 36.9,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4a",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 36.9,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4b",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 36.9,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4c",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 36.9,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro1",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 35.4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro2",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 35.4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro4",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 35.4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5b",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 35.4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5c",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 35.4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5d",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 35.4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5f",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 35.4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 35.4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1a",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 35.4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1b",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 35.4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1c",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 35.4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1d",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 35.4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2a",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 35.4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2b",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 35.4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2c",
+    "method": "hand",
+    "deposit": "Dolivine",
+    "share": 35.4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   }
+  ],
+  "hadanite": [
+   {
+    "loc": "pyro1",
+    "method": "hand",
+    "deposit": "Hadanite",
+    "share": 6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro2",
+    "method": "hand",
+    "deposit": "Hadanite",
+    "share": 6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro4",
+    "method": "hand",
+    "deposit": "Hadanite",
+    "share": 6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5b",
+    "method": "hand",
+    "deposit": "Hadanite",
+    "share": 6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5c",
+    "method": "hand",
+    "deposit": "Hadanite",
+    "share": 6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5d",
+    "method": "hand",
+    "deposit": "Hadanite",
+    "share": 6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5f",
+    "method": "hand",
+    "deposit": "Hadanite",
+    "share": 6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1",
+    "method": "hand",
+    "deposit": "Hadanite",
+    "share": 6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1a",
+    "method": "hand",
+    "deposit": "Hadanite",
+    "share": 6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1b",
+    "method": "hand",
+    "deposit": "Hadanite",
+    "share": 6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1c",
+    "method": "hand",
+    "deposit": "Hadanite",
+    "share": 6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1d",
+    "method": "hand",
+    "deposit": "Hadanite",
+    "share": 6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2a",
+    "method": "hand",
+    "deposit": "Hadanite",
+    "share": 6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2b",
+    "method": "hand",
+    "deposit": "Hadanite",
+    "share": 6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2c",
+    "method": "hand",
+    "deposit": "Hadanite",
+    "share": 6,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   }
+  ],
+  "beradom": [
+   {
+    "loc": "pyro1",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 100,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro3",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 100,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5d",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 100,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 64,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2a",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 56,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton3b",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 56,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5b",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 50,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2b",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 48,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton3a",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 48,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 28,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2c",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 24,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4b",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 20,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1a",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 16,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4a",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 12,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4c",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 12,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1b",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1d",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 3.8,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1c",
+    "method": "roc",
+    "deposit": "Beradom",
+    "share": 3.7,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   }
+  ],
+  "glacosite": [
+   {
+    "loc": "pyro2",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 100,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5c",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 100,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5f",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 100,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4c",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 88,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4a",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 84,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1d",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 69.2,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2c",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 68,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 68,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4b",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 68,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1c",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 59.3,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5b",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 50,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton3a",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 48,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton3b",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 40,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 32,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1a",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 32,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1b",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 32,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2a",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 32,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2b",
+    "method": "roc",
+    "deposit": "Glacosite",
+    "share": 12,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   }
+  ],
+  "janalite": [
+   {
+    "loc": "pyro3",
+    "method": "hand",
+    "deposit": "Janalite",
+    "share": 2,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5e",
+    "method": "hand",
+    "deposit": "Janalite",
+    "share": 2,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro6",
+    "method": "hand",
+    "deposit": "Janalite",
+    "share": 2,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton3a",
+    "method": "hand",
+    "deposit": "Janalite",
+    "share": 2,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton3b",
+    "method": "hand",
+    "deposit": "Janalite",
+    "share": 2,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4",
+    "method": "hand",
+    "deposit": "Janalite",
+    "share": 2,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4a",
+    "method": "hand",
+    "deposit": "Janalite",
+    "share": 2,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4b",
+    "method": "hand",
+    "deposit": "Janalite",
+    "share": 2,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4c",
+    "method": "hand",
+    "deposit": "Janalite",
+    "share": 2,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   }
+  ],
+  "feynmaline": [
+   {
+    "loc": "pyro4",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 100,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5a",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 100,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro5e",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 100,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "pyro6",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 100,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1b",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 64,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1a",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 52,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2b",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 40,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1c",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 37,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1d",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 26.9,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2a",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 12,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4b",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 12,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton2c",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 8,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton1",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton3a",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton3b",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4a",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 4,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   },
+   {
+    "loc": "stanton4c",
+    "method": "roc",
+    "deposit": "Feynmaline",
+    "share": 0,
+    "chance": 100,
+    "min": 50,
+    "max": 100
+   }
+  ],
+  "quantainium": [
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton1",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton1d",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton2b",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton3a",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton3b",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton4",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton4a",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton4b",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "stanton4c",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 28.3,
+    "max": 78.3
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton1",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton1d",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton2b",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton3a",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton3b",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton4",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton4a",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton4b",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton4c",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   }
+  ],
+  "beryl": [
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Beryl (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 38.3,
+    "max": 88.3
+   },
+   {
+    "loc": "lagrange_d",
+    "method": "ship",
+    "deposit": "Beryl (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 38.3,
+    "max": 88.3
+   },
+   {
+    "loc": "lagrange_g",
+    "method": "ship",
+    "deposit": "Beryl (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 38.3,
+    "max": 88.3
+   },
+   {
+    "loc": "lagrange_occupied",
+    "method": "ship",
+    "deposit": "Beryl (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 38.3,
+    "max": 88.3
+   },
+   {
+    "loc": "stanton3b",
+    "method": "ship",
+    "deposit": "Beryl (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 38.3,
+    "max": 88.3
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Beryl (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "lagrange_d",
+    "method": "ship",
+    "deposit": "Beryl (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "lagrange_g",
+    "method": "ship",
+    "deposit": "Beryl (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "lagrange_occupied",
+    "method": "ship",
+    "deposit": "Beryl (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "stanton3b",
+    "method": "ship",
+    "deposit": "Beryl (Raw)",
+    "share": 18,
+    "chance": 100,
+    "min": 5.7,
+    "max": 11.7
+   },
+   {
+    "loc": "asteroidcluster_low_yield",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "asteroidcluster_medium_yield",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "aaronhalo",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1c",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton1d",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton2a",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton2b",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton2c",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton3a",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton3b",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton4",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton4a",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton4b",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   },
+   {
+    "loc": "stanton4c",
+    "method": "ship",
+    "deposit": "Quantainium (Raw)",
+    "share": 2,
+    "chance": 100,
+    "min": 5,
+    "max": 10
+   }
+  ],
+  "ouratite": [
+   {
+    "loc": "stanton2c_belt",
+    "method": "ship",
+    "deposit": "Ouratite",
+    "share": 10,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "stanton1",
+    "method": "ship",
+    "deposit": "Ouratite",
+    "share": 10,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Ouratite",
+    "share": 10,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Ouratite",
+    "share": 10,
+    "chance": 100,
+    "min": 39.18,
+    "max": 83.18
+   },
+   {
+    "loc": "stanton2c_belt",
+    "method": "ship",
+    "deposit": "Ouratite",
+    "share": 10,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "stanton1",
+    "method": "ship",
+    "deposit": "Ouratite",
+    "share": 10,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "stanton1a",
+    "method": "ship",
+    "deposit": "Ouratite",
+    "share": 10,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   },
+   {
+    "loc": "stanton1b",
+    "method": "ship",
+    "deposit": "Ouratite",
+    "share": 10,
+    "chance": 100,
+    "min": 2.82,
+    "max": 6.82
+   }
+  ]
+ }
+}
