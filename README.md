@@ -1,6 +1,8 @@
-# SC Org Tracker
+<p align="center"><img src="logo.png" width="160" alt="SC Org Tracker logo"></p>
 
-**Star Citizen materials & blueprints — BUILD • TRADE • EXPAND**
+<h1 align="center">SC Org Tracker</h1>
+
+<p align="center"><b>Star Citizen materials &amp; blueprints — BUILD • TRADE • EXPAND</b></p>
 
 A desktop app for Star Citizen players and orgs: track your materials, gear and blueprints, see what Wikelo
 contracts and crafting recipes need, and pool your org's stock by sharing files between members.
