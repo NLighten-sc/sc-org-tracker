@@ -25,7 +25,9 @@
    ],
    "plants": [],
    "creatures": [],
-   "spawns": [],
+   "spawns": [
+    "Hathor laser caves on Aberdeen and Daymar (Stanton), hand-mined, rare"
+   ],
    "crafted": []
   },
   "valakkar_pearl_aa": {
@@ -33,11 +35,11 @@
    "wikelo": [],
    "enemies": [],
    "loot": [],
-   "deposits": [
-    "Hand-mined deposits"
-   ],
+   "deposits": [],
    "plants": [],
-   "creatures": [],
+   "creatures": [
+    "Irradiated Valakkar, in the storms of Pyro I (harvested from its skin)"
+   ],
    "spawns": [],
    "crafted": []
   },
@@ -46,11 +48,11 @@
    "wikelo": [],
    "enemies": [],
    "loot": [],
-   "deposits": [
-    "Hand-mined deposits"
-   ],
+   "deposits": [],
    "plants": [],
-   "creatures": [],
+   "creatures": [
+    "Irradiated Valakkar, in the storms of Pyro I (harvested from its skin)"
+   ],
    "spawns": [],
    "crafted": []
   },
@@ -283,6 +285,354 @@
    "enemies": [],
    "loot": [
     "Special Scrip Merc"
+   ],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "rcmbnt_pwl_1": {
+   "missions": [
+    "Jorrit Dossier: Project Hyperion (ASD Onyx Facility)"
+   ],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "rcmbnt_pwl_2": {
+   "missions": [
+    "Jorrit Dossier: Project Hyperion (ASD Onyx Facility)"
+   ],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "rcmbnt_pwl_3": {
+   "missions": [
+    "Jorrit Dossier: Project Hyperion (ASD Onyx Facility)"
+   ],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "rcmbnt_rgl_1": {
+   "missions": [
+    "Jorrit Dossier: Project Hyperion (ASD Onyx Facility)"
+   ],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "rcmbnt_rgl_2": {
+   "missions": [
+    "Jorrit Dossier: Project Hyperion (ASD Onyx Facility)"
+   ],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "rcmbnt_rgl_3": {
+   "missions": [
+    "Jorrit Dossier: Project Hyperion (ASD Onyx Facility)"
+   ],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "rcmbnt_xtl_1": {
+   "missions": [
+    "Jorrit Dossier: Project Hyperion (ASD Onyx Facility)"
+   ],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "rcmbnt_xtl_2": {
+   "missions": [
+    "Jorrit Dossier: Project Hyperion (ASD Onyx Facility)"
+   ],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "rcmbnt_xtl_3": {
+   "missions": [
+    "Jorrit Dossier: Project Hyperion (ASD Onyx Facility)"
+   ],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "carinite": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [
+    "Hathor caves"
+   ],
+   "plants": [],
+   "creatures": [],
+   "spawns": [
+    "Hathor laser caves on Aberdeen and Daymar (Stanton), hand-mined"
+   ],
+   "crafted": []
+  },
+  "saldynium": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [
+    "Hathor caves"
+   ],
+   "plants": [],
+   "creatures": [],
+   "spawns": [
+    "Hathor laser caves on Aberdeen and Daymar (Stanton), hand-mined"
+   ],
+   "crafted": []
+  },
+  "jaclium": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [
+    "Hathor caves"
+   ],
+   "plants": [],
+   "creatures": [],
+   "spawns": [
+    "Hathor laser caves on Aberdeen and Daymar (Stanton), hand-mined"
+   ],
+   "crafted": []
+  },
+  "sadaryx": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [
+    "QV Breaker Station caves"
+   ],
+   "plants": [],
+   "creatures": [],
+   "spawns": [
+    "QV Breaker Station caves, Keeger Belt (Nyx), hand-mined"
+   ],
+   "crafted": []
+  },
+  "yormandi_eye": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [
+    "Yormandi, Site B of the ASD Onyx Facility"
+   ],
+   "spawns": [],
+   "crafted": []
+  },
+  "yormandi_tongue": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [
+    "Yormandi, Site B of the ASD Onyx Facility"
+   ],
+   "spawns": [],
+   "crafted": []
+  },
+  "valakkar_fang_juvenile": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [
+    "Juvenile Irradiated Valakkar, in the storms of Pyro I"
+   ],
+   "spawns": [],
+   "crafted": []
+  },
+  "valakkar_fang_adult": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [
+    "Adult Irradiated Valakkar, in the storms of Pyro I"
+   ],
+   "spawns": [],
+   "crafted": []
+  },
+  "valakkar_fang_apex": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [
+    "Apex Irradiated Valakkar, in the storms of Pyro I"
+   ],
+   "spawns": [],
+   "crafted": []
+  },
+  "kopion_horn": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [
+    "Irradiated Kopion, at the ASD Onyx Facility"
+   ],
+   "spawns": [],
+   "crafted": []
+  },
+  "tundra_kopion_horn": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [],
+   "deposits": [],
+   "plants": [],
+   "creatures": [
+    "Tundra Kopion, in the grasslands next to microTech's snowy lowlands"
+   ],
+   "spawns": [],
+   "crafted": []
+  },
+  "ace_interceptor_helmet": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [
+    "Armour loot boxes at Planetary Alignment Facility (PAF) sites",
+    "Bodies of ace pilots"
+   ],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "cartography_medal": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [
+    "Bodies of ace pilots in patrol mercenary contracts"
+   ],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "tevarin_marker": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [
+    "Rare loot (the wiki doesn't say where)"
+   ],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "uee_medal": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [
+    "Rare loot (the wiki doesn't say where)"
+   ],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "artifact_fragment": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [
+    "Vanduul tech smuggler contracts",
+    "Warehouse section of the QV Station (Nyx)"
+   ],
+   "deposits": [],
+   "plants": [],
+   "creatures": [],
+   "spawns": [],
+   "crafted": []
+  },
+  "dchs05": {
+   "missions": [],
+   "wikelo": [],
+   "enemies": [],
+   "loot": [
+    "Ruin Station contested zone (Pyro): treasure vault, behind the Crypt Keycard door"
    ],
    "deposits": [],
    "plants": [],
