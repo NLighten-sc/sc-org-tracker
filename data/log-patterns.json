@@ -1,5 +1,5 @@
 {
-  "data_version": "4.10.2-r12",
+  "data_version": "4.10.2-r13",
   "patch_version": "4.10.2",
   "_comment": "Verified against real Game.log files (patches 3.21-4.10.2). Named groups are read by the parser. 'toggle' links a pattern to a Settings > Log Reader switch.",
   "patterns": {
@@ -63,13 +63,13 @@
     },
     "gear_move": {
       "toggle": "gear",
-      "_comment": "Every inventory request the player makes: Move (drag, with amount), Store (put away; the item is in Item[]), Interaction (equip from a container). Inventories are <player>:Location:<n> for station storage, <id>:Container:0 for the backpack/armour, INVALID for hands/body. 4.10 tags it <Inventory Mgmt Request Queued>, older builds <InventoryManagementRequest>.",
-      "regex": "<(?:Inventory Mgmt Request Queued|InventoryManagementRequest)> Queued Request\\[(?<req>\\d+)\\] Type\\[(?<type>Move|Store|Interaction|Drop)\\] for .*? Source Inventory\\[(?<src>[^\\]]+)\\] Target Inventory\\[(?<dst>[^\\]]+)\\]\\. Source\\[(?<code>[^\\]]*)\\] amount\\[(?<amount>\\d+)\\].*? Item\\[(?<item>[^\\]]*)\\]"
+      "_comment": "Every inventory request the player makes: Move (drag, with amount), Stack (dropped onto a stack of the same item; Target[] gives that stack), Store (put away; the item is in Item[]), Interaction (equip from a container). Inventories are <player>:Location:<n> for station storage, <id>:Container:0 for the backpack/armour, INVALID for hands/body. 4.10 tags it <Inventory Mgmt Request Queued>, older builds <InventoryManagementRequest>.",
+      "regex": "<(?:Inventory Mgmt Request Queued|InventoryManagementRequest)> Queued Request\\[(?<req>\\d+)\\] Type\\[(?<type>Move|Stack|Store|Interaction|Drop)\\] for .*? Source Inventory\\[(?<src>[^\\]]+)\\] Target Inventory\\[(?<dst>[^\\]]+)\\]\\. Source\\[(?<code>[^\\]]*)\\] amount\\[(?<amount>\\d+)\\](?: rank\\[(?<srank>[^\\]]*)\\]\\. Target\\[(?<tcode>[^\\]]*)\\] amount\\[(?<tamount>\\d+)\\] rank\\[(?<trank>[^\\]]*)\\])?.*? Item\\[(?<item>[^\\]]*)\\]"
     },
     "gear_move_result": {
       "toggle": "gear",
       "_comment": "The outcome of a request above; anything but Succeed is undone",
-      "regex": "<Player Inventory Request Complete> Request\\[(?<req>\\d+)\\] for .*? Type\\[(?:Move|Store|Interaction|Drop)\\] Result\\[(?<result>[A-Za-z]+)\\]"
+      "regex": "<Player Inventory Request Complete> Request\\[(?<req>\\d+)\\] for .*? Type\\[(?:Move|Stack|Store|Interaction|Drop)\\] Result\\[(?<result>[A-Za-z]+)\\]"
     },
     "gear_placed": {
       "toggle": "gear",
@@ -109,6 +109,12 @@
   },
   "session_header": {
     "env_session": "@env_session:\\s*'[a-z]+-sc-alpha-(?<ver>\\d+)-(?<build>\\d+)'"
+  },
+  "play_time": {
+    "_comment": "Time in the verse per session: from a verse loading screen closing (named for where you spawn: pu, Nyx, Pyro; Arena Commander maps are EA_…) until the main menu's loading screen (its load time taken off), the quit line, or the log's last line after a crash",
+    "verse_entered": "Loading screen for (?!Frontend_Main |EA_)\\S+ : \\S+ closed after",
+    "menu_loaded": "Loading screen for Frontend_Main : \\S+ closed after (?<secs>[\\d.]+) seconds",
+    "game_quit": "<SystemQuit>"
   },
   "location_codes": {
     "Stanton1_Lorville":     "lorville",

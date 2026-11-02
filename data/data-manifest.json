@@ -15,7 +15,7 @@
       "url": "crafting-blueprints.json"
     },
     "log-patterns.json": {
-      "version": "4.10.2-r12",
+      "version": "4.10.2-r13",
       "url": "log-patterns.json"
     },
     "locations.json": {
@@ -73,6 +73,10 @@
     "blueprint-sources.json": {
       "version": "4.10.2-r1",
       "url": "blueprint-sources.json"
+    },
+    "ore-qualities.json": {
+      "version": "4.10.2-r1",
+      "url": "ore-qualities.json"
     }
   }
 }
