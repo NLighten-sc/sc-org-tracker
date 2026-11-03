@@ -15,11 +15,11 @@
       "url": "crafting-blueprints.json"
     },
     "log-patterns.json": {
-      "version": "4.10.2-r14",
+      "version": "4.10.2-r15",
       "url": "log-patterns.json"
     },
     "locations.json": {
-      "version": "4.10.2-r2",
+      "version": "4.10.2-r3",
       "url": "locations.json"
     },
     "refineries.json": {
@@ -31,7 +31,7 @@
       "url": "item-names.json"
     },
     "starmap.json": {
-      "version": "4.10.2-r2",
+      "version": "4.10.2-r3",
       "url": "starmap.json"
     },
     "commodities.json": {
@@ -43,7 +43,7 @@
       "url": "item-catalog.json"
     },
     "mining-locations.json": {
-      "version": "4.10.2-r2",
+      "version": "4.10.2-r3",
       "url": "mining-locations.json"
     },
     "mining-properties.json": {
@@ -63,7 +63,7 @@
       "url": "refining-methods.json"
     },
     "mission-givers.json": {
-      "version": "4.10.2-r1",
+      "version": "4.10.2-r2",
       "url": "mission-givers.json"
     },
     "blueprint-quality.json": {

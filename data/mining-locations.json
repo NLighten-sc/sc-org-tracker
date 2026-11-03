@@ -7488,5 +7488,106 @@
     "max": 6.82
    }
   ]
+ },
+ "signatures": {
+  "agricium": {
+   "ship": 3885
+  },
+  "aluminum": {
+   "ship": 4285
+  },
+  "aphorite": {
+   "hand": 3000
+  },
+  "aslarite": {
+   "ship": 3840
+  },
+  "beradom": {
+   "roc": 4000
+  },
+  "beryl": {
+   "ship": 3540
+  },
+  "bexalite": {
+   "ship": 3600
+  },
+  "borase": {
+   "ship": 3570
+  },
+  "copper": {
+   "ship": 4240
+  },
+  "corundum": {
+   "ship": 4225
+  },
+  "dolivine": {
+   "hand": 3000
+  },
+  "feynmaline": {
+   "roc": 4000
+  },
+  "glacosite": {
+   "roc": 4000
+  },
+  "gold": {
+   "ship": 3585
+  },
+  "hadanite": {
+   "hand": 3000
+  },
+  "hephaestanite": {
+   "ship": 4180
+  },
+  "iron": {
+   "ship": 4270
+  },
+  "janalite": {
+   "hand": 3000
+  },
+  "laranite": {
+   "ship": 3825
+  },
+  "lindinium": {
+   "ship": 3400
+  },
+  "ouratite": {
+   "ship": 3370
+  },
+  "pressurized_ice": {
+   "ship": 4300
+  },
+  "quantainium": {
+   "ship": 3170
+  },
+  "quartz": {
+   "ship": 4210
+  },
+  "riccite": {
+   "ship": 3385
+  },
+  "savrilium": {
+   "ship": 3200
+  },
+  "silicon": {
+   "ship": 4255
+  },
+  "stileron": {
+   "ship": 3185
+  },
+  "taranite": {
+   "ship": 3555
+  },
+  "tin": {
+   "ship": 4195
+  },
+  "titanium": {
+   "ship": 3855
+  },
+  "torite": {
+   "ship": 3900
+  },
+  "tungsten": {
+   "ship": 3870
+  }
  }
 }

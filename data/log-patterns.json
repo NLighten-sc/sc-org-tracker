@@ -1,5 +1,5 @@
 {
-  "data_version": "4.10.2-r13",
+  "data_version": "4.10.2-r15",
   "patch_version": "4.10.2",
   "_comment": "Verified against real Game.log files (patches 3.21-4.10.2). Named groups are read by the parser. 'toggle' links a pattern to a Settings > Log Reader switch.",
   "patterns": {
@@ -42,6 +42,10 @@
     "mission_ended": {
       "toggle": "contract",
       "regex": "<MissionEnded> Received MissionEnded push message for: mission_id (?<mission>[0-9a-fA-F-]+) - mission_state MISSION_STATE_(?<state>[A-Z]+)"
+    },
+    "mission_marker": {
+      "toggle": "contract",
+      "regex": "<SMarkerHandler_Base::CreateMissionObjectiveMarker> Creating objective marker: missionId \\[(?<mission>[0-9a-fA-F-]+)\\], generator name \\[[^\\]]*\\], contract \\[(?<contract>[^\\]]+)\\]\\[[0-9a-fA-F-]+\\], contractDefinitionId\\[(?<definition>[0-9a-fA-F-]+)\\]"
     },
     "location_change": {
       "toggle": "location_change",
@@ -149,6 +153,16 @@
     "AsteroidClusterBase_Nyx_Social_Keeger_001": "sm:0bbad0b9-54f6-4f05-9feb-11a5791e049f",
     "AsteroidClusterBase_Nyx_Social_Keeger_002": "sm:db2883b7-5d6e-4eb2-9e00-4f86e8e49447",
     "RR_P5_L2":              "gaslight",
+    "RR_P2_L4":              "checkmate_station",
+    "RR_P3_L1":              "starlight_service",
+    "RR_P3_L3":              "patch_city",
+    "RR_P3_LEO":             "orbituary",
+    "RR_P5_L4":              "rods_fuel",
+    "RR_P5_L5":              "rats_nest",
+    "RR_P6_L3":              "endgame",
+    "RR_P6_L4":              "dudley_daughters",
+    "RR_P6_L5":              "megumi_refueling",
+    "RR_P6_LEO":             "ruin_station",
     "Nyx_Levski":            "levski"
   }
 }
