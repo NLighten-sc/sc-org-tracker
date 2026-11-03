@@ -15,15 +15,15 @@
       "url": "crafting-blueprints.json"
     },
     "log-patterns.json": {
-      "version": "4.10.2-r13",
+      "version": "4.10.2-r14",
       "url": "log-patterns.json"
     },
     "locations.json": {
-      "version": "4.10.2-r1",
+      "version": "4.10.2-r2",
       "url": "locations.json"
     },
     "refineries.json": {
-      "version": "4.10.2-r1",
+      "version": "4.10.2-r2",
       "url": "refineries.json"
     },
     "item-names.json": {
@@ -31,7 +31,7 @@
       "url": "item-names.json"
     },
     "starmap.json": {
-      "version": "4.10.2-r1",
+      "version": "4.10.2-r2",
       "url": "starmap.json"
     },
     "commodities.json": {
