@@ -779,6 +779,17 @@
       "Yellow Level Contract: Surprise Strike"
     ]
   },
+  "antium-helmet-jet": {
+    "default_owned": false,
+    "missions": [
+      "Orange Level Contract: Return the Favor",
+      "Orange Level Contract: Spring a Trap",
+      "Red Level Contract: Ambush Attack Squad",
+      "Red Level Contract: Surprise Attack",
+      "Yellow Level Contract: Ambush An Amateur",
+      "Yellow Level Contract: Surprise Strike"
+    ]
+  },
   "antium-core-maroon": {
     "default_owned": false,
     "missions": [
@@ -872,7 +883,7 @@
       "Yellow Lvl. Contract: Protect ~mission(Objects)"
     ]
   },
-  "antium-helmet-jet": {
+  "antium-arms-maroon": {
     "default_owned": false,
     "missions": [
       "~mission(Contractor|DestroyProbeTitle)",

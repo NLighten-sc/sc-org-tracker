@@ -76165,7 +76165,7 @@
    "uuid": "caa2922b-8512-4430-9980-6238747acaab"
   },
   "qrt_specialist_heavy_arms_01_01_13": {
-   "name": "Antium Helmet Jet",
+   "name": "Antium Arms Maroon",
    "category": "armour",
    "type": "Char_Armor_Arms/Heavy",
    "size": 1,
@@ -76295,7 +76295,7 @@
    "uuid": "11c7bd0d-8194-4c77-841f-154bf7cb3e7a"
   },
   "qrt_specialist_heavy_helmet_01_01_12": {
-   "name": "Antium Core Jet",
+   "name": "Antium Helmet Jet",
    "category": "armour",
    "type": "Char_Armor_Helmet/Heavy",
    "size": 1,

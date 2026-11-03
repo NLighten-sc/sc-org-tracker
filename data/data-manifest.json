@@ -11,7 +11,7 @@
       "url": "wikelo-contracts.json"
     },
     "crafting-blueprints.json": {
-      "version": "4.10.2-r2",
+      "version": "4.10.2-r3",
       "url": "crafting-blueprints.json"
     },
     "log-patterns.json": {
@@ -39,7 +39,7 @@
       "url": "commodities.json"
     },
     "item-catalog.json": {
-      "version": "4.10.2-r2",
+      "version": "4.10.2-r3",
       "url": "item-catalog.json"
     },
     "mining-locations.json": {
@@ -51,7 +51,7 @@
       "url": "mining-properties.json"
     },
     "item-images.json": {
-      "version": "4.10.2-r1",
+      "version": "4.10.2-r2",
       "url": "item-images.json"
     },
     "item-sources.json": {
@@ -67,11 +67,11 @@
       "url": "mission-givers.json"
     },
     "blueprint-quality.json": {
-      "version": "4.10.2-r2",
+      "version": "4.10.2-r3",
       "url": "blueprint-quality.json"
     },
     "blueprint-sources.json": {
-      "version": "4.10.2-r1",
+      "version": "4.10.2-r2",
       "url": "blueprint-sources.json"
     },
     "ore-qualities.json": {

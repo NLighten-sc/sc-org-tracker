@@ -18096,7 +18096,7 @@
     ]
   },
   {
-    "id": "antium-core-jet-specialist-heavy-core-01-01-12",
+    "id": "antium-core-jet",
     "name": "Antium Core Jet",
     "category": "armour",
     "tier": 0,
@@ -18139,8 +18139,8 @@
     ]
   },
   {
-    "id": "antium-core-jet-specialist-heavy-helmet-01-01-12",
-    "name": "Antium Core Jet",
+    "id": "antium-helmet-jet",
+    "name": "Antium Helmet Jet",
     "category": "armour",
     "tier": 0,
     "output_qty": 1,
@@ -18179,6 +18179,9 @@
         "q500_modifier": 1,
         "q1000_modifier": 1.2
       }
+    ],
+    "log_names": [
+      "Antium Core Jet"
     ]
   },
   {
@@ -18440,8 +18443,8 @@
     ]
   },
   {
-    "id": "antium-helmet-jet",
-    "name": "Antium Helmet Jet",
+    "id": "antium-arms-maroon",
+    "name": "Antium Arms Maroon",
     "category": "armour",
     "tier": 0,
     "output_qty": 1,
@@ -18480,6 +18483,9 @@
         "q500_modifier": 1,
         "q1000_modifier": 1.2
       }
+    ],
+    "log_names": [
+      "Antium Helmet Jet"
     ]
   },
   {

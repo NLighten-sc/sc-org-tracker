@@ -7280,7 +7280,7 @@
     }
    }
   },
-  "antium-core-jet-specialist-heavy-core-01-01-12": {
+  "antium-core-jet": {
    "craft_time_seconds": 270,
    "slots": [
     {
@@ -7342,7 +7342,7 @@
     }
    }
   },
-  "antium-core-jet-specialist-heavy-helmet-01-01-12": {
+  "antium-helmet-jet": {
    "craft_time_seconds": 270,
    "slots": [
     {
@@ -7776,7 +7776,7 @@
     }
    }
   },
-  "antium-helmet-jet": {
+  "antium-arms-maroon": {
    "craft_time_seconds": 270,
    "slots": [
     {
