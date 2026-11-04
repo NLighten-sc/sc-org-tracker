@@ -1,5 +1,5 @@
 {
-  "data_version": "4.10.2-r15",
+  "data_version": "4.10.2-r17",
   "patch_version": "4.10.2",
   "_comment": "Verified against real Game.log files (patches 3.21-4.10.2). Named groups are read by the parser. 'toggle' links a pattern to a Settings > Log Reader switch.",
   "patterns": {
@@ -109,6 +109,54 @@
       "toggle": "gear",
       "_comment": "Freight elevator going down into storage. Nothing about its load is logged; the next storage count shows how many stacks arrived.",
       "regex": "<CSCLoadingPlatformManager::OnLoadingPlatformStateChanged> .*?LoadingPlatformManager_FreightElevator[^\\]]*\\] Platform state changed to LoweringPlatform"
+    },
+    "mission_objective": {
+      "toggle": "contract",
+      "regex": "<SHUDEvent_OnNotification> Added notification \"New Objective: (?<text>.+?): \" \\[\\d+\\] to queue.*?MissionId: \\[(?<mission>[0-9a-fA-F-]+)\\], ObjectiveId: \\[(?<objective>[^\\]]+)\\]"
+    },
+    "mission_objective_state": {
+      "toggle": "contract",
+      "regex": "<Objective(?:Upserted|Complete)> Received \\w+ push message for: mission_id (?<mission>[0-9a-fA-F-]+) - objective_id (?<objective>\\S+) - state MISSION_OBJECTIVE_STATE_(?<state>[A-Z]+)"
+    },
+    "mission_contractor": {
+      "toggle": "contract",
+      "regex": "<CommsNotifications> SendCommsNotification \\+(?<tags>\\S*Missions\\.CommsNotifications\\.MissionAccept\\S*) .*?Mission: \\[(?<mission>[0-9a-fA-F-]+)\\]"
+    },
+    "mission_paid": {
+      "toggle": "contract",
+      "regex": "<SHUDEvent_OnNotification> Added notification \"Awarded (?<amount>[\\d,]+) aUEC: \""
+    },
+    "party_member": {
+      "toggle": "party",
+      "regex": "^<[^>]+> (?<name>[A-Za-z0-9_-]+) (?<state>connected|disconnected)\\.: \" \\[\\d+\\] to queue"
+    },
+    "shop_response": {
+      "toggle": "shop_purchase",
+      "regex": "<CEntityComponent(?:ShopUIProvider|ShoppingProvider)::RmShopFlowResponse> .*?(?:shopName\\[(?<shop>[^\\]]*)\\].*?)?result\\[(?<result>\\w+)\\](?: type\\[(?<type>\\w+)\\])?"
+    },
+    "party_disbanded": {
+      "toggle": "party",
+      "regex": "<SHUDEvent_OnNotification> Added notification \"Party Disbanded"
+    },
+    "mission_shared": {
+      "toggle": "contract",
+      "regex": "<MissionShared> Received share push message: ownerId\\[(?<owner>\\d+)\\] - missionId\\[(?<mission>[0-9a-fA-F-]+)\\]"
+    },
+    "crime_fined": {
+      "toggle": "crime",
+      "regex": "<SHUDEvent_OnNotification> Added notification \"Fined (?<amount>[\\d,]+) UEC: \""
+    },
+    "crime_impounded": {
+      "toggle": "crime",
+      "regex": "<SHUDEvent_OnNotification> Added notification \"Vehicle Impounded: (?<reason>[^:\"]+): \""
+    },
+    "crime_committed": {
+      "toggle": "crime",
+      "regex": "<SHUDEvent_OnNotification> Added notification \"Crime Committed: (?<crime>[^:\"]+): \""
+    },
+    "crime_stat": {
+      "toggle": "crime",
+      "regex": "<SHUDEvent_OnNotification> Added notification \"CrimeStat Rating (?<dir>Increased|Decreased): \""
     }
   },
   "session_header": {

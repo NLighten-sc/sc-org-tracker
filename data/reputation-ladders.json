@@ -1,0 +1,2152 @@
+{
+ "_source": "reputation/scopes + reputation/standings records (Game2.dcb) + global.ini (patch 4.10.2)",
+ "game_version": "4.10.2",
+ "_note": "min = reputation needed for the rank; drift = reputation gained (+) or lost (-) every drift_hours while in that rank",
+ "ladders": [
+  {
+   "scope": "Affinity",
+   "display": "Affinity",
+   "ceiling": 10000,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Hated",
+     "min": -10000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_095",
+     "min": -9500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_090",
+     "min": -9000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_085",
+     "min": -8500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_080",
+     "min": -8000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_075",
+     "min": -7500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_070",
+     "min": -7000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_065",
+     "min": -6500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_060",
+     "min": -6000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_055",
+     "min": -5500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Disliked",
+     "min": -5000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_045",
+     "min": -4500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_040",
+     "min": -4000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_035",
+     "min": -3500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_030",
+     "min": -3000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_025",
+     "min": -2500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_020",
+     "min": -2000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_015",
+     "min": -1500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_010",
+     "min": -1000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Bad_005",
+     "min": -500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Neutral",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_005",
+     "min": 500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_010",
+     "min": 1000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_015",
+     "min": 1500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_020",
+     "min": 2000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Liked",
+     "min": 2500,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_030",
+     "min": 3000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_035",
+     "min": 3500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_040",
+     "min": 4000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_045",
+     "min": 4500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_050_Liked",
+     "min": 5000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_055",
+     "min": 5500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_065",
+     "min": 6500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_060",
+     "min": 6500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_070",
+     "min": 7000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_075",
+     "min": 7500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_080",
+     "min": 8000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_085",
+     "min": 8500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_090",
+     "min": 9000,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Affinity_Good_095",
+     "min": 9500,
+     "shown": false,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Exalted",
+     "min": 10000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "Assassination",
+   "display": "Assassination",
+   "ceiling": 112001,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Under Review",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Assassin In Training",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Low Level Assassin",
+     "min": 3000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Assassin",
+     "min": 8000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "High Value Assassin",
+     "min": 24000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Elite Assassin",
+     "min": 56000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Master Assassin",
+     "min": 112000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "BountyHunter",
+   "display": "Bounty Hunting",
+   "ceiling": 5200000,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Tracker Trainee",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Associate Tracker",
+     "min": 5000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Tracker",
+     "min": 30000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Advanced Tracker",
+     "min": 120000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Senior Tracker",
+     "min": 480000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Master Tracker",
+     "min": 1600000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "BountyHunter_BountyHuntersGuild",
+   "display": "Bounty Hunting",
+   "ceiling": 480001,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Probationary Guild Member",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Junior Guild Member",
+     "min": 3000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Guild Member",
+     "min": 10000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Senior Guild Member",
+     "min": 40000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Veteran Guild Member",
+     "min": 200000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Guild Steward",
+     "min": 480000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "Courier",
+   "display": "Courier",
+   "ceiling": 7500,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Jr. Runner",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Runner",
+     "min": 2500,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "Courier_TransportGuild",
+   "display": "Courier",
+   "ceiling": 7500,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Jr. Runner",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Runner",
+     "min": 2500,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "Delivery_CitizensForPyro",
+   "display": "Courier",
+   "ceiling": 367601,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 200,
+     "drift_hours": 1
+    },
+    {
+     "name": "Trainee",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rookie",
+     "min": 50,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Junior",
+     "min": 250,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Member",
+     "min": 5250,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Experienced",
+     "min": 27750,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Senior",
+     "min": 77750,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Master",
+     "min": 237750,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "Delivery_RoughAndReady",
+   "display": "Courier",
+   "ceiling": 367601,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 200,
+     "drift_hours": 1
+    },
+    {
+     "name": "Trainee",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rookie",
+     "min": 50,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Junior",
+     "min": 250,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Member",
+     "min": 5250,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Experienced",
+     "min": 27750,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Senior",
+     "min": 77750,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Master",
+     "min": 237750,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "Emergency",
+   "display": "Emergency Support",
+   "ceiling": 320000,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -320000,
+     "shown": true,
+     "drift": 160000,
+     "drift_hours": 24
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "First Responder Trainee",
+     "min": 5000,
+     "shown": true,
+     "drift": -50,
+     "drift_hours": 24
+    },
+    {
+     "name": "First Responder",
+     "min": 20000,
+     "shown": true,
+     "drift": -200,
+     "drift_hours": 24
+    },
+    {
+     "name": "Veteran First Responder",
+     "min": 80000,
+     "shown": true,
+     "drift": -800,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "FactionReputation",
+   "display": "Standing",
+   "ceiling": 95250,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Neutral",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Jr. Contractor",
+     "min": 800,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Contractor",
+     "min": 2200,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Sr. Contractor",
+     "min": 5800,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Veteran Contractor",
+     "min": 15000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Head Contractor",
+     "min": 38000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Elite Contractor",
+     "min": 95250,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "FPS_Combat",
+   "display": "FPS_Combat",
+   "ceiling": 1001,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 100,
+     "drift_hours": 24
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank I",
+     "min": 1000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "FPS_Combat_CitizensForPyro",
+   "display": "Mercenary",
+   "ceiling": 1001,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 100,
+     "drift_hours": 24
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank I",
+     "min": 1000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "FPS_Combat_HeadHunter",
+   "display": "Mercenary",
+   "ceiling": 1001,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 100,
+     "drift_hours": 24
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank I",
+     "min": 1000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "FPS_Combat_RoughAndReady",
+   "display": "Mercenary",
+   "ceiling": 1001,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 100,
+     "drift_hours": 24
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank I",
+     "min": 1000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "FPS_Combat_XenoThreat",
+   "display": "Mercenary",
+   "ceiling": 1001,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 100,
+     "drift_hours": 24
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank I",
+     "min": 1000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "HandyMan",
+   "display": "Salvage",
+   "ceiling": 1001,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 100,
+     "drift_hours": 24
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank I",
+     "min": 1000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "HandyMan_CitizensForPyro",
+   "display": "Hired Muscle",
+   "ceiling": 1001,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 100,
+     "drift_hours": 24
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank I",
+     "min": 1000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "Hauling",
+   "display": "Hauling",
+   "ceiling": 367601,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 200,
+     "drift_hours": 1
+    },
+    {
+     "name": "Trainee",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rookie",
+     "min": 50,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Junior",
+     "min": 250,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Member",
+     "min": 5250,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Experienced",
+     "min": 27750,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Senior",
+     "min": 77750,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Master",
+     "min": 237750,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "HiredMuscle",
+   "display": "Hired Muscle",
+   "ceiling": 1600001,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank I",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank II",
+     "min": 5000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank III",
+     "min": 30000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank IV",
+     "min": 120000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank V",
+     "min": 480000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank VI",
+     "min": 1600000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "HoverTimeTrial",
+   "display": "HoverTimeTrial",
+   "ceiling": 640000,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Rank 0",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank 1",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank 2",
+     "min": 1000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank 3",
+     "min": 2000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank 4",
+     "min": 4000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank 5",
+     "min": 8000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank 6",
+     "min": 16000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank 6",
+     "min": 32000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "Maintenance",
+   "display": "Maintenance",
+   "ceiling": null,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Apprentice",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Mechanic-in-Training",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Jr. Mechanic",
+     "min": 3000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Mechanic",
+     "min": 10000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Sr. Mechanic",
+     "min": 40000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Master Mechanic",
+     "min": 200000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "MissionProviderReputation_Battaglia",
+   "display": "Standing",
+   "ceiling": 69600,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Prospective Associate",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Associate",
+     "min": 2400,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Trusted Associate",
+     "min": 6000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Prestige 1",
+     "min": 10800,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Prestige 2",
+     "min": 30000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Prestige 3",
+     "min": 69600,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "Racing_HeadHunter",
+   "display": "Racing_HeadHunter",
+   "ceiling": 1001,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 100,
+     "drift_hours": 24
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank I",
+     "min": 1000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "RacingShip",
+   "display": "Spaceship",
+   "ceiling": 640000,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Racing Enthusiast",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Novice Racer",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rookie Racer",
+     "min": 1000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Racer",
+     "min": 2000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Practiced Racer",
+     "min": 4000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Dedicated Racer",
+     "min": 8000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Experienced Racer",
+     "min": 16000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Skilled Racer",
+     "min": 32000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "Salvaging",
+   "display": "Salvaging",
+   "ceiling": 10001,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Apprentice Salvager",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Associate Salvager",
+     "min": 100,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Salvager",
+     "min": 500,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Senior Salvager",
+     "min": 1500,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Master Salvager",
+     "min": 5000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "Security",
+   "display": "Security",
+   "ceiling": 5200000,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Security Trainee",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Jr. Security Contractor",
+     "min": 5000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Security Contractor",
+     "min": 30000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Sr. Security Contractor",
+     "min": 120000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Lead Security Contractor",
+     "min": 480000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Elite Security Contractor",
+     "min": 1600000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "Security_MercenaryGuild",
+   "display": "Security",
+   "ceiling": 5200000,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Security Trainee",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Jr. Security Contractor",
+     "min": 5000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Security Contractor",
+     "min": 30000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Sr. Security Contractor",
+     "min": 120000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Lead Security Contractor",
+     "min": 480000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Elite Security Contractor",
+     "min": 1600000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "ShipCombat",
+   "display": "ShipCombat",
+   "ceiling": null,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank I",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank II",
+     "min": 5000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank III",
+     "min": 30000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank IV",
+     "min": 120000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank V",
+     "min": 480000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank VI",
+     "min": 1600000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "ShipCombat_HeadHunters",
+   "display": "ShipCombat_HeadHunters",
+   "ceiling": 480001,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank I",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank II",
+     "min": 3000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank III",
+     "min": 10000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank IV",
+     "min": 40000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank V",
+     "min": 200000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank VI",
+     "min": 480000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "ShipCombat_RoughAndReady",
+   "display": "ShipCombat_RoughAndReady",
+   "ceiling": null,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank I",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank II",
+     "min": 5000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank III",
+     "min": 30000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank IV",
+     "min": 120000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank V",
+     "min": 480000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank VI",
+     "min": 1600000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "ShipCombat_XenoThreat",
+   "display": "ShipCombat_XenoThreat",
+   "ceiling": null,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank I",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank II",
+     "min": 5000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank III",
+     "min": 30000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank IV",
+     "min": 120000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank V",
+     "min": 480000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank VI",
+     "min": 1600000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "Smuggling",
+   "display": "Hired Muscle",
+   "ceiling": 320000,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 100,
+     "drift_hours": 24
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank I",
+     "min": 1000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank II",
+     "min": 2000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank III",
+     "min": 3000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank IV",
+     "min": 4000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "Technician",
+   "display": "Technician",
+   "ceiling": 243000,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Technician-in-Training",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Jr. Technician",
+     "min": 3000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Technician",
+     "min": 9000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Sr. Technician",
+     "min": 27000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Master Technician",
+     "min": 81000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "Theft",
+   "display": "Theft",
+   "ceiling": 320000,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 100,
+     "drift_hours": 24
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank I",
+     "min": 3000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank II",
+     "min": 17000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank III",
+     "min": 40000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank IV",
+     "min": 100000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "WheeledTimeTrial",
+   "display": "WheeledTimeTrial",
+   "ceiling": 640000,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Racing_Ground_NotEligible",
+     "min": -1000,
+     "shown": false,
+     "drift": 250,
+     "drift_hours": 1
+    },
+    {
+     "name": "Rank 0",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank 1",
+     "min": 1,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank 2",
+     "min": 1000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank 3",
+     "min": 2000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank 4",
+     "min": 4000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank 5",
+     "min": 8000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank 6",
+     "min": 16000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Rank 6",
+     "min": 32000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "Wikelo",
+   "display": "Barter & Trade",
+   "ceiling": 1000,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "New Customer",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Very Good Customer",
+     "min": 340,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    },
+    {
+     "name": "Very Best Customer",
+     "min": 999,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 0
+    }
+   ]
+  },
+  {
+   "scope": "Worker",
+   "display": "Worker",
+   "ceiling": 1001,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 100,
+     "drift_hours": 24
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank I",
+     "min": 1000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  },
+  {
+   "scope": "Worker_RoughAndReady",
+   "display": "Hired Muscle",
+   "ceiling": 1001,
+   "initial": 0,
+   "ranks": [
+    {
+     "name": "Not Eligible",
+     "min": -1000,
+     "shown": true,
+     "drift": 100,
+     "drift_hours": 24
+    },
+    {
+     "name": "Applicant",
+     "min": 0,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    },
+    {
+     "name": "Rank I",
+     "min": 1000,
+     "shown": true,
+     "drift": 0,
+     "drift_hours": 24
+    }
+   ]
+  }
+ ]
+}
