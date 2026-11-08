@@ -1,6 +1,7 @@
 {
   "patch_version": "4.10.2",
   "published_at": "2026-10-30T00:00:00Z",
+  "sync_server_url": "https://rpi4.tailbafedc.ts.net",
   "files": {
     "materials.json": {
       "version": "4.10.2-r2",
@@ -15,7 +16,7 @@
       "url": "crafting-blueprints.json"
     },
     "log-patterns.json": {
-      "version": "4.10.2-r17",
+      "version": "4.10.2-r18",
       "url": "log-patterns.json"
     },
     "locations.json": {
@@ -81,6 +82,10 @@
     "ore-qualities.json": {
       "version": "4.10.2-r1",
       "url": "ore-qualities.json"
+    },
+    "loot.json": {
+      "version": "4.10.2-r1",
+      "url": "loot.json"
     }
   }
 }

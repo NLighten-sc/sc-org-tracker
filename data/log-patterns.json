@@ -1,5 +1,5 @@
 {
-  "data_version": "4.10.2-r17",
+  "data_version": "4.10.2-r18",
   "patch_version": "4.10.2",
   "_comment": "Verified against real Game.log files (patches 3.21-4.10.2). Named groups are read by the parser. 'toggle' links a pattern to a Settings > Log Reader switch.",
   "patterns": {
@@ -160,7 +160,7 @@
     }
   },
   "session_header": {
-    "env_session": "@env_session:\\s*'[a-z]+-sc-alpha-(?<ver>\\d+)-(?<build>\\d+)'"
+    "env_session": "@env_session:\\s*'[a-z]+-sc-[a-z]+-(?<ver>\\d+)-(?<build>\\d+)'"
   },
   "play_time": {
     "_comment": "Time in the verse per session: from a verse loading screen closing (named for where you spawn: pu, Nyx, Pyro; Arena Commander maps are EA_…) until the main menu's loading screen (its load time taken off), the quit line, or the log's last line after a crash",
