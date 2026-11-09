@@ -1,0 +1,427 @@
+{
+ "_source": "Game2.dcb records (patch 4.10.2): vehicleRole of spaceships/groundvehicles, the 5th radar signature of spawnable mineable rocks and salvage",
+ "game_version": "4.10.2",
+ "_note": "A HUD signature is the per-rock value times the number of rocks (a sum when several are under the aim)",
+ "vehicles": [
+  {
+   "code": "ARGO_ATLS_GEO",
+   "name": "Argo ATLS GEO",
+   "use": "mining",
+   "kind": "suit",
+   "role": "handmining"
+  },
+  {
+   "code": "ARGO_MOLE",
+   "name": "Argo MOLE",
+   "use": "mining",
+   "kind": "ship",
+   "role": "mediummining"
+  },
+  {
+   "code": "ARGO_MOLE_BTALA",
+   "name": "ARGO MOLE Alliance",
+   "use": "mining",
+   "kind": "ship",
+   "role": "mediummining"
+  },
+  {
+   "code": "ARGO_MOLE_Teach",
+   "name": "Argo MOLE Teach's Special",
+   "use": "mining",
+   "kind": "ship",
+   "role": "mediummining"
+  },
+  {
+   "code": "DRAK_Golem",
+   "name": "Drake Golem",
+   "use": "mining",
+   "kind": "ship",
+   "role": "startermining"
+  },
+  {
+   "code": "DRAK_Golem_BTALA",
+   "name": "Drake Golem Alliance",
+   "use": "mining",
+   "kind": "ship",
+   "role": "startermining"
+  },
+  {
+   "code": "DRAK_Golem_Collector_Indust",
+   "name": "Drake Golem Wikelo Work Special",
+   "use": "mining",
+   "kind": "ship",
+   "role": "startermining"
+  },
+  {
+   "code": "DRAK_Golem_Teach",
+   "name": "Drake Golem Teach's Special",
+   "use": "mining",
+   "kind": "ship",
+   "role": "startermining"
+  },
+  {
+   "code": "GRIN_ROC",
+   "name": "Greycat ROC",
+   "use": "mining",
+   "kind": "ground",
+   "role": "lightmining"
+  },
+  {
+   "code": "GRIN_ROC_DS",
+   "name": "Greycat ROC-DS",
+   "use": "mining",
+   "kind": "ground",
+   "role": "lightmining"
+  },
+  {
+   "code": "MISC_Prospector",
+   "name": "MISC Prospector",
+   "use": "mining",
+   "kind": "ship",
+   "role": "lightmining"
+  },
+  {
+   "code": "MISC_Prospector_BTALA",
+   "name": "MISC Prospector Alliance",
+   "use": "mining",
+   "kind": "ship",
+   "role": "lightmining"
+  },
+  {
+   "code": "MISC_Prospector_Collector_Indust",
+   "name": "MISC Prospector Wikelo Work Special",
+   "use": "mining",
+   "kind": "ship",
+   "role": "lightmining"
+  },
+  {
+   "code": "AEGS_Reclaimer",
+   "name": "Aegis Reclaimer",
+   "use": "salvage",
+   "kind": "ship",
+   "role": "heavysalvage"
+  },
+  {
+   "code": "AEGS_Reclaimer_BIS2024_Temp",
+   "name": "Aegis Reclaimer",
+   "use": "salvage",
+   "kind": "ship",
+   "role": "heavysalvage"
+  },
+  {
+   "code": "AEGS_Reclaimer_Showdown",
+   "name": "Aegis Reclaimer 2949 Best In Show Edition",
+   "use": "salvage",
+   "kind": "ship",
+   "role": "heavysalvage"
+  },
+  {
+   "code": "AEGS_Reclaimer_Teach",
+   "name": "Aegis Reclaimer Teach's Special",
+   "use": "salvage",
+   "kind": "ship",
+   "role": "heavysalvage"
+  },
+  {
+   "code": "ARGO_MOTH",
+   "name": "Argo MOTH",
+   "use": "salvage",
+   "kind": "ship",
+   "role": "mediumsalvage"
+  },
+  {
+   "code": "DRAK_Vulture",
+   "name": "Drake Vulture",
+   "use": "salvage",
+   "kind": "ship",
+   "role": "lightsalvage"
+  },
+  {
+   "code": "DRAK_Vulture_Teach",
+   "name": "Drake Vulture Teach's Special",
+   "use": "salvage",
+   "kind": "ship",
+   "role": "lightsalvage"
+  },
+  {
+   "code": "MISC_Fortune",
+   "name": "MISC Fortune",
+   "use": "salvage",
+   "kind": "ship",
+   "role": "lightsalvage"
+  },
+  {
+   "code": "MISC_Fortune_Collector_Industrial",
+   "name": "MISC Fortune Wikelo Special",
+   "use": "salvage",
+   "kind": "ship",
+   "role": "lightsalvage"
+  },
+  {
+   "code": "MISC_Fortune_Teach",
+   "name": "MISC Fortune Teach's Special",
+   "use": "salvage",
+   "kind": "ship",
+   "role": "lightsalvage"
+  },
+  {
+   "code": "RSI_Salvation",
+   "name": "RSI Salvation",
+   "use": "salvage",
+   "kind": "ship",
+   "role": "startersalvage"
+  }
+ ],
+ "rocks": [
+  {
+   "kind": "hand",
+   "rarity": null,
+   "material": "aphorite",
+   "signature": 3000
+  },
+  {
+   "kind": "hand",
+   "rarity": null,
+   "material": "carinite",
+   "signature": 3000
+  },
+  {
+   "kind": "hand",
+   "rarity": null,
+   "material": "dolivine",
+   "signature": 3000
+  },
+  {
+   "kind": "hand",
+   "rarity": null,
+   "material": "hadanite",
+   "signature": 3000
+  },
+  {
+   "kind": "hand",
+   "rarity": null,
+   "material": "jaclium",
+   "signature": 3000
+  },
+  {
+   "kind": "hand",
+   "rarity": null,
+   "material": "janalite",
+   "signature": 3000
+  },
+  {
+   "kind": "hand",
+   "rarity": null,
+   "material": "sadaryx",
+   "signature": 3000
+  },
+  {
+   "kind": "hand",
+   "rarity": null,
+   "material": "saldynium",
+   "signature": 3000
+  },
+  {
+   "kind": "roc",
+   "rarity": null,
+   "material": "beradom",
+   "signature": 4000
+  },
+  {
+   "kind": "roc",
+   "rarity": null,
+   "material": "carinite",
+   "signature": 4000
+  },
+  {
+   "kind": "roc",
+   "rarity": null,
+   "material": "feynmaline",
+   "signature": 4000
+  },
+  {
+   "kind": "roc",
+   "rarity": null,
+   "material": "glacosite",
+   "signature": 4000
+  },
+  {
+   "kind": "ship",
+   "rarity": "common",
+   "material": "pressurized_ice",
+   "signature": 4300
+  },
+  {
+   "kind": "ship",
+   "rarity": "common",
+   "material": "aluminum",
+   "signature": 4285
+  },
+  {
+   "kind": "ship",
+   "rarity": "common",
+   "material": "iron",
+   "signature": 4270
+  },
+  {
+   "kind": "ship",
+   "rarity": "common",
+   "material": "silicon",
+   "signature": 4255
+  },
+  {
+   "kind": "ship",
+   "rarity": "common",
+   "material": "copper",
+   "signature": 4240
+  },
+  {
+   "kind": "ship",
+   "rarity": "common",
+   "material": "corundum",
+   "signature": 4225
+  },
+  {
+   "kind": "ship",
+   "rarity": "common",
+   "material": "quartz",
+   "signature": 4210
+  },
+  {
+   "kind": "ship",
+   "rarity": "common",
+   "material": "tin",
+   "signature": 4195
+  },
+  {
+   "kind": "ship",
+   "rarity": "common",
+   "material": "hephaestanite",
+   "signature": 4180
+  },
+  {
+   "kind": "ship",
+   "rarity": "uncommon",
+   "material": "torite",
+   "signature": 3900
+  },
+  {
+   "kind": "ship",
+   "rarity": "uncommon",
+   "material": "agricium",
+   "signature": 3885
+  },
+  {
+   "kind": "ship",
+   "rarity": "uncommon",
+   "material": "tungsten",
+   "signature": 3870
+  },
+  {
+   "kind": "ship",
+   "rarity": "uncommon",
+   "material": "titanium",
+   "signature": 3855
+  },
+  {
+   "kind": "ship",
+   "rarity": "uncommon",
+   "material": "aslarite",
+   "signature": 3840
+  },
+  {
+   "kind": "ship",
+   "rarity": "uncommon",
+   "material": "laranite",
+   "signature": 3825
+  },
+  {
+   "kind": "ship",
+   "rarity": "rare",
+   "material": "bexalite",
+   "signature": 3600
+  },
+  {
+   "kind": "ship",
+   "rarity": "rare",
+   "material": "gold",
+   "signature": 3585
+  },
+  {
+   "kind": "ship",
+   "rarity": "rare",
+   "material": "borase",
+   "signature": 3570
+  },
+  {
+   "kind": "ship",
+   "rarity": "rare",
+   "material": "taranite",
+   "signature": 3555
+  },
+  {
+   "kind": "ship",
+   "rarity": "rare",
+   "material": "beryl",
+   "signature": 3540
+  },
+  {
+   "kind": "ship",
+   "rarity": "epic",
+   "material": "lindinium",
+   "signature": 3400
+  },
+  {
+   "kind": "ship",
+   "rarity": "epic",
+   "material": "riccite",
+   "signature": 3385
+  },
+  {
+   "kind": "ship",
+   "rarity": "epic",
+   "material": "ouratite",
+   "signature": 3370
+  },
+  {
+   "kind": "ship",
+   "rarity": "legendary",
+   "material": "savrilium",
+   "signature": 3200
+  },
+  {
+   "kind": "ship",
+   "rarity": "legendary",
+   "material": "stileron",
+   "signature": 3185
+  },
+  {
+   "kind": "ship",
+   "rarity": "legendary",
+   "material": "quantainium",
+   "signature": 3170
+  }
+ ],
+ "salvage": [
+  {
+   "signature": 2000,
+   "records": 21
+  },
+  {
+   "signature": 1700,
+   "records": 2
+  },
+  {
+   "signature": 3000,
+   "records": 1
+  },
+  {
+   "signature": 1850,
+   "records": 1
+  },
+  {
+   "signature": 2400,
+   "records": 1
+  }
+ ]
+}

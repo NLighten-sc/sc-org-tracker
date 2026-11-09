@@ -16,7 +16,7 @@
       "url": "crafting-blueprints.json"
     },
     "log-patterns.json": {
-      "version": "4.10.2-r18",
+      "version": "4.10.2-r20",
       "url": "log-patterns.json"
     },
     "locations.json": {
@@ -86,6 +86,10 @@
     "loot.json": {
       "version": "4.10.2-r1",
       "url": "loot.json"
+    },
+    "mining-reference.json": {
+      "version": "4.10.2-r1",
+      "url": "mining-reference.json"
     }
   }
 }
