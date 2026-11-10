@@ -1,5 +1,5 @@
 {
-  "data_version": "4.10.2-r20",
+  "data_version": "4.10.2-r21",
   "patch_version": "4.10.2",
   "_comment": "Verified against real Game.log files (patches 3.21-4.10.2). Named groups are read by the parser. 'toggle' links a pattern to a Settings > Log Reader switch.",
   "patterns": {
@@ -62,8 +62,8 @@
     },
     "ship_route": {
       "toggle": "ship",
-      "_comment": "Quantum routing names the ship you are flying (only your own: checked 2026-11-09); the screen scanner reads live while it is a mining vehicle",
-      "regex": "\\[ItemNavigation\\]\\[CL\\]\\[\\d+\\] \\| NOT AUTH \\| (?<code>[A-Za-z][A-Za-z0-9_]*?)_\\d+\\["
+      "_comment": "Quantum routing names the ship you are flying; the screen scanner reads live while it is a mining vehicle. 'Server Rerouted' and 'Quantum Drive Arrived' lines also name party members' ships (Cutter, Prospector, Corsair in a group mining run 2026-11-09), so they are skipped",
+      "regex": "<(?!Local Route Guard - Server Rerouted|Quantum Drive Arrived)[^>]*> \\[ItemNavigation\\]\\[CL\\]\\[\\d+\\] \\| NOT AUTH \\| (?<code>[A-Za-z][A-Za-z0-9_]*?)_\\d+\\["
     },
     "gear_attached": {
       "toggle": "gear",
