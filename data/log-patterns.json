@@ -1,5 +1,5 @@
 {
-  "data_version": "4.10.2-r21",
+  "data_version": "4.10.2-r22",
   "patch_version": "4.10.2",
   "_comment": "Verified against real Game.log files (patches 3.21-4.10.2). Named groups are read by the parser. 'toggle' links a pattern to a Settings > Log Reader switch.",
   "patterns": {
@@ -94,6 +94,11 @@
       "toggle": "gear",
       "_comment": "A container being opened, by entity name and its inventory id: the player's own backpack/armour, a loot box, an NPC's armour, a crate",
       "regex": "<Inventory Token Flow> Requesting access token for User\\[[^\\]]+\\] on Inventory\\[(?<code>[A-Za-z0-9_]+?)_\\d+, (?<cid>\\d+)\\]"
+    },
+    "inventory_close": {
+      "toggle": "gear",
+      "_comment": "The inventory screen closing: the access asked for when it opened (gear_container_open) is given back, one line per container. When none is left open, the inventory is closed (the screen scanner's storage teaching ends)",
+      "regex": "<Inventory Token Flow> Relinquishing access token\\[granted: \\d+\\] for User\\[\\d+\\] on Entity\\[(?<code>[A-Za-z0-9_]+?)_\\d+, (?<cid>\\d+)\\]"
     },
     "gear_died": {
       "toggle": "gear",
