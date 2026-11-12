@@ -1,6 +1,6 @@
 {
-  "patch_version": "4.10.2",
-  "published_at": "2026-10-30T00:00:00Z",
+  "patch_version": "4.10.3",
+  "published_at": "2026-11-12T19:10:32Z",
   "sync_server_url": "https://rpi4.tailbafedc.ts.net",
   "files": {
     "materials.json": {
@@ -40,11 +40,11 @@
       "url": "commodities.json"
     },
     "item-catalog.json": {
-      "version": "4.10.2-r3",
+      "version": "4.10.3-r1",
       "url": "item-catalog.json"
     },
     "mining-locations.json": {
-      "version": "4.10.2-r3",
+      "version": "4.10.3-r1",
       "url": "mining-locations.json"
     },
     "mining-properties.json": {
@@ -60,11 +60,11 @@
       "url": "item-sources.json"
     },
     "refining-methods.json": {
-      "version": "4.10.2-r1",
+      "version": "4.10.3-r1",
       "url": "refining-methods.json"
     },
     "mission-givers.json": {
-      "version": "4.10.2-r2",
+      "version": "4.10.3-r1",
       "url": "mission-givers.json"
     },
     "blueprint-quality.json": {
@@ -76,19 +76,19 @@
       "url": "blueprint-sources.json"
     },
     "reputation-ladders.json": {
-      "version": "4.10.2-r1",
+      "version": "4.10.3-r1",
       "url": "reputation-ladders.json"
     },
     "ore-qualities.json": {
-      "version": "4.10.2-r1",
+      "version": "4.10.3-r1",
       "url": "ore-qualities.json"
     },
     "loot.json": {
-      "version": "4.10.2-r1",
+      "version": "4.10.3-r1",
       "url": "loot.json"
     },
     "mining-reference.json": {
-      "version": "4.10.2-r1",
+      "version": "4.10.3-r1",
       "url": "mining-reference.json"
     }
   }

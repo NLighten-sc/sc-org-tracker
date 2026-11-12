@@ -1,6 +1,6 @@
 {
- "_source": "Refining process records (the game files hold names only, no yield or time figures) — Game2.dcb + global.ini (patch 4.10.2)",
- "game_version": "4.10.2",
+ "_source": "Refining process records (the game files hold names only, no yield or time figures) — Game2.dcb + global.ini (patch 4.10.3)",
+ "game_version": "4.10.3",
  "methods": [
   {
    "name": "Pyrometric Chromalysis",

@@ -1,6 +1,6 @@
 {
- "_source": "Mission broker records; keys match the app's mission title key — Game2.dcb + global.ini (patch 4.10.2)",
- "game_version": "4.10.2",
+ "_source": "Mission broker records; keys match the app's mission title key — Game2.dcb + global.ini (patch 4.10.3)",
+ "game_version": "4.10.3",
  "givers": {
   "[x] clean up": [
    "Tar Pits"

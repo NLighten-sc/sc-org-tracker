@@ -1,6 +1,6 @@
 {
- "_source": "Crafting quality quantization records (crafting/qualityquantization) — Game2.dcb + global.ini (patch 4.10.2)",
- "game_version": "4.10.2",
+ "_source": "Crafting quality quantization records (crafting/qualityquantization) — Game2.dcb + global.ini (patch 4.10.3)",
+ "game_version": "4.10.3",
  "_note": "Every quality each material can have; a rolled quality is mapped to one of these",
  "qualities": {
   "agricium": [

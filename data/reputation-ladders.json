@@ -1,6 +1,6 @@
 {
- "_source": "reputation/scopes + reputation/standings records (Game2.dcb) + global.ini (patch 4.10.2)",
- "game_version": "4.10.2",
+ "_source": "reputation/scopes + reputation/standings records (Game2.dcb) + global.ini (patch 4.10.3)",
+ "game_version": "4.10.3",
  "_note": "min = reputation needed for the rank; drift = reputation gained (+) or lost (-) every drift_hours while in that rank",
  "ladders": [
   {
@@ -736,7 +736,7 @@
   {
    "scope": "FactionReputation",
    "display": "Standing",
-   "ceiling": 95250,
+   "ceiling": 95251,
    "initial": 0,
    "ranks": [
     {

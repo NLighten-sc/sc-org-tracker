@@ -1,6 +1,6 @@
 {
- "_source": "Game2.dcb records (patch 4.10.2): vehicleRole of spaceships/groundvehicles, the 5th radar signature of spawnable mineable rocks and salvage",
- "game_version": "4.10.2",
+ "_source": "Game2.dcb records (patch 4.10.3): vehicleRole of spaceships/groundvehicles, the 5th radar signature of spawnable mineable rocks and salvage",
+ "game_version": "4.10.3",
  "_note": "A HUD signature is the per-rock value times the number of rocks (a sum when several are under the aim)",
  "vehicles": [
   {

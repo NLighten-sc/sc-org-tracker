@@ -1,6 +1,6 @@
 {
- "_source": "Harvestable provider presets → rock compositions → mineable elements — Game2.dcb + global.ini (patch 4.10.2)",
- "game_version": "4.10.2",
+ "_source": "Harvestable provider presets → rock compositions → mineable elements — Game2.dcb + global.ini (patch 4.10.3)",
+ "game_version": "4.10.3",
  "_note": "share = % of that method's rocks at the location that are this rock type; chance = % of those rocks carrying the material; min/max = % of the rock it makes up",
  "locations": {
   "nyx_glaciemring": {

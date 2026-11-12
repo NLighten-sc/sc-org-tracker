@@ -1,6 +1,6 @@
 {
- "_source": "Entity records; keys are lower-cased class names, micro_scu = volume in µSCU — Game2.dcb + global.ini (patch 4.10.2)",
- "game_version": "4.10.2",
+ "_source": "Entity records; keys are lower-cased class names, micro_scu = volume in µSCU — Game2.dcb + global.ini (patch 4.10.3)",
+ "game_version": "4.10.3",
  "items": {
   "3_seat_bench_constellation": {
    "name": "Seat",
@@ -916,26 +916,6 @@
    "name": "Aegis Gladius Valiant",
    "category": "vehicle"
   },
-  "aegs_hammerhead": {
-   "name": "Aegis Hammerhead",
-   "category": "vehicle"
-  },
-  "aegs_hammerhead_ai_super": {
-   "name": "Aegis Hammerhead",
-   "category": "vehicle"
-  },
-  "aegs_hammerhead_ai_super_civ": {
-   "name": "Aegis Hammerhead",
-   "category": "vehicle"
-  },
-  "aegs_hammerhead_ai_super_crim": {
-   "name": "Aegis Hammerhead",
-   "category": "vehicle"
-  },
-  "aegs_hammerhead_ai_template_shipboarded": {
-   "name": "Aegis Hammerhead",
-   "category": "vehicle"
-  },
   "aegs_hammerhead_cml_chaff": {
    "name": "Aegis Hammerhead - Noise Launcher",
    "category": "other"
@@ -943,10 +923,6 @@
   "aegs_hammerhead_cml_flare": {
    "name": "Aegis Hammerhead - Decoy Launcher",
    "category": "other"
-  },
-  "aegs_hammerhead_ea_ai_pir": {
-   "name": "Aegis Hammerhead",
-   "category": "vehicle"
   },
   "aegs_hammerhead_gs": {
    "name": "Aegis Hammerhead",
@@ -1041,30 +1017,6 @@
    "category": "vehicle"
   },
   "aegs_hammerhead_gs_unmanned_template": {
-   "name": "Aegis Hammerhead",
-   "category": "vehicle"
-  },
-  "aegs_hammerhead_pu_ai_civ": {
-   "name": "Aegis Hammerhead",
-   "category": "vehicle"
-  },
-  "aegs_hammerhead_pu_ai_crim": {
-   "name": "Aegis Hammerhead",
-   "category": "vehicle"
-  },
-  "aegs_hammerhead_pu_ai_nt": {
-   "name": "Aegis Hammerhead",
-   "category": "vehicle"
-  },
-  "aegs_hammerhead_pu_ai_nt_qig": {
-   "name": "Aegis Hammerhead",
-   "category": "vehicle"
-  },
-  "aegs_hammerhead_pu_ai_uee": {
-   "name": "Aegis Hammerhead",
-   "category": "vehicle"
-  },
-  "aegs_hammerhead_pu_ai_xenothreat": {
    "name": "Aegis Hammerhead",
    "category": "vehicle"
   },
@@ -1199,18 +1151,6 @@
   "aegs_hammerhead_scitem_turret_top_lowpoly": {
    "name": "Manned Turret",
    "category": "other"
-  },
-  "aegs_hammerhead_showdown": {
-   "name": "Aegis Hammerhead 2949 Best In Show Edition",
-   "category": "vehicle"
-  },
-  "aegs_hammerhead_unmanned_ninetails": {
-   "name": "Aegis Hammerhead",
-   "category": "vehicle"
-  },
-  "aegs_hammerhead_unmanned_salvage": {
-   "name": "Aegis Hammerhead",
-   "category": "vehicle"
   },
   "aegs_idris_cml_chaff": {
    "name": "Aegis Hammerhead - Noise Launcher",
@@ -2171,7 +2111,7 @@
    "size": 3,
    "grade": 3,
    "maker": "Aegis Dynamics",
-   "micro_scu": 8000000,
+   "micro_scu": 200000000,
    "uuid": "1d9f2186-2465-4b62-a5cb-f1bc8e3dd390"
   },
   "aegs_retaliator_module_front_bomber": {
@@ -2181,7 +2121,7 @@
    "size": 3,
    "grade": 3,
    "maker": "Aegis Dynamics",
-   "micro_scu": 8000000,
+   "micro_scu": 200000000,
    "uuid": "e336f444-1d23-4707-8ec1-570b7205e83b"
   },
   "aegs_retaliator_module_front_cargo": {
@@ -2191,7 +2131,7 @@
    "size": 3,
    "grade": 3,
    "maker": "Aegis Dynamics",
-   "micro_scu": 8000000,
+   "micro_scu": 200000000,
    "uuid": "4cd10ac0-2c15-4753-9284-fafe5e8fa7db"
   },
   "aegs_retaliator_module_rear_base": {
@@ -2201,7 +2141,7 @@
    "size": 3,
    "grade": 3,
    "maker": "Aegis Dynamics",
-   "micro_scu": 8000000,
+   "micro_scu": 200000000,
    "uuid": "2085bd4c-f2f3-4630-aee6-da2d455e92ac"
   },
   "aegs_retaliator_module_rear_bomber": {
@@ -2211,7 +2151,7 @@
    "size": 3,
    "grade": 3,
    "maker": "Aegis Dynamics",
-   "micro_scu": 8000000,
+   "micro_scu": 200000000,
    "uuid": "130ea15f-d075-403d-89c9-60d303fc25f0"
   },
   "aegs_retaliator_module_rear_cargo": {
@@ -2221,7 +2161,7 @@
    "size": 3,
    "grade": 3,
    "maker": "Aegis Dynamics",
-   "micro_scu": 8000000,
+   "micro_scu": 200000000,
    "uuid": "429ea43c-5157-4617-bc13-23ca093cc678"
   },
   "aegs_retaliator_pu_ai_crim": {
@@ -4439,23 +4379,23 @@
    "category": "other"
   },
   "anvl_ballista": {
-   "name": "Anvil Ballista",
+   "name": "Anvil HM6 Ballista",
    "category": "vehicle"
   },
   "anvl_ballista_dunestalker": {
-   "name": "Anvil Ballista Dunestalker",
+   "name": "Anvil HM6 Ballista Dunestalker",
    "category": "vehicle"
   },
   "anvl_ballista_ea_outlaw": {
-   "name": "Anvil Ballista",
+   "name": "Anvil HM6 Ballista",
    "category": "vehicle"
   },
   "anvl_ballista_ea_uee": {
-   "name": "Anvil Ballista",
+   "name": "Anvil HM6 Ballista",
    "category": "vehicle"
   },
   "anvl_ballista_pu_ai_nt": {
-   "name": "Anvil Ballista",
+   "name": "Anvil HM6 Ballista",
    "category": "vehicle"
   },
   "anvl_ballista_scitem_seat_driver": {
@@ -4479,7 +4419,7 @@
    "category": "other"
   },
   "anvl_ballista_snowblind": {
-   "name": "Anvil Ballista Snowblind",
+   "name": "Anvil HM6 Ballista Snowblind",
    "category": "vehicle"
   },
   "anvl_ballisticgatling_bespoke": {
@@ -4729,11 +4669,11 @@
    "category": "vehicle"
   },
   "anvl_centurion": {
-   "name": "Anvil Centurion",
+   "name": "Anvil HM6 Centurion",
    "category": "vehicle"
   },
   "anvl_centurion_ai_ninetails": {
-   "name": "Anvil Centurion",
+   "name": "Anvil HM6 Centurion",
    "category": "vehicle"
   },
   "anvl_centurion_scitem_exterior_seataccess": {
@@ -5226,6 +5166,90 @@
    "name": "Manned Turret",
    "category": "other"
   },
+  "anvl_liberator": {
+   "name": "Anvil Liberator",
+   "category": "vehicle"
+  },
+  "anvl_liberator_ai_civ": {
+   "name": "Anvil Liberator",
+   "category": "vehicle"
+  },
+  "anvl_liberator_ai_crim": {
+   "name": "Anvil Liberator",
+   "category": "vehicle"
+  },
+  "anvl_liberator_ai_template": {
+   "name": "Anvil Liberator",
+   "category": "vehicle"
+  },
+  "anvl_liberator_cml_chaff": {
+   "name": "Anvil Noise Launcher",
+   "category": "other"
+  },
+  "anvl_liberator_cml_flair": {
+   "name": "Anvil Decoy Launcher",
+   "category": "other"
+  },
+  "anvl_liberator_ground_fuelport": {
+   "name": "Door Control",
+   "category": "other"
+  },
+  "anvl_liberator_pilot_dashboard": {
+   "name": "Dashboard",
+   "category": "other"
+  },
+  "anvl_liberator_scitem_dashboard_gunner": {
+   "name": "Dashboard",
+   "category": "other"
+  },
+  "anvl_liberator_scitem_dashboard_pilot": {
+   "name": "Dashboard",
+   "category": "other"
+  },
+  "anvl_liberator_scitem_remote_turret": {
+   "name": "Remote Turret",
+   "category": "other"
+  },
+  "anvl_liberator_scitem_remote_turret_bottom": {
+   "name": "Remote Turret",
+   "category": "other"
+  },
+  "anvl_liberator_scitem_seat_gunner": {
+   "name": "TRGT. STATUS",
+   "category": "other"
+  },
+  "anvl_liberator_scitem_seat_pilot": {
+   "name": "TRGT. STATUS",
+   "category": "other"
+  },
+  "anvl_liberator_scitem_seataccess": {
+   "name": "Seat",
+   "category": "other"
+  },
+  "anvl_liberator_scitem_seataccess_console": {
+   "name": "Seat",
+   "category": "other"
+  },
+  "anvl_liberator_scitem_seataccess_gunner": {
+   "name": "Seat",
+   "category": "other"
+  },
+  "anvl_liberator_scitem_seataccess_manned_turret": {
+   "name": "Seat",
+   "category": "other"
+  },
+  "anvl_liberator_scitem_seatdashboard_gunner": {
+   "name": "TRGT. STATUS",
+   "category": "other"
+  },
+  "anvl_liberator_seat_pilot": {
+   "name": "TRGT. STATUS",
+   "category": "other"
+  },
+  "anvl_liberator_turret_top": {
+   "name": "Manned Turret",
+   "category": "other"
+  },
   "anvl_lightning_f8": {
    "name": "Anvil F8A Lightning",
    "category": "vehicle"
@@ -5431,7 +5455,7 @@
    "category": "other"
   },
   "anvl_spartan": {
-   "name": "Anvil Spartan",
+   "name": "Anvil HM6 Spartan",
    "category": "vehicle"
   },
   "anvl_spartan_rear_entrance": {
@@ -7243,6 +7267,16 @@
    "micro_scu": 198,
    "uuid": "54e47ec3-7805-4f45-a298-7c92eca2d78e"
   },
+  "banu_melee_05": {
+   "name": "Kamba Knife",
+   "category": "weapon",
+   "type": "WeaponPersonal/Knife",
+   "size": 1,
+   "grade": 1,
+   "maker": "Banu",
+   "micro_scu": 198,
+   "uuid": "dcf88fa4-bc25-4281-bf19-ef374f0008fa"
+  },
   "banu_tachyoncannon_s1": {
    "name": "Singe Cannon (S1)",
    "category": "ship_weapon",
@@ -7466,6 +7500,10 @@
    "category": "other"
   },
   "bed_bunk_valkyrie_anvl": {
+   "name": "Bed",
+   "category": "other"
+  },
+  "bed_capsule_gama_hyun": {
    "name": "Bed",
    "category": "other"
   },
@@ -7741,6 +7779,10 @@
    "name": "Medical Bed",
    "category": "other"
   },
+  "bed_single_medical_galaxy_tier_1": {
+   "name": "Medical Bed",
+   "category": "other"
+  },
   "bed_single_medical_generic_template": {
    "name": "Medical Bed",
    "category": "other"
@@ -7841,7 +7883,15 @@
    "name": "Medical Bed",
    "category": "other"
   },
+  "bed_single_medical_ship_canister_t1_vehicle_template": {
+   "name": "Medical Bed",
+   "category": "other"
+  },
   "bed_single_medical_ship_canister_t2_template": {
+   "name": "Medical Bed",
+   "category": "other"
+  },
+  "bed_single_medical_ship_canister_t2_vehicle_template": {
    "name": "Medical Bed",
    "category": "other"
   },
@@ -7849,7 +7899,15 @@
    "name": "Medical Bed",
    "category": "other"
   },
+  "bed_single_medical_ship_canister_t3_vehicle_template": {
+   "name": "Medical Bed",
+   "category": "other"
+  },
   "bed_single_medical_ship_nocanister_t1_template": {
+   "name": "Medical Bed",
+   "category": "other"
+  },
+  "bed_single_medical_ship_nocanister_t1_vehicle_template": {
    "name": "Medical Bed",
    "category": "other"
   },
@@ -7857,7 +7915,15 @@
    "name": "Medical Bed",
    "category": "other"
   },
+  "bed_single_medical_ship_nocanister_t2_galaxy": {
+   "name": "Medical Bed",
+   "category": "other"
+  },
   "bed_single_medical_ship_nocanister_t2_template": {
+   "name": "Medical Bed",
+   "category": "other"
+  },
+  "bed_single_medical_ship_nocanister_t2_vehicle_template": {
    "name": "Medical Bed",
    "category": "other"
   },
@@ -7865,7 +7931,15 @@
    "name": "Medical Bed",
    "category": "other"
   },
+  "bed_single_medical_ship_nocanister_t3_galaxy": {
+   "name": "Medical Bed",
+   "category": "other"
+  },
   "bed_single_medical_ship_nocanister_t3_template": {
+   "name": "Medical Bed",
+   "category": "other"
+  },
+  "bed_single_medical_ship_nocanister_t3_vehicle_template": {
    "name": "Medical Bed",
    "category": "other"
   },
@@ -7962,6 +8036,10 @@
    "category": "other"
   },
   "bed_single_rsi_constellation_phoenix_right": {
+   "name": "Bed",
+   "category": "other"
+  },
+  "bed_single_rsi_galaxy_crew": {
    "name": "Bed",
    "category": "other"
   },
@@ -8435,6 +8513,16 @@
    "micro_scu": 84000,
    "uuid": "871d4786-d443-493f-b2b9-d610b4108c6a"
   },
+  "behr_lasercannon_s1_mr02": {
+   "name": "M3A Cannon Raider Camo",
+   "category": "ship_weapon",
+   "type": "WeaponGun/Gun",
+   "size": 1,
+   "grade": 1,
+   "maker": "Behring",
+   "micro_scu": 84000,
+   "uuid": "36db47ca-d33b-484e-a2cc-fdf51b7bd549"
+  },
   "behr_lasercannon_s2": {
    "name": "M4A Cannon",
    "category": "ship_weapon",
@@ -8455,6 +8543,16 @@
    "micro_scu": 252000,
    "uuid": "31629f0f-3324-4ec1-8da2-4a6ead6a62b2"
   },
+  "behr_lasercannon_s2_mr02": {
+   "name": "M4A Cannon Raider Camo",
+   "category": "ship_weapon",
+   "type": "WeaponGun/Gun",
+   "size": 2,
+   "grade": 1,
+   "maker": "Behring",
+   "micro_scu": 252000,
+   "uuid": "b0ff21c6-312f-4196-88fb-c24d883ca003"
+  },
   "behr_lasercannon_s3": {
    "name": "M5A Cannon",
    "category": "ship_weapon",
@@ -8474,6 +8572,16 @@
    "maker": "Behring",
    "micro_scu": 756000,
    "uuid": "c3cb8de9-dbd1-43c5-bc65-4dadc5f3ecee"
+  },
+  "behr_lasercannon_s3_mr02": {
+   "name": "M5A Cannon Raider Camo",
+   "category": "ship_weapon",
+   "type": "WeaponGun/Gun",
+   "size": 3,
+   "grade": 1,
+   "maker": "Behring",
+   "micro_scu": 756000,
+   "uuid": "9fd5d7b0-0a54-40b5-a36e-dca802cd3aaa"
   },
   "behr_lasercannon_s4": {
    "name": "M6A Cannon",
@@ -9503,26 +9611,6 @@
    "maker": "Behring",
    "micro_scu": 1,
    "uuid": "7a8d5207-e203-4bbc-8cec-6956b4129a7e"
-  },
-  "bmbrck_crus_starl_left": {
-   "name": "MSD-313 Missile Rack",
-   "category": "ship_weapon",
-   "type": "BombLauncher/BombRack",
-   "size": 10,
-   "grade": 1,
-   "maker": "Behring",
-   "micro_scu": 1,
-   "uuid": "4394a178-7e74-4943-9538-2139f65839fd"
-  },
-  "bmbrck_crus_starl_right": {
-   "name": "MSD-313 Missile Rack",
-   "category": "ship_weapon",
-   "type": "BombLauncher/BombRack",
-   "size": 10,
-   "grade": 1,
-   "maker": "Behring",
-   "micro_scu": 1,
-   "uuid": "8352da44-4b63-4a4b-8397-734dfb11698b"
   },
   "bmbrck_s03_aegs_eclipse": {
    "name": "Aegis Eclipse 20xS3 Bomb Rack",
@@ -11044,6 +11132,15 @@
    "micro_scu": 2061,
    "uuid": "fff7ce37-9c5f-4af3-9f11-37b7a0265d8f"
   },
+  "carryable_1h_fl_flair_luminalia_gift_card_1_a": {
+   "name": "Pop-Up Pico Luminalia Card",
+   "category": "carryable",
+   "type": "Misc",
+   "size": 1,
+   "grade": 1,
+   "micro_scu": 0,
+   "uuid": "7bc2e8ad-6e9a-4838-9a8c-8c2787c56346"
+  },
   "carryable_1h_sq_cable_bundle_1_a": {
    "name": "Scrap Cable Bundle",
    "category": "carryable",
@@ -11584,6 +11681,42 @@
    "micro_scu": 110,
    "uuid": "094f1bf4-0cc1-4e70-8a62-d876a5595245"
   },
+  "carryable_1h_sq_flair_coin_iae_bis_drake_corsair_2026": {
+   "name": "Corsair BIS '56 Coin",
+   "category": "carryable",
+   "type": "Misc/Utility",
+   "size": 1,
+   "grade": 1,
+   "micro_scu": 110,
+   "uuid": "bffe0e54-21da-4230-9cf7-18b1d9d4a71b"
+  },
+  "carryable_1h_sq_flair_coin_iae_bis_ironclad_assault_2026": {
+   "name": "Ironclad Assault BIS '56 Coin",
+   "category": "carryable",
+   "type": "Misc/Utility",
+   "size": 1,
+   "grade": 1,
+   "micro_scu": 110,
+   "uuid": "0873a681-884c-4d8e-ac1f-e55a0b89f938"
+  },
+  "carryable_1h_sq_flair_coin_iae_bis_origin_m80_2026": {
+   "name": "Origin M80 BIS '56 Coin",
+   "category": "carryable",
+   "type": "Misc/Utility",
+   "size": 1,
+   "grade": 1,
+   "micro_scu": 110,
+   "uuid": "407433fa-418a-4efc-94fe-a7efd328b5cf"
+  },
+  "carryable_1h_sq_flair_coin_iae_bis_rsi_perseus_2026": {
+   "name": "Perseus BIS '56 Coin",
+   "category": "carryable",
+   "type": "Misc/Utility",
+   "size": 1,
+   "grade": 1,
+   "micro_scu": 110,
+   "uuid": "d5d1403f-8ad9-4658-a241-f57f0aacf22d"
+  },
   "carryable_1h_sq_flair_coin_pirateweek_2026": {
    "name": "Crossed Swords '56 Coin",
    "category": "carryable",
@@ -11839,6 +11972,16 @@
    "micro_scu": 50000,
    "uuid": "62a52a44-d40f-4c77-ac98-fb62e9612e79"
   },
+  "carryable_2h_cy_toy_plushie_penguin_1_c": {
+   "name": "Pico the Penguin Squadron 42 Plushie",
+   "category": "carryable",
+   "type": "Misc/Personal",
+   "size": 1,
+   "grade": 1,
+   "maker": "Casaba Outlet",
+   "micro_scu": 49400,
+   "uuid": "8d28a109-f883-4adc-8e75-82a634f36ca5"
+  },
   "carryable_2h_cy_toy_plushie_penguin_1_destroyed_a": {
    "name": "Pico the Penguin Plushie",
    "category": "carryable",
@@ -12009,15 +12152,6 @@
    "grade": 1,
    "micro_scu": 125000,
    "uuid": "2cd87e93-a8bf-436a-8caf-9471ca74d690"
-  },
-  "carryable_2h_fl_05x05x05_carrayblelootableitem_luminalia_box": {
-   "name": "Luminalia Gift Box",
-   "category": "carryable",
-   "type": "Container/Box",
-   "size": 2,
-   "grade": 1,
-   "micro_scu": 36000,
-   "uuid": "f9a755a1-5be3-49b7-b90e-a65c32ca0c99"
   },
   "carryable_2h_fl_05x05x05_carrayblelootableitem_pico": {
    "name": "Container",
@@ -12588,6 +12722,15 @@
    "micro_scu": 5930,
    "uuid": "d14abc21-4ce8-49b2-aecc-a5d0efa0d4cb"
   },
+  "carryable_2h_fl_carrayblelootableitem_luminalia_box": {
+   "name": "Luminalia Gift Box",
+   "category": "carryable",
+   "type": "Container/Box",
+   "size": 2,
+   "grade": 1,
+   "micro_scu": 36000,
+   "uuid": "f9a755a1-5be3-49b7-b90e-a65c32ca0c99"
+  },
   "carryable_2h_fl_container_anim_coin_case_1_a": {
    "name": "Coin Display Case",
    "category": "carryable",
@@ -12606,19 +12749,28 @@
    "micro_scu": 5632,
    "uuid": "a61721c0-bb0f-478a-8627-e73a930f9ed3"
   },
+  "carryable_2h_fl_container_anim_coin_case_1_iae2956_a": {
+   "name": "IAE 2956 Coin Display Case",
+   "category": "carryable",
+   "type": "Misc/Flair_Wall_Picture",
+   "size": 1,
+   "grade": 1,
+   "micro_scu": 5632,
+   "uuid": "c57f0db6-c53d-4740-8167-eae52065981d"
+  },
   "carryable_2h_fl_container_anim_medgun_1_a": {
    "name": "Field Medic Kit",
    "category": "carryable",
-   "type": "Misc",
+   "type": "Misc/Flair_Static",
    "size": 1,
    "grade": 1,
    "micro_scu": 50000,
    "uuid": "519d15e5-105d-4e3d-aaaf-f1db9b8f47f6"
   },
   "carryable_2h_fl_container_anim_multitool_1_citizencon2953_1_a": {
-   "name": "Field Medic Kit",
+   "name": "Pyrotechnic Amalgamated Toolbox",
    "category": "carryable",
-   "type": "Misc",
+   "type": "Misc/Flair_Static",
    "size": 1,
    "grade": 1,
    "micro_scu": 27590,
@@ -12924,7 +13076,7 @@
   "carryable_2h_fl_guncase_pistol_briefcase_1_a": {
    "name": "PSX Pistol Case",
    "category": "carryable",
-   "type": "Misc",
+   "type": "Misc/Flair_Static",
    "size": 1,
    "grade": 1,
    "micro_scu": 31433,
@@ -12933,7 +13085,7 @@
   "carryable_2h_fl_guncase_pistol_briefcase_1_behr_a": {
    "name": "PSX Pistol Case",
    "category": "carryable",
-   "type": "Misc",
+   "type": "Misc/Flair_Static",
    "size": 1,
    "grade": 1,
    "maker": "Behring",
@@ -12973,7 +13125,7 @@
    "type": "Cargo/Cargo",
    "size": 2,
    "grade": 1,
-   "micro_scu": 1,
+   "micro_scu": 457222,
    "uuid": "84eda7f0-91a9-4d2b-8b1c-55c431f8518b"
   },
   "carryable_2h_fl_missionitem_prototype_ship_component_2_a": {
@@ -12982,7 +13134,7 @@
    "type": "Cargo/Cargo",
    "size": 2,
    "grade": 1,
-   "micro_scu": 1,
+   "micro_scu": 215109,
    "uuid": "1afc0022-b8fc-4174-8687-6dfc5b744b98"
   },
   "carryable_2h_fl_painting_constellation_a": {
@@ -17400,7 +17552,11 @@
    "category": "other"
   },
   "carryable_tbo_fl_4scu_commodity_organic_vanduulcorpse": {
-   "name": "CryoPod (Vanduul)",
+   "name": "Cryopod (Vanduul)",
+   "category": "other"
+  },
+  "carryable_tbo_fl_4scu_commodity_organic_vanduulcorpse_blue": {
+   "name": "Cryopod (Living Vanduul)",
    "category": "other"
   },
   "carryable_tbo_fl_4scu_commodity_processedgoods_altruciatoxin": {
@@ -18500,19 +18656,19 @@
    "category": "other"
   },
   "carryable_tbo_missionitem_cryopod_human": {
-   "name": "CryoPod",
+   "name": "Cryopod",
    "category": "other"
   },
   "carryable_tbo_missionitem_cryopod_human_hurston": {
-   "name": "CryoPod",
+   "name": "Cryopod",
    "category": "other"
   },
   "carryable_tbo_missionitem_cryopod_nowindow": {
-   "name": "CryoPod",
+   "name": "Cryopod",
    "category": "other"
   },
   "carryable_tbo_missionitem_cryopod_tb": {
-   "name": "CryoPod",
+   "name": "Cryopod",
    "category": "other"
   },
   "carryable_tbo_missionitem_tsg_fueltank": {
@@ -19988,6 +20144,16 @@
    "maker": "CBD",
    "micro_scu": 3200,
    "uuid": "a194d548-ba3b-4670-b366-8a447f0de60f"
+  },
+  "cbd_hat_03_iae2026_01": {
+   "name": "IAE 2956 Hat",
+   "category": "clothing",
+   "type": "Char_Clothing_Hat",
+   "size": 1,
+   "grade": 1,
+   "maker": "CBD",
+   "micro_scu": 3200,
+   "uuid": "e8b102de-975e-4d83-a349-c70d3f0f9495"
   },
   "cbd_hat_03_itg_01": {
    "name": "ITG Hat",
@@ -27660,6 +27826,18 @@
    "name": "Flight Blade",
    "category": "other"
   },
+  "controller_flight_anvl_liberator": {
+   "name": "Flight Blade",
+   "category": "other"
+  },
+  "controller_flight_anvl_liberator_blade_hnd": {
+   "name": "Flight Blade",
+   "category": "other"
+  },
+  "controller_flight_anvl_liberator_blade_spd": {
+   "name": "Flight Blade",
+   "category": "other"
+  },
   "controller_flight_anvl_lightning_f8": {
    "name": "Flight Blade",
    "category": "other"
@@ -27940,6 +28118,10 @@
    "name": "Flight Blade",
    "category": "other"
   },
+  "controller_flight_drak_marauder": {
+   "name": "Flight Blade",
+   "category": "other"
+  },
   "controller_flight_drak_pitbull": {
    "name": "Flight Blade",
    "category": "other"
@@ -27961,6 +28143,10 @@
    "category": "other"
   },
   "controller_flight_espr_talon_shrike": {
+   "name": "Flight Blade",
+   "category": "other"
+  },
+  "controller_flight_gama_hyun": {
    "name": "Flight Blade",
    "category": "other"
   },
@@ -28356,6 +28542,10 @@
    "name": "Constellation Mk IV Taurus TSB Flight Blade",
    "category": "other"
   },
+  "controller_flight_rsi_galaxy": {
+   "name": "Flight Blade",
+   "category": "other"
+  },
   "controller_flight_rsi_hermes": {
    "name": "Flight Blade",
    "category": "other"
@@ -28672,6 +28862,10 @@
    "name": "SHIELDS",
    "category": "other"
   },
+  "controller_shield_anvl_liberator": {
+   "name": "SHIELDS",
+   "category": "other"
+  },
   "controller_shield_anvl_lightning": {
    "name": "SHIELDS",
    "category": "other"
@@ -28828,6 +29022,10 @@
    "name": "SHIELDS",
    "category": "other"
   },
+  "controller_shield_drak_marauder": {
+   "name": "SHIELDS",
+   "category": "other"
+  },
   "controller_shield_drak_mule": {
    "name": "SHIELDS",
    "category": "other"
@@ -28845,6 +29043,10 @@
    "category": "other"
   },
   "controller_shield_espr_talon": {
+   "name": "SHIELDS",
+   "category": "other"
+  },
+  "controller_shield_gama_hyun": {
    "name": "SHIELDS",
    "category": "other"
   },
@@ -29045,6 +29247,10 @@
    "category": "other"
   },
   "controller_shield_rsi_constellation_mm": {
+   "name": "SHIELDS",
+   "category": "other"
+  },
+  "controller_shield_rsi_galaxy": {
    "name": "SHIELDS",
    "category": "other"
   },
@@ -29360,6 +29566,18 @@
    "name": "Door Control",
    "category": "other"
   },
+  "controlpanel_screen_doorcontrol_1x1_3d_gama_hyun_cargobay": {
+   "name": "Door Control",
+   "category": "other"
+  },
+  "controlpanel_screen_doorcontrol_1x1_3d_gama_hyun_lowrange": {
+   "name": "Door Control",
+   "category": "other"
+  },
+  "controlpanel_screen_doorcontrol_1x1_3d_gama_hyun_ramp": {
+   "name": "Door Control",
+   "category": "other"
+  },
   "controlpanel_screen_doorcontrol_1x1_3d_gama_railen": {
    "name": "Door Control",
    "category": "other"
@@ -29393,6 +29611,10 @@
    "category": "other"
   },
   "controlpanel_screen_doorcontrol_1x1_3d_gama_syulen_basic": {
+   "name": "Door Control",
+   "category": "other"
+  },
+  "controlpanel_screen_doorcontrol_1x1_3d_gama_syulen_basic_noip": {
    "name": "Door Control",
    "category": "other"
   },
@@ -29508,6 +29730,10 @@
    "name": "Door Control",
    "category": "other"
   },
+  "controlpanel_screen_doorcontrol_9x16_drak_marauder_phyical_exterior": {
+   "name": "Door Control",
+   "category": "other"
+  },
   "controlpanel_screen_doorcontrol_9x16_elevator_callupsenddown_argo": {
    "name": "Door Control",
    "category": "other"
@@ -29544,11 +29770,19 @@
    "name": "Door Control",
    "category": "other"
   },
+  "controlpanel_screen_doorcontrol_9x16_rsi": {
+   "name": "Door Control",
+   "category": "other"
+  },
   "controlpanel_screen_doorcontrol_9x16_small": {
    "name": "Door Control",
    "category": "other"
   },
   "controlpanel_screen_doorcontrol_9x16_small_aegs": {
+   "name": "Door Control",
+   "category": "other"
+  },
+  "controlpanel_screen_doorcontrol_9x16_small_anvl": {
    "name": "Door Control",
    "category": "other"
   },
@@ -29561,6 +29795,10 @@
    "category": "other"
   },
   "controlpanel_screen_doorcontrol_9x16_small_anvl_carrack_pods": {
+   "name": "Door Control",
+   "category": "other"
+  },
+  "controlpanel_screen_doorcontrol_9x16_small_anvl_exterior_long_range": {
    "name": "Door Control",
    "category": "other"
   },
@@ -29669,6 +29907,10 @@
    "category": "other"
   },
   "controlpanel_screen_doorcontrol_9x16_small_redlock": {
+   "name": "Door Control",
+   "category": "other"
+  },
+  "controlpanel_screen_doorcontrol_9x16_small_rsi": {
    "name": "Door Control",
    "category": "other"
   },
@@ -30061,6 +30303,10 @@
    "category": "other"
   },
   "controlpanel_screen_doorcontrol_physical_ironclad_openindicatorlight_cm_docking": {
+   "name": "Door Control",
+   "category": "other"
+  },
+  "controlpanel_screen_doorcontrol_physical_liberator_ground_fuel_port": {
    "name": "Door Control",
    "category": "other"
   },
@@ -33234,6 +33480,16 @@
    "micro_scu": 8700,
    "uuid": "0140c71f-56db-4d37-b98e-0a7a0ee6188d"
   },
+  "dmc_jacket_15_01_01": {
+   "name": "2956 Best in Show Bomber Jacket",
+   "category": "clothing",
+   "type": "Char_Clothing_Torso_1",
+   "size": 1,
+   "grade": 1,
+   "maker": "DMC",
+   "micro_scu": 8700,
+   "uuid": "679f5a5b-2ad8-49d1-933f-c9668be38129"
+  },
   "dmc_pants_01_01_01": {
    "name": "Foundation Pants Grey",
    "category": "clothing",
@@ -34477,6 +34733,10 @@
    "name": "Door",
    "category": "other"
   },
+  "door_rn_roomconnector_breachable_openclose_galaxy_docking_collar": {
+   "name": "Door",
+   "category": "other"
+  },
   "door_rn_roomconnector_breachable_openclose_gama_railen_elevator_door": {
    "name": "Door",
    "category": "other"
@@ -34893,6 +35153,10 @@
    "name": "Door",
    "category": "other"
   },
+  "door_rn_roomconnector_breachable_openreverse_gama_hyun_ramp": {
+   "name": "Door",
+   "category": "other"
+  },
   "door_rn_roomconnector_breachable_openreverse_gama_syulen_entrance": {
    "name": "Door",
    "category": "other"
@@ -34966,6 +35230,10 @@
    "category": "other"
   },
   "door_rn_roomconnector_breachable_openreverse_ironclad_int_docking": {
+   "name": "Door",
+   "category": "other"
+  },
+  "door_rn_roomconnector_breachable_openreverse_liberator_docking_door": {
    "name": "Door",
    "category": "other"
   },
@@ -35065,6 +35333,10 @@
    "name": "Door",
    "category": "other"
   },
+  "door_rn_roomconnector_docking_animator_anvl_liberator": {
+   "name": "Door",
+   "category": "other"
+  },
   "door_rn_roomconnector_docking_animator_drak_caterpillar": {
    "name": "Door",
    "category": "other"
@@ -35118,6 +35390,30 @@
    "category": "other"
   },
   "door_rn_roomconnector_exterior_aegs_retaliator_rear_torpedobay": {
+   "name": "Door",
+   "category": "other"
+  },
+  "door_rn_roomconnector_exterior_anvl_liberator_bay_door": {
+   "name": "Door",
+   "category": "other"
+  },
+  "door_rn_roomconnector_exterior_anvl_liberator_elevator_door_left": {
+   "name": "Door",
+   "category": "other"
+  },
+  "door_rn_roomconnector_exterior_anvl_liberator_elevator_door_right": {
+   "name": "Door",
+   "category": "other"
+  },
+  "door_rn_roomconnector_exterior_anvl_liberator_landing_pad_door": {
+   "name": "Door",
+   "category": "other"
+  },
+  "door_rn_roomconnector_exterior_anvl_liberator_ramp": {
+   "name": "Door",
+   "category": "other"
+  },
+  "door_rn_roomconnector_exterior_anvl_liberator_ramp_rear": {
    "name": "Door",
    "category": "other"
   },
@@ -35178,6 +35474,30 @@
    "category": "other"
   },
   "door_rn_roomconnector_exterior_misc_starlancer_tac_hangar": {
+   "name": "Door",
+   "category": "other"
+  },
+  "door_rn_roomconnector_exterior_rsi_galaxy": {
+   "name": "Door",
+   "category": "other"
+  },
+  "door_rn_roomconnector_exterior_rsi_galaxy_cargolift": {
+   "name": "Door",
+   "category": "other"
+  },
+  "door_rn_roomconnector_exterior_rsi_galaxy_garagelift": {
+   "name": "Door",
+   "category": "other"
+  },
+  "door_rn_roomconnector_exterior_rsi_galaxy_hangar": {
+   "name": "Door",
+   "category": "other"
+  },
+  "door_rn_roomconnector_exterior_rsi_galaxy_lift": {
+   "name": "Door",
+   "category": "other"
+  },
+  "door_rn_roomconnector_exterior_rsi_galaxy_medicallift": {
    "name": "Door",
    "category": "other"
   },
@@ -36250,6 +36570,10 @@
    "category": "vehicle"
   },
   "drak_caterpillar_boarded": {
+   "name": "Drake Caterpillar",
+   "category": "vehicle"
+  },
+  "drak_caterpillar_boarded_shatteredblade": {
    "name": "Drake Caterpillar",
    "category": "vehicle"
   },
@@ -37447,6 +37771,22 @@
   },
   "drak_ironclad_seataccess_tractor_beam_nose_console": {
    "name": "Seat",
+   "category": "other"
+  },
+  "drak_marauder": {
+   "name": "Drake Marauder",
+   "category": "vehicle"
+  },
+  "drak_marauder_ground_fuelport": {
+   "name": "Door Control",
+   "category": "other"
+  },
+  "drak_marauder_seat_access_pilot": {
+   "name": "Access",
+   "category": "other"
+  },
+  "drak_marauder_seat_pilot": {
+   "name": "TRGT. STATUS",
    "category": "other"
   },
   "drak_mule": {
@@ -39699,6 +40039,16 @@
    "micro_scu": 4900,
    "uuid": "390de0a3-b247-4ab3-a236-bf32cfbc0f22"
   },
+  "eld_shirt_04_01_wallysbar": {
+   "name": "Wally's Bar Retro T-Shirt",
+   "category": "clothing",
+   "type": "Char_Clothing_Torso_0",
+   "size": 1,
+   "grade": 1,
+   "maker": "Escar Limited",
+   "micro_scu": 4900,
+   "uuid": "d4066637-1cfa-4246-909c-72226f6c4ca0"
+  },
   "eld_shirt_04_aegis_01_dec": {
    "name": "Aegis Dynamics T-Shirt",
    "category": "clothing",
@@ -40427,6 +40777,15 @@
    "micro_scu": 4900,
    "uuid": "39f98c32-8fc6-45d8-a9ed-0c726f9c49ed"
   },
+  "eld_shirt_10_iae2026_01": {
+   "name": "IAE 2956 T-Shirt",
+   "category": "clothing",
+   "type": "Char_Clothing_Torso_0",
+   "size": 1,
+   "grade": 1,
+   "micro_scu": 4900,
+   "uuid": "6ad44dd0-bcff-4d6b-b2a6-826f7a767217"
+  },
   "eld_shirt_iae2024_11": {
    "name": "microTech T-Shirt",
    "category": "clothing",
@@ -41074,6 +41433,10 @@
   "espr_prowler_utility_collector_indust": {
    "name": "Esperia Prowler Utility Wikelo Work Special",
    "category": "vehicle"
+  },
+  "espr_prowler_utility_dashboard_pilot": {
+   "name": "Cockpit",
+   "category": "other"
   },
   "espr_prowler_utility_pu_ai_civ": {
    "name": "Esperia Prowler Utility",
@@ -43144,9 +43507,27 @@
    "type": "Flair_Cockpit/Flair_Static",
    "size": 1,
    "grade": 1,
-   "maker": "Sakura Sun",
    "micro_scu": 594,
    "uuid": "8c12ca2b-3b21-4603-a34f-e60969c7ca98"
+  },
+  "flair_dashboard_cockpit_bot_luminalia_1_a": {
+   "name": "Emoto “Luminalia” Dashbot",
+   "category": "decoration",
+   "type": "Flair_Cockpit/Flair_Static",
+   "size": 1,
+   "grade": 1,
+   "maker": "Sakura Sun",
+   "micro_scu": 594,
+   "uuid": "6972dedc-cf78-4335-af87-e95dbb6ba1d2"
+  },
+  "flair_dashboard_cockpit_hologram_wallysbar_1_a": {
+   "name": "Wally's Bar Neon Light",
+   "category": "decoration",
+   "type": "Flair_Cockpit/Flair_Static",
+   "size": 1,
+   "grade": 1,
+   "micro_scu": 1,
+   "uuid": "1988f14b-5fff-4350-831b-932fef8859d2"
   },
   "flair_dashboard_flag_uee_1_a": {
    "name": "United Nations of Earth Mini-Flag",
@@ -45803,6 +46184,22 @@
    "name": "Joker Defcon - Noise Launcher",
    "category": "other"
   },
+  "gama_hyun": {
+   "name": "Gatac Hyun",
+   "category": "vehicle"
+  },
+  "gama_hyun_pilot_seat": {
+   "name": "TRGT. STATUS",
+   "category": "other"
+  },
+  "gama_hyun_scitem_remote_salvage_turret": {
+   "name": "Remote Turret",
+   "category": "other"
+  },
+  "gama_hyun_seataccess": {
+   "name": "Seat",
+   "category": "other"
+  },
   "gama_railen": {
    "name": "Gatac Railen",
    "category": "vehicle"
@@ -46981,6 +47378,16 @@
    "micro_scu": 7500,
    "uuid": "6e81767a-ac5e-476e-a878-5e109121a7a7"
   },
+  "gmni_smg_ballistic_01_store01": {
+   "name": "C54 \"Epoque\" SMG",
+   "category": "weapon",
+   "type": "WeaponPersonal/Medium",
+   "size": 2,
+   "grade": 1,
+   "maker": "Gemini",
+   "micro_scu": 7500,
+   "uuid": "c53bf3c5-2238-43e2-b412-e0fcffabad3b"
+  },
   "gmni_sniper_ballistic_01": {
    "name": "A03 Sniper Rifle",
    "category": "weapon",
@@ -47758,6 +48165,16 @@
    "maker": "Greycat Industrial",
    "micro_scu": 13000,
    "uuid": "b8262c6e-ea03-441e-befd-8b4283d8e847"
+  },
+  "grin_salvage_repair_01_lumi01": {
+   "name": "Cambio \"Piconalia\" SRT",
+   "category": "tool",
+   "type": "WeaponPersonal/Gadget",
+   "size": 2,
+   "grade": 1,
+   "maker": "Greycat Industrial",
+   "micro_scu": 13000,
+   "uuid": "cec69bf9-9a96-4d46-99f0-b90c2e19957e"
   },
   "grin_salvage_repair_01_store01": {
    "name": "Cambio \"Heartthrob\" SRT",
@@ -51022,6 +51439,16 @@
    "micro_scu": 480,
    "uuid": "94b9bfce-d88c-4433-b45e-28feef36a266"
   },
+  "hdgw_rifle_ballistic_01_store01": {
+   "name": "Arlington \"Everglade\" Rifle",
+   "category": "weapon",
+   "type": "WeaponPersonal/Medium",
+   "size": 2,
+   "grade": 1,
+   "maker": "Hedeby Gunworks",
+   "micro_scu": 13000,
+   "uuid": "b12ab6b2-a73e-47c2-9c62-72514f7e4dc3"
+  },
   "hdgw_rifle_ballistic_01_tint01": {
    "name": "Arlington \"Gamekeeper\" Rifle",
    "category": "weapon",
@@ -54150,6 +54577,16 @@
    "micro_scu": 8000,
    "uuid": "bfc2d914-873d-45a3-866d-c5757fb20c7b"
   },
+  "kap_combat_light_arms_02_03_01": {
+   "name": "Geist Armor Arms Epoque II",
+   "category": "armour",
+   "type": "Char_Armor_Arms/Light",
+   "size": 1,
+   "grade": 1,
+   "maker": "Kilgore and Poole",
+   "micro_scu": 8000,
+   "uuid": "df4ff5d1-0f97-4eba-a5d7-a7c87f35626f"
+  },
   "kap_combat_light_arms_03_01_01": {
    "name": "Geist Armor Arms Golden Blossom",
    "category": "armour",
@@ -54250,6 +54687,16 @@
    "micro_scu": 34000,
    "uuid": "a15e9077-c94b-4123-9179-1eeb20c1b10a"
   },
+  "kap_combat_light_core_02_03_01": {
+   "name": "Geist Armor Core Epoque II",
+   "category": "armour",
+   "type": "Char_Armor_Torso/Light",
+   "size": 1,
+   "grade": 1,
+   "maker": "Kilgore and Poole",
+   "micro_scu": 34000,
+   "uuid": "d9c5001e-8244-4c24-b539-8eadcf739893"
+  },
   "kap_combat_light_core_03_01_01": {
    "name": "Geist Armor Core Golden Blossom",
    "category": "armour",
@@ -54332,6 +54779,15 @@
    "grade": 1,
    "micro_scu": 12000,
    "uuid": "c2bc9db2-8317-4ace-9480-a822c15b39e5"
+  },
+  "kap_combat_light_helmet_02_03_01": {
+   "name": "Geist Armor Helmet Epoque",
+   "category": "armour",
+   "type": "Char_Armor_Helmet/Light",
+   "size": 1,
+   "grade": 1,
+   "micro_scu": 12000,
+   "uuid": "e8760081-593f-456f-9fc2-a72afdcfd326"
   },
   "kap_combat_light_helmet_03_01_01": {
    "name": "Geist Armor Helmet Golden Blossom",
@@ -54422,6 +54878,16 @@
    "maker": "Kilgore and Poole",
    "micro_scu": 36000,
    "uuid": "a0518e3b-8d71-44d6-a153-05f4e0a4184b"
+  },
+  "kap_combat_light_legs_02_03_01": {
+   "name": "Geist Armor Legs Epoque II",
+   "category": "armour",
+   "type": "Char_Armor_Legs/Light",
+   "size": 1,
+   "grade": 1,
+   "maker": "Kilgore and Poole",
+   "micro_scu": 36000,
+   "uuid": "cf12d12f-11fd-417c-a51f-4dd68029c6a5"
   },
   "kap_combat_light_legs_03_01_01": {
    "name": "Geist Armor Legs Golden Blossom",
@@ -55128,6 +55594,16 @@
    "micro_scu": 7500,
    "uuid": "e9b16168-3969-4865-a17b-e4f49f34a538"
   },
+  "klwe_smg_energy_01_lumi01": {
+   "name": "Lumin V \"Piconalia\" SMG",
+   "category": "weapon",
+   "type": "WeaponPersonal/Medium",
+   "size": 2,
+   "grade": 1,
+   "maker": "Klaus & Werner",
+   "micro_scu": 7500,
+   "uuid": "1c5c81de-cf50-4c3a-967b-044f4c19ca1b"
+  },
   "klwe_smg_energy_01_mag": {
    "name": "Lumin V SMG Battery (45 cap)",
    "category": "magazine",
@@ -55791,6 +56267,16 @@
    "micro_scu": 900,
    "uuid": "1a8b7ee2-0fab-45e8-aa79-0c24a4f4ffbc"
   },
+  "ksar_lmg_energy_01_store01": {
+   "name": "Verdict \"Derivation\" LMG",
+   "category": "weapon",
+   "type": "WeaponPersonal/Medium",
+   "size": 4,
+   "grade": 1,
+   "maker": "Kastak Arms",
+   "micro_scu": 18000,
+   "uuid": "fab2b1de-a030-4abb-822b-2303b3c3f860"
+  },
   "ksar_melee_01": {
    "name": "Sawtooth Combat Knife",
    "category": "weapon",
@@ -55880,6 +56366,16 @@
    "maker": "Kastak Arms",
    "micro_scu": 2500,
    "uuid": "1c3b19d9-6e60-4ec6-8fe2-968079e6edbc"
+  },
+  "ksar_pistol_ballistic_01_lumi01": {
+   "name": "Coda \"Piconalia\" Pistol",
+   "category": "weapon",
+   "type": "WeaponPersonal/Small",
+   "size": 1,
+   "grade": 1,
+   "maker": "Kastak Arms",
+   "micro_scu": 2500,
+   "uuid": "79bd15fa-82fb-436c-a82d-ef739f571f4a"
   },
   "ksar_pistol_ballistic_01_mag": {
    "name": "Coda Pistol Magazine (6 cap)",
@@ -56525,7 +57021,7 @@
    "uuid": "1ba4ebda-fa61-45e7-928f-a543161c9276"
   },
   "lbco_optics_tsco_x16_s3_acid01": {
-   "name": "Omarof (16x Telescopic)",
+   "name": "Omarof \"Venom\" (16x Telescopic)",
    "category": "attachment",
    "type": "WeaponAttachment/IronSight",
    "size": 3,
@@ -56534,7 +57030,7 @@
    "uuid": "aa2f5010-7252-47d8-84aa-b3be259149fa"
   },
   "lbco_optics_tsco_x16_s3_chromic01": {
-   "name": "Omarof (16x Telescopic)",
+   "name": "Omarof \"Mirage\" (16x Telescopic)",
    "category": "attachment",
    "type": "WeaponAttachment/IronSight",
    "size": 3,
@@ -56543,7 +57039,7 @@
    "uuid": "ab80732a-c829-45e7-92c0-2f4893a8f1f8"
   },
   "lbco_optics_tsco_x16_s3_imp01": {
-   "name": "Omarof (16x Telescopic)",
+   "name": "Omarof \"Deadeye\" (16x Telescopic)",
    "category": "attachment",
    "type": "WeaponAttachment/IronSight",
    "size": 3,
@@ -56552,7 +57048,7 @@
    "uuid": "60cf7fd7-9e89-4e00-be45-74afc00890a2"
   },
   "lbco_optics_tsco_x16_s3_sunset01": {
-   "name": "Omarof (16x Telescopic)",
+   "name": "Omarof \"Igniter\" (16x Telescopic)",
    "category": "attachment",
    "type": "WeaponAttachment/IronSight",
    "size": 3,
@@ -56613,6 +57109,60 @@
    "grade": 1,
    "micro_scu": 2500,
    "uuid": "2ee12457-8ec8-4984-a06b-bafa8d11ae5a"
+  },
+  "lbco_rifle_energy_01": {
+   "name": "Skarnov Rifle",
+   "category": "weapon",
+   "type": "WeaponPersonal/Medium",
+   "size": 2,
+   "grade": 1,
+   "micro_scu": 13000,
+   "uuid": "84f56d17-9a02-4c3b-98b9-ac4d3b082078"
+  },
+  "lbco_rifle_energy_01_mag": {
+   "name": "Skarnov Rifle Battery (30 cap)",
+   "category": "magazine",
+   "type": "WeaponAttachment/Magazine",
+   "size": 1,
+   "grade": 1,
+   "micro_scu": 480,
+   "uuid": "62c5b91c-fd3e-4a9b-8ee6-a35e59cf82c3"
+  },
+  "lbco_rifle_energy_01_mr01": {
+   "name": "Skarnov \"Raider Camo\" Rifle",
+   "category": "weapon",
+   "type": "WeaponPersonal/Medium",
+   "size": 2,
+   "grade": 1,
+   "micro_scu": 13000,
+   "uuid": "ce5baed0-3269-495e-b38b-f7af7b3bd9c6"
+  },
+  "lbco_rifle_energy_01_tint01": {
+   "name": "Skarnov \"Ferrite\" Rifle",
+   "category": "weapon",
+   "type": "WeaponPersonal/Medium",
+   "size": 2,
+   "grade": 1,
+   "micro_scu": 13000,
+   "uuid": "bf4cba71-35cd-4933-b5f1-c3da2479d985"
+  },
+  "lbco_rifle_energy_01_tint02": {
+   "name": "Skarnov \"Relay\" Rifle",
+   "category": "weapon",
+   "type": "WeaponPersonal/Medium",
+   "size": 2,
+   "grade": 1,
+   "micro_scu": 13000,
+   "uuid": "b279764d-2ac4-4aa5-8cae-efc72eff4c9e"
+  },
+  "lbco_rifle_energy_01_tint03": {
+   "name": "Skarnov \"Sparkplug\" Rifle",
+   "category": "weapon",
+   "type": "WeaponPersonal/Medium",
+   "size": 2,
+   "grade": 1,
+   "micro_scu": 13000,
+   "uuid": "317e3453-e798-4d57-b36e-adc4bdd26a22"
   },
   "lbco_sniper_energy_01": {
    "name": "Atzkav Sniper Rifle",
@@ -59279,7 +59829,7 @@
    "size": 4,
    "grade": 1,
    "maker": "Talon",
-   "micro_scu": 62500,
+   "micro_scu": 1000000,
    "uuid": "e1659bcf-0595-43ad-9376-386e4ca875e0"
   },
   "misl_s04_ir_behr_pathfinder": {
@@ -59723,7 +60273,15 @@
    "name": "VariPuck S3 Gimbal Mount",
    "category": "other"
   },
+  "mount_gimbal_s3_rn": {
+   "name": "VariPuck S3 Gimbal Mount",
+   "category": "other"
+  },
   "mount_gimbal_s3_sabre_raven_ex": {
+   "name": "VariPuck S3 Gimbal Mount",
+   "category": "other"
+  },
+  "mount_gimbal_s3_vanguard_harbinger": {
    "name": "VariPuck S3 Gimbal Mount",
    "category": "other"
   },
@@ -60995,6 +61553,16 @@
    "micro_scu": 2100000,
    "uuid": "2a06c90c-322d-4b6b-b337-ccdbcee4ec7e"
   },
+  "mrck_s05_gama_hyun_octo_s02": {
+   "name": "MSD-582 Missile Rack",
+   "category": "ship_weapon",
+   "type": "MissileLauncher/MissileRack",
+   "size": 5,
+   "grade": 1,
+   "maker": "Gatac Manufacture",
+   "micro_scu": 4200000,
+   "uuid": "fef1982a-c28d-490f-b4e3-01bb849cb049"
+  },
   "mrck_s05_misc_freelancer_mis_left": {
    "name": "MISC Freelancer MIS Missile Launcher",
    "category": "ship_weapon",
@@ -61134,6 +61702,16 @@
    "maker": "Roberts Space Industries",
    "micro_scu": 4200000,
    "uuid": "f5fa6fad-3821-4c2c-9d9d-cca46bfc51df"
+  },
+  "mrck_s05_rsi_galaxy": {
+   "name": "MSD-582 Missile Rack",
+   "category": "ship_weapon",
+   "type": "MissileLauncher/MissileRack",
+   "size": 5,
+   "grade": 1,
+   "maker": "Roberts Space Industries",
+   "micro_scu": 4200000,
+   "uuid": "ed604875-756b-4a94-ad77-9ec1512bdfda"
   },
   "mrck_s05_rsi_perseus_torpedo_holder": {
    "name": "RSI Polaris Torpedo Rack",
@@ -62999,6 +63577,16 @@
    "micro_scu": 8700,
    "uuid": "d6185b21-36cf-4e4a-aa02-55e2f74dc39e"
   },
+  "nvs_jacket_04_01_01": {
+   "name": "Bobcat Varsity Jacket Cousin Crow's",
+   "category": "clothing",
+   "type": "Char_Clothing_Torso_1",
+   "size": 1,
+   "grade": 1,
+   "maker": "Navy Surplus",
+   "micro_scu": 8700,
+   "uuid": "3af2cc75-109c-45d5-bf75-be44ac3aa9bb"
+  },
   "nvs_jumpsuit_01_01_01": {
    "name": "Falston Jumpsuit",
    "category": "clothing",
@@ -64225,6 +64813,16 @@
    "micro_scu": 16000,
    "uuid": "ad41bd3f-b1a6-4b01-84e5-6cf2f7bab8a4"
   },
+  "omc_utility_heavy_arms_01_03_01": {
+   "name": "Corbel Arms Raider Camo",
+   "category": "armour",
+   "type": "Char_Armor_Arms/Heavy",
+   "size": 1,
+   "grade": 1,
+   "maker": "Clark Defense Systems",
+   "micro_scu": 16000,
+   "uuid": "4349df6e-8a6a-4419-9ce7-9cc311d111e7"
+  },
   "omc_utility_heavy_core_01_01_01": {
    "name": "Corbel Core Smolder",
    "category": "armour",
@@ -64275,6 +64873,16 @@
    "micro_scu": 55000,
    "uuid": "f6de17fd-cacf-4841-b1b3-412151558e88"
   },
+  "omc_utility_heavy_core_01_03_01": {
+   "name": "Corbel Core Raider Camo",
+   "category": "armour",
+   "type": "Char_Armor_Torso/Heavy",
+   "size": 1,
+   "grade": 1,
+   "maker": "Clark Defense Systems",
+   "micro_scu": 55000,
+   "uuid": "3be51fb7-31c5-49cc-80ca-f92d161c1e5c"
+  },
   "omc_utility_heavy_helmet_01_01_01": {
    "name": "Corbel Helmet Smolder",
    "category": "armour",
@@ -64323,6 +64931,16 @@
    "grade": 1,
    "micro_scu": 19000,
    "uuid": "a94304be-1967-428a-94d9-48f9f16bb808"
+  },
+  "omc_utility_heavy_helmet_01_03_01": {
+   "name": "Corbel Helmet Raider Camo",
+   "category": "armour",
+   "type": "Char_Armor_Helmet/Heavy",
+   "size": 1,
+   "grade": 1,
+   "maker": "Clark Defense Systems",
+   "micro_scu": 19000,
+   "uuid": "571f0880-7b33-48f0-a860-4aee78b73e28"
   },
   "omc_utility_heavy_legs_01_01_01": {
    "name": "Corbel Legs Smolder",
@@ -64373,6 +64991,16 @@
    "maker": "Clark Defense Systems",
    "micro_scu": 71000,
    "uuid": "922b899e-9464-4411-9a6b-09785f744605"
+  },
+  "omc_utility_heavy_legs_01_03_01": {
+   "name": "Corbel Legs Raider Camo",
+   "category": "armour",
+   "type": "Char_Armor_Legs/Heavy",
+   "size": 1,
+   "grade": 1,
+   "maker": "Clark Defense Systems",
+   "micro_scu": 71000,
+   "uuid": "ab3f1e07-fa55-4db2-96d6-7db0083b9e67"
   },
   "openableobject": {
    "name": "Openable",
@@ -69747,6 +70375,10 @@
    "name": "Aurora Mk II Medallion Livery",
    "category": "other"
   },
+  "paint_aurora_mk2_green_green_red": {
+   "name": "Aurora Mk II Deck the Hull Livery",
+   "category": "other"
+  },
   "paint_aurora_mk2_pink_green_purple": {
    "name": "Aurora Mk II Shimmerscale Livery",
    "category": "other"
@@ -69761,6 +70393,10 @@
   },
   "paint_aurora_mk2_silver_white_red": {
    "name": "Aurora Mk II Streamline Livery",
+   "category": "other"
+  },
+  "paint_aurora_mk2_white_blue_white": {
+   "name": "Aurora Mk II IceBreak Livery",
    "category": "other"
   },
   "paint_aurora_mk2_white_blue_yellow": {
@@ -70143,6 +70779,10 @@
    "name": "Corsair Skullcrusher Livery",
    "category": "other"
   },
+  "paint_corsair_black_white_gold": {
+   "name": "Corsair 2956 Best In Show Livery",
+   "category": "other"
+  },
   "paint_corsair_green_black": {
    "name": "Corsair Ghoulish Green Livery",
    "category": "other"
@@ -70371,6 +71011,10 @@
    "name": "Defender Wanderer Livery",
    "category": "other"
   },
+  "paint_defender_green_green_red": {
+   "name": "Defender Deck the Hull Livery",
+   "category": "other"
+  },
   "paint_defender_iae2951_black_blue": {
    "name": "Defender Stormbringer Livery",
    "category": "other"
@@ -70385,6 +71029,10 @@
   },
   "paint_defender_teal_red": {
    "name": "Defender Harmony Livery",
+   "category": "other"
+  },
+  "paint_defender_white_blue_white": {
+   "name": "Defender IceBreak Livery",
    "category": "other"
   },
   "paint_dragonfly_citcon2953_beige_tan_beige": {
@@ -70421,6 +71069,22 @@
   },
   "paint_dragonfly_yellow": {
    "name": "Dragonfly Yellowjacket Livery",
+   "category": "other"
+  },
+  "paint_drak_marauder_black_black_gold": {
+   "name": "Marauder Splendor Livery",
+   "category": "other"
+  },
+  "paint_drak_marauder_blue_blue_yellow": {
+   "name": "Marauder Aquamarine Livery",
+   "category": "other"
+  },
+  "paint_drak_marauder_red_grey_black": {
+   "name": "Marauder Bloodlet Livery",
+   "category": "other"
+  },
+  "paint_drak_marauder_yellow_black_grey": {
+   "name": "Marauder Hardstrike Livery",
    "category": "other"
   },
   "paint_eclipse_bis2950": {
@@ -70593,6 +71257,30 @@
   },
   "paint_furylx_white_blue_grey": {
    "name": "Fury Cloudburst Livery",
+   "category": "other"
+  },
+  "paint_galaxy_black_black_orange": {
+   "name": "Galaxy Starwalker Livery",
+   "category": "other"
+  },
+  "paint_galaxy_blue_blue_gold": {
+   "name": "Galaxy Magnitude Livery",
+   "category": "other"
+  },
+  "paint_galaxy_blue_blue_white": {
+   "name": "Galaxy Candor Livery",
+   "category": "other"
+  },
+  "paint_galaxy_blue_orange_white": {
+   "name": "Galaxy Bravura Livery",
+   "category": "other"
+  },
+  "paint_galaxy_blue_white_gold": {
+   "name": "Galaxy Protector Livery",
+   "category": "other"
+  },
+  "paint_galaxy_white_black_brown": {
+   "name": "Galaxy Luster Livery",
    "category": "other"
   },
   "paint_gladiator_bis2955_orange_black_orange": {
@@ -71047,12 +71735,36 @@
    "name": "Hurricane Waylay Camo Livery",
    "category": "other"
   },
+  "paint_hurricane_green_green_red": {
+   "name": "Hurricane Deck the Hull Livery",
+   "category": "other"
+  },
   "paint_hurricane_iae2950_grey_blue": {
    "name": "Hurricane Stormbringer Livery",
    "category": "other"
   },
   "paint_hurricane_iae2950_grey_white_camo": {
    "name": "Hurricane Polar Camo Livery",
+   "category": "other"
+  },
+  "paint_hurricane_white_blue_white": {
+   "name": "Hurricane IceBreak Livery",
+   "category": "other"
+  },
+  "paint_hyun_black_black_black": {
+   "name": "Hyun Hyaotan Livery",
+   "category": "other"
+  },
+  "paint_hyun_blue_gold": {
+   "name": "Hyun Chui'a Livery",
+   "category": "other"
+  },
+  "paint_hyun_pink_purple_black": {
+   "name": "Hyun Suii Livery",
+   "category": "other"
+  },
+  "paint_hyun_white_grey_gold": {
+   "name": "Hyun Ch.iing Livery",
    "category": "other"
   },
   "paint_idris_beige_beige_black_shark": {
@@ -71127,6 +71839,10 @@
    "name": "Ironclad Dauntless Livery",
    "category": "other"
   },
+  "paint_ironclad_black_white_gold": {
+   "name": "Ironclad Assault 2956 Best In Show Livery",
+   "category": "other"
+  },
   "paint_ironclad_cream_silver_silver": {
    "name": "Ironclad Wind Chill Livery",
    "category": "other"
@@ -71157,6 +71873,26 @@
   },
   "paint_l22_wolf_white_grey_white_spots": {
    "name": "Wolf Iceflash Livery",
+   "category": "other"
+  },
+  "paint_liberator_black_black_yellow_stripe": {
+   "name": "Liberator Last Light Livery",
+   "category": "other"
+  },
+  "paint_liberator_copper_copper_grey": {
+   "name": "Liberator Valhalla Livery",
+   "category": "other"
+  },
+  "paint_liberator_green_grey_red": {
+   "name": "Liberator Brigade Livery",
+   "category": "other"
+  },
+  "paint_liberator_white_black_grey": {
+   "name": "Liberator Galahad Livery",
+   "category": "other"
+  },
+  "paint_liberator_white_red_red_wings": {
+   "name": "Liberator Condor Livery",
    "category": "other"
   },
   "paint_lightning_bis2954": {
@@ -71223,6 +71959,10 @@
    "name": "M80 Runic Livery",
    "category": "other"
   },
+  "paint_m80_black_white_gold": {
+   "name": "M80 2956 Best In Show Livery",
+   "category": "other"
+  },
   "paint_m80_red_black_blue": {
    "name": "M80 Blaze Livery",
    "category": "other"
@@ -71279,6 +72019,10 @@
    "name": "Meteor Disco Livery",
    "category": "other"
   },
+  "paint_meteor_blue_blue_gold": {
+   "name": "Meteor Epoque Livery",
+   "category": "other"
+  },
   "paint_meteor_vip_black_black_gold": {
    "name": "Meteor Shimmer Livery",
    "category": "other"
@@ -71327,12 +72071,24 @@
    "name": "MOTH Tide Pool Livery",
    "category": "other"
   },
+  "paint_moth_green_grey_blue": {
+   "name": "MOTH Braken Livery",
+   "category": "other"
+  },
   "paint_moth_green_grey_orange": {
    "name": "MOTH Juniper Livery",
    "category": "other"
   },
   "paint_moth_grey_grey_grey": {
    "name": "MOTH Rockwell Livery",
+   "category": "other"
+  },
+  "paint_moth_metal_grey_grey": {
+   "name": "MOTH Stargazer Livery",
+   "category": "other"
+  },
+  "paint_moth_navy_grey_orange": {
+   "name": "MOTH Downrush Livery",
    "category": "other"
   },
   "paint_moth_orange_grey_black": {
@@ -71345,6 +72101,10 @@
   },
   "paint_moth_white_grey_orange": {
    "name": "MOTH Dolomite Livery",
+   "category": "other"
+  },
+  "paint_moth_yellow_grey_blue": {
+   "name": "MOTH Skylight Livery",
    "category": "other"
   },
   "paint_mpuv_1t_lightgrey_grey": {
@@ -71615,8 +72375,20 @@
    "name": "Paladin Galahad Livery",
    "category": "other"
   },
+  "paint_perseus_beige_beige_beige": {
+   "name": "Perseus Arenosa Livery",
+   "category": "other"
+  },
+  "paint_perseus_beige_blue_brown": {
+   "name": "Perseus Shoreline Camo Livery",
+   "category": "other"
+  },
   "paint_perseus_beige_blue_red": {
    "name": "Perseus Repute Livery",
+   "category": "other"
+  },
+  "paint_perseus_beige_green_red": {
+   "name": "Perseus Aftermath Livery",
    "category": "other"
   },
   "paint_perseus_black_black_red": {
@@ -71625,6 +72397,14 @@
   },
   "paint_perseus_black_grey_white": {
    "name": "Perseus Thundercloud Livery",
+   "category": "other"
+  },
+  "paint_perseus_black_white_gold": {
+   "name": "Perseus 2956 Best In Show Livery",
+   "category": "other"
+  },
+  "paint_perseus_blue_blue_black": {
+   "name": "Perseus Mariner Camo Livery",
    "category": "other"
   },
   "paint_perseus_clean_air_black_grey_grey_camo": {
@@ -71641,6 +72421,10 @@
   },
   "paint_perseus_grey_blue_red": {
    "name": "Perseus Resilient Livery",
+   "category": "other"
+  },
+  "paint_perseus_grey_grey_orange": {
+   "name": "Perseus Adamantine Livery",
    "category": "other"
   },
   "paint_perseus_red_grey_black": {
@@ -71919,6 +72703,10 @@
    "name": "RAFT microTech Livery",
    "category": "other"
   },
+  "paint_raft_green_green_red": {
+   "name": "RAFT Deck the Hull Livery",
+   "category": "other"
+  },
   "paint_raft_grey_lightgrey": {
    "name": "RAFT Anchor Livery",
    "category": "other"
@@ -71933,6 +72721,10 @@
   },
   "paint_raft_white_blue_blue": {
    "name": "RAFT Keystone Livery",
+   "category": "other"
+  },
+  "paint_raft_white_blue_white": {
+   "name": "RAFT IceBreak Livery",
    "category": "other"
   },
   "paint_railen_black_black_black_stencil_1": {
@@ -73135,6 +73927,10 @@
    "name": "Wolf Rosso Livery",
    "category": "other"
   },
+  "paint_wolf_yellow_white_chrome": {
+   "name": "Wolf \"Liberty\" Livery",
+   "category": "other"
+  },
   "paint_x1_black_black_orange": {
    "name": "X1 Shadow Livery",
    "category": "other"
@@ -73262,7 +74058,7 @@
    "uuid": "985e9b52-e12b-40c6-a186-ac5e4e101c18"
   },
   "playerdeco_flair_aegis_idris_1_a": {
-   "name": "Shattered Vanduul Lance Display",
+   "name": "Aegis Idris-M Model",
    "category": "decoration",
    "type": "Usable/Cargo",
    "size": 1,
@@ -73373,7 +74169,7 @@
    "name": "Constellation Mk IV Andromeda Model",
    "category": "decoration",
    "type": "Usable/Cargo",
-   "size": 1,
+   "size": 2,
    "grade": 1,
    "micro_scu": 10090000,
    "uuid": "20fe52ec-3927-4665-95c0-30c5f0097df5"
@@ -73582,6 +74378,10 @@
    "name": "Warlord Throne",
    "category": "other"
   },
+  "playerdeco_seat_ride_hornet_1_a": {
+   "name": "Hornet Kiddie Ride",
+   "category": "other"
+  },
   "playerdeco_static_diorama_cargo_scavanger_a": {
    "name": "Pyro Resupply Commemorative Display",
    "category": "decoration",
@@ -73626,6 +74426,15 @@
    "grade": 1,
    "micro_scu": 1040000,
    "uuid": "53c48c82-0766-4311-b089-3447d010bad5"
+  },
+  "playerdeco_static_hologram_vice_1_a": {
+   "name": "Neonwave Hologram Display",
+   "category": "decoration",
+   "type": "Usable/Cargo",
+   "size": 1,
+   "grade": 1,
+   "micro_scu": 21629000,
+   "uuid": "f4f8580e-30f3-45a3-9713-1dfc800ba5b0"
   },
   "playerdeco_static_hologram_wikelo_1_a": {
    "name": "Wikelo Emporium Bust",
@@ -76914,6 +77723,16 @@
    "micro_scu": 16000,
    "uuid": "34b01931-3eb1-4fea-b02a-d243d3474514"
   },
+  "qrt_utility_heavy_arms_01_04_01": {
+   "name": "Palatino Arms Raider Camo",
+   "category": "armour",
+   "type": "Char_Armor_Arms/Heavy",
+   "size": 1,
+   "grade": 1,
+   "maker": "Quirinus Tech",
+   "micro_scu": 16000,
+   "uuid": "bad0bae6-013e-4528-9088-58f62ff57645"
+  },
   "qrt_utility_heavy_arms_02_01_01": {
    "name": "Palatino Arms Mark I",
    "category": "armour",
@@ -77014,6 +77833,16 @@
    "micro_scu": 62000,
    "uuid": "9098c171-5633-4aa6-b360-82713b5258c2"
   },
+  "qrt_utility_heavy_backpack_01_05_01": {
+   "name": "Palatino Backpack Raider Camo",
+   "category": "backpack",
+   "type": "Char_Armor_Backpack/Personal",
+   "size": 3,
+   "grade": 1,
+   "maker": "Quirinus Tech",
+   "micro_scu": 62000,
+   "uuid": "49b78c3e-5645-4155-a614-d9d628e2bbdf"
+  },
   "qrt_utility_heavy_backpack_02_01_01": {
    "name": "Palatino Backpack Mark I",
    "category": "backpack",
@@ -77103,6 +77932,16 @@
    "maker": "Quirinus Tech",
    "micro_scu": 55000,
    "uuid": "261904de-e9c4-43da-af2b-9b2b4c9afe7a"
+  },
+  "qrt_utility_heavy_core_01_04_01": {
+   "name": "Palatino Core Raider Camo",
+   "category": "armour",
+   "type": "Char_Armor_Torso/Heavy",
+   "size": 1,
+   "grade": 1,
+   "maker": "Quirinus Tech",
+   "micro_scu": 55000,
+   "uuid": "23195726-303a-436b-a3e6-55e6b82f7419"
   },
   "qrt_utility_heavy_core_02_01_01": {
    "name": "Palatino Core Mark I",
@@ -77196,6 +78035,15 @@
    "micro_scu": 19000,
    "uuid": "581c94cc-1502-4ccb-82cd-f36ec2a60f2c"
   },
+  "qrt_utility_heavy_helmet_01_04_01": {
+   "name": "Palatino Helmet Raider Camo",
+   "category": "armour",
+   "type": "Char_Armor_Helmet/Heavy",
+   "size": 1,
+   "grade": 1,
+   "micro_scu": 19000,
+   "uuid": "730c213b-ce3b-4286-a9fc-08cc10c6d8ad"
+  },
   "qrt_utility_heavy_helmet_02_01_01": {
    "name": "Palatino Helmet Mark I",
    "category": "armour",
@@ -77284,6 +78132,16 @@
    "maker": "Quirinus Tech",
    "micro_scu": 71000,
    "uuid": "6bd54e97-7a6a-4daa-823b-491c031d7932"
+  },
+  "qrt_utility_heavy_legs_01_04_01": {
+   "name": "Palatino Legs Raider Camo",
+   "category": "armour",
+   "type": "Char_Armor_Legs/Heavy",
+   "size": 1,
+   "grade": 1,
+   "maker": "Quirinus Tech",
+   "micro_scu": 71000,
+   "uuid": "e0c7ae94-0428-4236-90da-3e9900e7d4d9"
   },
   "qrt_utility_heavy_legs_02_01_01": {
    "name": "Palatino Legs Mark I",
@@ -77624,6 +78482,16 @@
    "maker": "R6 Pro",
    "micro_scu": 800,
    "uuid": "0a9d750e-b396-4f7f-9fc5-3be4568a036a"
+  },
+  "r6p_glasses_01_02_01": {
+   "name": "Yaeger Aviator Glasses Neonwave",
+   "category": "clothing",
+   "type": "Char_Accessory_Eyes",
+   "size": 1,
+   "grade": 1,
+   "maker": "R6 Pro",
+   "micro_scu": 800,
+   "uuid": "25a32ba2-be5f-4d6f-b1a0-5bb40ebb4192"
   },
   "r6p_gloves_01_01_01": {
    "name": "Baru Gloves (Left Only)",
@@ -78629,6 +79497,16 @@
    "maker": "WillsOp",
    "micro_scu": 756000,
    "uuid": "9793a9fd-a521-48be-92fe-86da036b8e2a"
+  },
+  "radr_wlop_s03_lephari": {
+   "name": "Lephari",
+   "category": "ship_component",
+   "type": "Radar/MidRangeRadar",
+   "size": 3,
+   "grade": 3,
+   "maker": "WillsOp",
+   "micro_scu": 756000,
+   "uuid": "462c1e37-6259-4942-91e1-9c4de47ef0e4"
   },
   "radr_wlop_s03_socoria": {
    "name": "Socoria",
@@ -80517,7 +81395,7 @@
    "size": 3,
    "grade": 3,
    "maker": "Roberts Space Industries",
-   "micro_scu": 1,
+   "micro_scu": 180000000,
    "uuid": "4adb053e-bc0a-34a1-a3bd-7c9fc2267e84"
   },
   "rsi_apollo_module_left_tier_2": {
@@ -80527,7 +81405,7 @@
    "size": 3,
    "grade": 3,
    "maker": "Roberts Space Industries",
-   "micro_scu": 1,
+   "micro_scu": 180000000,
    "uuid": "481205b3-941e-f870-b016-57b8f9e63b88"
   },
   "rsi_apollo_module_left_tier_3": {
@@ -80537,7 +81415,7 @@
    "size": 3,
    "grade": 3,
    "maker": "Roberts Space Industries",
-   "micro_scu": 1,
+   "micro_scu": 180000000,
    "uuid": "4983357f-cfe5-148f-8573-653efce249a2"
   },
   "rsi_apollo_module_right_tier_1": {
@@ -80547,7 +81425,7 @@
    "size": 3,
    "grade": 3,
    "maker": "Roberts Space Industries",
-   "micro_scu": 1,
+   "micro_scu": 180000000,
    "uuid": "40f36374-37de-9184-e880-cc5ac6c7749e"
   },
   "rsi_apollo_module_right_tier_2": {
@@ -80557,7 +81435,7 @@
    "size": 3,
    "grade": 3,
    "maker": "Roberts Space Industries",
-   "micro_scu": 1,
+   "micro_scu": 180000000,
    "uuid": "4f374a14-98ec-5481-2c07-dd369c257dbe"
   },
   "rsi_apollo_module_right_tier_3": {
@@ -80567,7 +81445,7 @@
    "size": 3,
    "grade": 3,
    "maker": "Roberts Space Industries",
-   "micro_scu": 1,
+   "micro_scu": 180000000,
    "uuid": "41eb4311-f7d4-8db4-1cb5-f77b32eb5c80"
   },
   "rsi_apollo_remote_turret": {
@@ -80616,22 +81494,6 @@
   },
   "rsi_apollo_triage_tier_3": {
    "name": "RSI Apollo Triage",
-   "category": "vehicle"
-  },
-  "rsi_aurora_cl_pu_ai_civ": {
-   "name": "RSI Aurora Mk I CL",
-   "category": "vehicle"
-  },
-  "rsi_aurora_cl_pu_ai_crim": {
-   "name": "RSI Aurora Mk I CL",
-   "category": "vehicle"
-  },
-  "rsi_aurora_es_pu_ai_civ": {
-   "name": "RSI Aurora Mk I ES",
-   "category": "vehicle"
-  },
-  "rsi_aurora_es_pu_ai_crim": {
-   "name": "RSI Aurora Mk I ES",
    "category": "vehicle"
   },
   "rsi_aurora_gs_cl": {
@@ -80702,28 +81564,8 @@
    "name": "Seat",
    "category": "other"
   },
-  "rsi_aurora_ln_ea_ai_pir": {
-   "name": "RSI Aurora Mk I LN",
-   "category": "vehicle"
-  },
-  "rsi_aurora_ln_pu_ai_civ": {
-   "name": "RSI Aurora Mk I LN",
-   "category": "vehicle"
-  },
   "rsi_aurora_ln_pu_ai_crim": {
    "name": "RSI Aurora Mk I LN",
-   "category": "vehicle"
-  },
-  "rsi_aurora_ln_pu_ai_nt": {
-   "name": "RSI Aurora Mk I LN",
-   "category": "vehicle"
-  },
-  "rsi_aurora_lx_pu_ai_civ": {
-   "name": "RSI Aurora Mk I  LX",
-   "category": "vehicle"
-  },
-  "rsi_aurora_lx_pu_ai_crim": {
-   "name": "RSI Aurora Mk I  LX",
    "category": "vehicle"
   },
   "rsi_aurora_lx_scitem_seat_pilot": {
@@ -80783,14 +81625,6 @@
   "rsi_aurora_mk2_seatdashboard_pilot": {
    "name": "TRGT. STATUS",
    "category": "other"
-  },
-  "rsi_aurora_mr_pu_ai_civ": {
-   "name": "RSI Aurora Mk I MR",
-   "category": "vehicle"
-  },
-  "rsi_aurora_mr_pu_ai_crim": {
-   "name": "RSI Aurora Mk I MR",
-   "category": "vehicle"
   },
   "rsi_aurora_scitem_seat_pilot": {
    "name": "TRGT. STATUS",
@@ -81560,18 +82394,6 @@
    "name": "Door Control",
    "category": "other"
   },
-  "rsi_constellation_andromeda": {
-   "name": "RSI Constellation Mk IV Andromeda",
-   "category": "vehicle"
-  },
-  "rsi_constellation_andromeda_ea_ai_pir": {
-   "name": "RSI Constellation Mk IV Andromeda",
-   "category": "vehicle"
-  },
-  "rsi_constellation_andromeda_ea_ai_pir_elite": {
-   "name": "RSI Constellation Mk IV Andromeda",
-   "category": "vehicle"
-  },
   "rsi_constellation_andromeda_gs": {
    "name": "RSI Constellation Mk IV Andromeda",
    "category": "vehicle"
@@ -81632,50 +82454,6 @@
    "name": "RSI Constellation Mk IV Andromeda",
    "category": "vehicle"
   },
-  "rsi_constellation_andromeda_pu_ai_civ": {
-   "name": "RSI Constellation Mk IV Andromeda",
-   "category": "vehicle"
-  },
-  "rsi_constellation_andromeda_pu_ai_crim": {
-   "name": "RSI Constellation Mk IV Andromeda",
-   "category": "vehicle"
-  },
-  "rsi_constellation_andromeda_pu_ai_nt": {
-   "name": "RSI Constellation Mk IV Andromeda",
-   "category": "vehicle"
-  },
-  "rsi_constellation_andromeda_pu_ai_nt_qig": {
-   "name": "RSI Constellation Mk IV Andromeda",
-   "category": "vehicle"
-  },
-  "rsi_constellation_andromeda_pu_ai_sec_blacjac": {
-   "name": "RSI Constellation Mk IV Andromeda",
-   "category": "vehicle"
-  },
-  "rsi_constellation_andromeda_pu_ai_sec_blacjac_qig": {
-   "name": "RSI Constellation Mk IV Andromeda",
-   "category": "vehicle"
-  },
-  "rsi_constellation_andromeda_pu_ai_sec_crusader": {
-   "name": "RSI Constellation Mk IV Andromeda",
-   "category": "vehicle"
-  },
-  "rsi_constellation_andromeda_pu_ai_sec_crusader_qig": {
-   "name": "RSI Constellation Mk IV Andromeda",
-   "category": "vehicle"
-  },
-  "rsi_constellation_andromeda_unmanned_ninetails": {
-   "name": "RSI Constellation Mk IV Andromeda",
-   "category": "vehicle"
-  },
-  "rsi_constellation_andromeda_unmanned_salvage": {
-   "name": "RSI Constellation Mk IV Andromeda",
-   "category": "vehicle"
-  },
-  "rsi_constellation_aquila": {
-   "name": "RSI Constellation Mk IV Aquila",
-   "category": "vehicle"
-  },
   "rsi_constellation_aquila_gs": {
    "name": "RSI Constellation Mk IV Aquila",
    "category": "vehicle"
@@ -81704,21 +82482,9 @@
    "name": "RSI Constellation Mk IV Aquila",
    "category": "vehicle"
   },
-  "rsi_constellation_aquila_pu_ai_civ": {
-   "name": "RSI Constellation Mk IV Aquila",
-   "category": "vehicle"
-  },
-  "rsi_constellation_aquila_pu_ai_crim": {
-   "name": "RSI Constellation Mk IV Aquila",
-   "category": "vehicle"
-  },
   "rsi_constellation_aquila_scitem_turret_radar": {
    "name": "Manned Turret",
    "category": "other"
-  },
-  "rsi_constellation_aquila_unmanned_salvage": {
-   "name": "RSI Constellation Mk IV Aquila",
-   "category": "vehicle"
   },
   "rsi_constellation_cargobay": {
    "name": "Door Control",
@@ -81888,10 +82654,6 @@
    "name": "RSI Constellation Mk IV Phoenix",
    "category": "vehicle"
   },
-  "rsi_constellation_phoenix_emerald": {
-   "name": "RSI Constellation Mk IV Phoenix Emerald",
-   "category": "vehicle"
-  },
   "rsi_constellation_phoenix_gs": {
    "name": "RSI Constellation Mk IV Phoenix",
    "category": "vehicle"
@@ -81923,22 +82685,6 @@
   "rsi_constellation_phoenix_gs_turret_upper": {
    "name": "Manned Turret",
    "category": "other"
-  },
-  "rsi_constellation_phoenix_piano": {
-   "name": "RSI Constellation Mk IV Phoenix",
-   "category": "vehicle"
-  },
-  "rsi_constellation_phoenix_pu_ai_civ": {
-   "name": "RSI Constellation Mk IV Phoenix",
-   "category": "vehicle"
-  },
-  "rsi_constellation_phoenix_pu_ai_civ_def": {
-   "name": "RSI Constellation Mk IV Phoenix",
-   "category": "vehicle"
-  },
-  "rsi_constellation_phoenix_pu_ai_crim": {
-   "name": "RSI Constellation Mk IV Phoenix",
-   "category": "vehicle"
   },
   "rsi_constellation_phoenix_scitem_seat_copilot_left_gs": {
    "name": "TRGT. STATUS",
@@ -82080,22 +82826,6 @@
    "name": "RSI Constellation Mk IV Taurus",
    "category": "vehicle"
   },
-  "rsi_constellation_taurus_military": {
-   "name": "RSI Constellation Mk IV Taurus Wikelo War Special",
-   "category": "vehicle"
-  },
-  "rsi_constellation_taurus_pu_ai_civ": {
-   "name": "RSI Constellation Mk IV Taurus",
-   "category": "vehicle"
-  },
-  "rsi_constellation_taurus_pu_ai_civ_def": {
-   "name": "RSI Constellation Mk IV Taurus",
-   "category": "vehicle"
-  },
-  "rsi_constellation_taurus_pu_ai_crim": {
-   "name": "RSI Constellation Mk IV Taurus",
-   "category": "vehicle"
-  },
   "rsi_constellation_taurus_tractor_beam": {
    "name": "SureGrip TH2 Tractor Beam",
    "category": "ship_weapon",
@@ -82109,14 +82839,6 @@
   "rsi_constellation_taurus_turret_lower": {
    "name": "Manned Turret",
    "category": "other"
-  },
-  "rsi_constellation_taurus_unmanned_salvage": {
-   "name": "RSI Constellation Mk IV Taurus",
-   "category": "vehicle"
-  },
-  "rsi_constellation_taurus_unmanned_template": {
-   "name": "RSI Constellation Mk IV Taurus",
-   "category": "vehicle"
   },
   "rsi_deckcrew_armor_light_arms_01_01_01": {
    "name": "MacFlex Arms",
@@ -83489,7 +84211,7 @@
    "uuid": "b1fb4822-79da-49dc-8861-deb353c98356"
   },
   "rsi_explorer_armor_light_arms_01_02_01": {
-   "name": "Venture Arms Starwalker",
+   "name": "Venture Arms Infrared",
    "category": "armour",
    "type": "Char_Armor_Arms/Light",
    "size": 1,
@@ -83509,7 +84231,7 @@
    "uuid": "e6b1eb33-77b1-4bbb-aea9-f4b2fd738dd4"
   },
   "rsi_explorer_armor_light_arms_01_03_01": {
-   "name": "Venture Arms Infrared",
+   "name": "Venture Arms Starwalker",
    "category": "armour",
    "type": "Char_Armor_Arms/Light",
    "size": 1,
@@ -83769,7 +84491,7 @@
    "uuid": "626d5776-9583-4f0a-8fcd-81c3da685ff3"
   },
   "rsi_explorer_armor_light_core_01_02_01": {
-   "name": "Venture Core Starwalker",
+   "name": "Venture Core Infrared",
    "category": "armour",
    "type": "Char_Armor_Torso/Light",
    "size": 1,
@@ -83789,7 +84511,7 @@
    "uuid": "c2eda8c0-d84d-48eb-941d-3b36a7b6b995"
   },
   "rsi_explorer_armor_light_core_01_03_01": {
-   "name": "Venture Core Infrared",
+   "name": "Venture Core Starwalker",
    "category": "armour",
    "type": "Char_Armor_Torso/Light",
    "size": 1,
@@ -84039,7 +84761,7 @@
    "uuid": "596f9763-3231-4ee2-8c74-50d2fc7f01c3"
   },
   "rsi_explorer_armor_light_helmet_01_02_01": {
-   "name": "Venture Helmet Starwalker",
+   "name": "Venture Helmet Infrared",
    "category": "armour",
    "type": "Char_Armor_Helmet/Light",
    "size": 1,
@@ -84049,7 +84771,7 @@
    "uuid": "ea2d38e3-804f-43d2-a3a9-04f4dc2d0aa9"
   },
   "rsi_explorer_armor_light_helmet_01_03_01": {
-   "name": "Venture Helmet Infrared",
+   "name": "Venture Helmet Starwalker",
    "category": "armour",
    "type": "Char_Armor_Helmet/Light",
    "size": 1,
@@ -84349,7 +85071,7 @@
    "uuid": "708be659-3f3d-4742-8ea4-fb69a1aa743b"
   },
   "rsi_explorer_armor_light_legs_01_02_01": {
-   "name": "Venture Legs Starwalker",
+   "name": "Venture Legs Infrared",
    "category": "armour",
    "type": "Char_Armor_Legs/Light",
    "size": 1,
@@ -84369,7 +85091,7 @@
    "uuid": "ecd74081-045e-4b69-bbbe-57431d7bc9d5"
   },
   "rsi_explorer_armor_light_legs_01_03_01": {
-   "name": "Venture Legs Infrared",
+   "name": "Venture Legs Starwalker",
    "category": "armour",
    "type": "Char_Armor_Legs/Light",
    "size": 1,
@@ -84679,7 +85401,7 @@
    "uuid": "cd99e671-9d3f-41eb-90a7-f565bb1b7b51"
   },
   "rsi_explorer_undersuit_01_02_01": {
-   "name": "Venture Undersuit Starwalker",
+   "name": "Venture Undersuit Infrared",
    "category": "undersuit",
    "type": "Char_Armor_Undersuit",
    "size": 1,
@@ -84699,7 +85421,7 @@
    "uuid": "613dc9ec-858f-46ec-98c4-424376a97a80"
   },
   "rsi_explorer_undersuit_01_03_01": {
-   "name": "Venture Undersuit Infrared",
+   "name": "Venture Undersuit Starwalker",
    "category": "undersuit",
    "type": "Char_Armor_Undersuit",
    "size": 1,
@@ -84747,6 +85469,108 @@
    "maker": "Roberts Space Industries",
    "micro_scu": 23000,
    "uuid": "6acc731b-7f9d-438e-9f3b-678e8b25f5e3"
+  },
+  "rsi_galaxy": {
+   "name": "RSI Galaxy",
+   "category": "vehicle"
+  },
+  "rsi_galaxy_ai_template": {
+   "name": "RSI Galaxy",
+   "category": "vehicle"
+  },
+  "rsi_galaxy_captain_seatdashboard": {
+   "name": "TRGT. STATUS",
+   "category": "other"
+  },
+  "rsi_galaxy_cargo_tractor_turret": {
+   "name": "Tractor Beam",
+   "category": "other"
+  },
+  "rsi_galaxy_cml_decoy": {
+   "name": "Joker Defcon Flares Ammo",
+   "category": "other"
+  },
+  "rsi_galaxy_cml_noise": {
+   "name": "Joker Defcon - Noise Launcher",
+   "category": "other"
+  },
+  "rsi_galaxy_copilot_seatdashboard": {
+   "name": "TRGT. STATUS",
+   "category": "other"
+  },
+  "rsi_galaxy_gunner_front_seatdashboard": {
+   "name": "TRGT. STATUS",
+   "category": "other"
+  },
+  "rsi_galaxy_gunner_front_seatdashboard_right": {
+   "name": "TRGT. STATUS",
+   "category": "other"
+  },
+  "rsi_galaxy_gunner_seatdashboard": {
+   "name": "TRGT. STATUS",
+   "category": "other"
+  },
+  "rsi_galaxy_module_base": {
+   "name": "Galaxy Stock Module",
+   "category": "ship_component",
+   "type": "Module",
+   "size": 3,
+   "grade": 3,
+   "maker": "Roberts Space Industries",
+   "micro_scu": 300000000,
+   "uuid": "43afd277-989d-453a-85cc-334a4a3064c1"
+  },
+  "rsi_galaxy_module_cargo": {
+   "name": "Galaxy Cargo Module",
+   "category": "ship_component",
+   "type": "Module",
+   "size": 3,
+   "grade": 3,
+   "maker": "Roberts Space Industries",
+   "micro_scu": 300000000,
+   "uuid": "c3af722a-daf9-4cf8-9721-6d0bc6781297"
+  },
+  "rsi_galaxy_module_medical": {
+   "name": "Galaxy Med Bay Module",
+   "category": "ship_component",
+   "type": "Module",
+   "size": 3,
+   "grade": 3,
+   "maker": "Roberts Space Industries",
+   "micro_scu": 300000000,
+   "uuid": "6055f0a5-bd7a-4e60-baa5-f689801629a2"
+  },
+  "rsi_galaxy_pilot_seatdashboard": {
+   "name": "TRGT. STATUS",
+   "category": "other"
+  },
+  "rsi_galaxy_pu_ai_civ": {
+   "name": "RSI Galaxy",
+   "category": "vehicle"
+  },
+  "rsi_galaxy_pu_ai_crim": {
+   "name": "RSI Galaxy",
+   "category": "vehicle"
+  },
+  "rsi_galaxy_remote_turret_s5_front": {
+   "name": "Remote Turret",
+   "category": "other"
+  },
+  "rsi_galaxy_remote_turret_s5_left": {
+   "name": "Remote Turret",
+   "category": "other"
+  },
+  "rsi_galaxy_remote_turret_s5_right": {
+   "name": "Remote Turret",
+   "category": "other"
+  },
+  "rsi_galaxy_temp_cargo": {
+   "name": "RSI Galaxy",
+   "category": "vehicle"
+  },
+  "rsi_galaxy_temp_medical": {
+   "name": "RSI Galaxy",
+   "category": "vehicle"
   },
   "rsi_hermes": {
    "name": "RSI Hermes",
@@ -86752,6 +87576,16 @@
    "maker": "Sakura Sun",
    "micro_scu": 2500,
    "uuid": "75be95dc-3679-458a-b41f-728b8422fdc4"
+  },
+  "sasu_pistol_toy_01_sf01": {
+   "name": "WowBlast Desperado Toy Pistol F7C",
+   "category": "weapon",
+   "type": "WeaponPersonal/Small",
+   "size": 1,
+   "grade": 1,
+   "maker": "Sakura Sun",
+   "micro_scu": 2500,
+   "uuid": "78bff944-e77c-4528-a147-ad206faef285"
   },
   "sc_fio_shoes_01_01_01": {
    "name": "Prim Shoes",
@@ -89525,6 +90359,10 @@
    "name": "Seat",
    "category": "other"
   },
+  "seat_bench_gama_hyun_habs": {
+   "name": "Seat",
+   "category": "other"
+  },
   "seat_bench_hammerhead_messhall_center": {
    "name": "Seat",
    "category": "other"
@@ -89633,6 +90471,10 @@
    "name": "Seat",
    "category": "other"
   },
+  "seat_bench_noback_center_rsi_galaxy": {
+   "name": "Seat",
+   "category": "other"
+  },
   "seat_bench_noback_center_rsi_perseus_messhall": {
    "name": "Seat",
    "category": "other"
@@ -89717,6 +90559,10 @@
    "name": "Seat",
    "category": "other"
   },
+  "seat_bench_noback_left_rsi_galaxy": {
+   "name": "Seat",
+   "category": "other"
+  },
   "seat_bench_noback_left_rsi_perseus_messhall": {
    "name": "Seat",
    "category": "other"
@@ -89758,6 +90604,10 @@
    "category": "other"
   },
   "seat_bench_noback_right_rsi_constellation_gs": {
+   "name": "Seat",
+   "category": "other"
+  },
+  "seat_bench_noback_right_rsi_galaxy": {
    "name": "Seat",
    "category": "other"
   },
@@ -89893,6 +90743,18 @@
    "name": "Seat",
    "category": "other"
   },
+  "seat_chair_1_anvl_messhall_a": {
+   "name": "Seat",
+   "category": "other"
+  },
+  "seat_chair_1_anvl_messhall_b": {
+   "name": "Seat",
+   "category": "other"
+  },
+  "seat_chair_1_anvl_messhall_c": {
+   "name": "Seat",
+   "category": "other"
+  },
   "seat_chair_1_guarding": {
    "name": "Seat",
    "category": "other"
@@ -89953,6 +90815,10 @@
    "name": "Seat",
    "category": "other"
   },
+  "seat_chair_anim_rsi_galaxy": {
+   "name": "Seat",
+   "category": "other"
+  },
   "seat_chair_anim_rsi_ursa_medivac": {
    "name": "Seat",
    "category": "other"
@@ -89982,6 +90848,10 @@
    "category": "other"
   },
   "seat_chair_anvl_spartan": {
+   "name": "Seat",
+   "category": "other"
+  },
+  "seat_chair_anvl_template": {
    "name": "Seat",
    "category": "other"
   },
@@ -90026,6 +90896,10 @@
    "category": "other"
   },
   "seat_chair_button_aegs_hammerhead_gs_captains": {
+   "name": "Seat",
+   "category": "other"
+  },
+  "seat_chair_button_rsi_galaxy_captain": {
    "name": "Seat",
    "category": "other"
   },
@@ -90257,6 +91131,14 @@
    "name": "Seat",
    "category": "other"
   },
+  "seat_cushion_rsi": {
+   "name": "Seat",
+   "category": "other"
+  },
+  "seat_cushion_rsi_small": {
+   "name": "Seat",
+   "category": "other"
+  },
   "seat_drak_cutlass_toilet": {
    "name": "Seat",
    "category": "other"
@@ -90373,6 +91255,18 @@
    "name": "Seat",
    "category": "other"
   },
+  "seat_stool_anvl_liberator_crew_quarters": {
+   "name": "Seat",
+   "category": "other"
+  },
+  "seat_stool_anvl_template": {
+   "name": "Seat",
+   "category": "other"
+  },
+  "seat_stool_bench_2_rsi_galaxy": {
+   "name": "Seat",
+   "category": "other"
+  },
   "seat_stool_bench_2_temp": {
    "name": "Seat",
    "category": "other"
@@ -90382,6 +91276,14 @@
    "category": "other"
   },
   "seat_stool_bench_3_hightech_1_a": {
+   "name": "Seat",
+   "category": "other"
+  },
+  "seat_stool_bench_3_rsi_galaxy_bench": {
+   "name": "Seat",
+   "category": "other"
+  },
+  "seat_stool_bench_3_rsi_galaxy_couch": {
    "name": "Seat",
    "category": "other"
   },
@@ -91026,7 +91928,7 @@
    "uuid": "6fc982c0-2747-42b7-a628-7c76ecedf732"
   },
   "shld_rsi_s04_polaris_scitem": {
-   "name": "Glacis",
+   "name": "Deterrent",
    "category": "ship_component",
    "type": "Shield",
    "size": 4,
@@ -92062,11 +92964,19 @@
    "name": "Screen",
    "category": "other"
   },
+  "softlock_engineeringscreen_galaxy": {
+   "name": "Screen",
+   "category": "other"
+  },
   "softlock_engineeringscreen_grin_mtc": {
    "name": "Screen",
    "category": "other"
   },
   "softlock_engineeringscreen_hammerhead_gs": {
+   "name": "Screen",
+   "category": "other"
+  },
+  "softlock_engineeringscreen_hyun": {
    "name": "Screen",
    "category": "other"
   },
@@ -94374,6 +95284,10 @@
    "name": "Door",
    "category": "other"
   },
+  "transportcarriagedoordefaulttemplate_rn": {
+   "name": "Door",
+   "category": "other"
+  },
   "transporteventtriggerabledoordefaulttemplate": {
    "name": "Door",
    "category": "other"
@@ -96451,6 +97365,16 @@
    "micro_scu": 23000,
    "uuid": "af097f7a-9c3c-4ba9-8155-54f71cd49d73"
   },
+  "vgl_flightsuit_01_03_01": {
+   "name": "Tailwind Flight Suit Raider Camo",
+   "category": "undersuit",
+   "type": "Char_Armor_Undersuit",
+   "size": 1,
+   "grade": 1,
+   "maker": "Virgil",
+   "micro_scu": 23000,
+   "uuid": "a147bd26-7e93-410f-95f4-166da8d79a9c"
+  },
   "vgl_flightsuit_02_01_01": {
    "name": "Tailwind Flight Suit Drake",
    "category": "undersuit",
@@ -96590,6 +97514,16 @@
    "maker": "Virgil",
    "micro_scu": 19000,
    "uuid": "17065bb4-fbc3-497d-8900-508a03a9b692"
+  },
+  "vgl_flightsuit_helmet_01_11_01": {
+   "name": "Tailwind Helmet Raider Camo",
+   "category": "armour",
+   "type": "Char_Armor_Helmet/Helmet",
+   "size": 1,
+   "grade": 1,
+   "maker": "Virgil",
+   "micro_scu": 19000,
+   "uuid": "e71b77f0-156a-4f8f-9d32-4a026faf90f2"
   },
   "vgl_flightsuit_helmet_02_01_01": {
    "name": "Tailwind Flight Helmet Drake",
@@ -97030,6 +97964,16 @@
    "maker": "Virgil",
    "micro_scu": 26000,
    "uuid": "649b433d-93ef-4fa2-85c2-c54eb5b44595"
+  },
+  "vgl_utility_light_backpack_01_06_01": {
+   "name": "Chiron Backpack Epoque",
+   "category": "backpack",
+   "type": "Char_Armor_Backpack/Personal",
+   "size": 1,
+   "grade": 1,
+   "maker": "Virgil",
+   "micro_scu": 26000,
+   "uuid": "7c6d52f0-1b19-4863-9130-2664d745d7a1"
   },
   "vgl_utility_light_backpack_02_01_01": {
    "name": "Chiron Backpack Heartthrob",
@@ -98693,6 +99637,10 @@
    "name": "Weapon Rack",
    "category": "other"
   },
+  "weapon_rack_drak_marauder": {
+   "name": "Weapon Rack",
+   "category": "other"
+  },
   "weapon_rack_drak_pitbull": {
    "name": "Weapon Rack",
    "category": "other"
@@ -98702,6 +99650,10 @@
    "category": "other"
   },
   "weapon_rack_espr_talon": {
+   "name": "Weapon Rack",
+   "category": "other"
+  },
+  "weapon_rack_gama_hyun": {
    "name": "Weapon Rack",
    "category": "other"
   },
