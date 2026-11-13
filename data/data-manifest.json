@@ -52,7 +52,7 @@
       "url": "mining-properties.json"
     },
     "item-images.json": {
-      "version": "4.10.2-r2",
+      "version": "4.10.3-r1",
       "url": "item-images.json"
     },
     "item-sources.json": {
@@ -90,6 +90,14 @@
     "mining-reference.json": {
       "version": "4.10.3-r1",
       "url": "mining-reference.json"
+    },
+    "ships.json": {
+      "version": "4.10.3-r1",
+      "url": "ships.json"
+    },
+    "ship-components.json": {
+      "version": "4.10.3-r1",
+      "url": "ship-components.json"
     }
   }
 }
