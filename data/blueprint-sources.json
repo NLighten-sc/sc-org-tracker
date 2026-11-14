@@ -11001,5 +11001,147 @@
   "zerorush": {
     "default_owned": false,
     "missions": []
+  },
+  "skarnov-rifle-battery-30-cap": {
+    "default_owned": false,
+    "missions": [
+      "Target Shattered Blade: ~mission(TargetName)"
+    ]
+  },
+  "monde-helmet-hemlock-camo": {
+    "default_owned": false,
+    "missions": [
+      "Getting Our Gear Back",
+      "QV Breaker Station Mining Rights (Exclusive)",
+      "QV Breaker Station Mining Rights (Shared)"
+    ]
+  },
+  "palatino-backpack-raider-camo": {
+    "default_owned": false,
+    "missions": [
+      "Stop Vanduul and Shattered Blade Hostilities"
+    ]
+  },
+  "corbel-arms-raider-camo": {
+    "default_owned": false,
+    "missions": [
+      "Counterstrike Against Vanduul Raiders"
+    ]
+  },
+  "corbel-core-raider-camo": {
+    "default_owned": false,
+    "missions": [
+      "Intercept Vanduul Fleet"
+    ]
+  },
+  "corbel-helmet-raider-camo": {
+    "default_owned": false,
+    "missions": [
+      "Intercept Vanduul Fleet"
+    ]
+  },
+  "corbel-legs-raider-camo": {
+    "default_owned": false,
+    "missions": [
+      "Counterstrike Against Vanduul Raiders"
+    ]
+  },
+  "palatino-arms-raider-camo": {
+    "default_owned": false,
+    "missions": [
+      "Neutralize Vanduul and Shattered Blade Threat"
+    ]
+  },
+  "palatino-core-raider-camo": {
+    "default_owned": false,
+    "missions": [
+      "Stop Vanduul and Shattered Blade Hostilities"
+    ]
+  },
+  "palatino-helmet-raider-camo": {
+    "default_owned": false,
+    "missions": [
+      "Stop Vanduul and Shattered Blade Hostilities"
+    ]
+  },
+  "palatino-legs-raider-camo": {
+    "default_owned": false,
+    "missions": [
+      "Neutralize Vanduul and Shattered Blade Threat"
+    ]
+  },
+  "tailwind-flight-suit-raider-camo": {
+    "default_owned": false,
+    "missions": [
+      "Interdict Vanduul Maulers"
+    ]
+  },
+  "tailwind-helmet-raider-camo": {
+    "default_owned": false,
+    "missions": [
+      "Interdict Vanduul Maulers"
+    ]
+  },
+  "skarnov-raider-camo-rifle": {
+    "default_owned": false,
+    "missions": [
+      "Target Shattered Blade: ~mission(TargetName)"
+    ]
+  },
+  "metamaterial-test-146": {
+    "default_owned": false,
+    "missions": [
+      "Extra Special Wolf"
+    ]
+  },
+  "th-01-propulsor": {
+    "default_owned": false,
+    "missions": [
+      "Orison Relief: Large Fabrication Order"
+    ]
+  },
+  "metamaterial-test-152": {
+    "default_owned": false,
+    "missions": [
+      "Clipper Fight Now"
+    ]
+  },
+  "broadspec-radr-chco-s02-broadspec-lite": {
+    "default_owned": false,
+    "missions": [
+      "Med. Purchase Order: Ship Mined Ore",
+      "Lrg. Purchase Order: Ship Mined Ore",
+      "XL Purchase Order: Ship Mined Ore",
+      "Special Purchase Order: Mined Materials",
+      "Mjr. Purchase Order: Ship Mined Ore"
+    ]
+  },
+  "broadspec-radr-chco-s03-broudspec": {
+    "default_owned": false,
+    "missions": [
+      "Med. Purchase Order: Ship Mined Ore",
+      "Lrg. Purchase Order: Ship Mined Ore",
+      "XL Purchase Order: Ship Mined Ore",
+      "Special Purchase Order: Mined Materials",
+      "Mjr. Purchase Order: Ship Mined Ore"
+    ]
+  },
+  "m3a-cannon-raider-camo": {
+    "default_owned": false,
+    "missions": [
+      "Draw Out Maulers"
+    ]
+  },
+  "m4a-cannon-raider-camo": {
+    "default_owned": false,
+    "missions": [
+      "Draw Out Maulers"
+    ]
+  },
+  "m5a-cannon-raider-camo": {
+    "default_owned": false,
+    "missions": [
+      "Draw Out Maulers"
+    ]
   }
 }

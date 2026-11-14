@@ -69130,5 +69130,716 @@
         "q1000_modifier": 1
       }
     ]
+  },
+  {
+    "id": "skarnov-rifle-battery-30-cap",
+    "name": "Skarnov Rifle Battery (30 cap)",
+    "category": "misc",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "hephaestanite",
+        "quantity": 0.02,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "gold",
+        "quantity": 0.01,
+        "unit": "SCU"
+      }
+    ],
+    "slots": []
+  },
+  {
+    "id": "palatino-backpack-raider-camo",
+    "name": "Palatino Backpack Raider Camo",
+    "category": "armour",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "ouratite",
+        "quantity": 0.06,
+        "unit": "SCU"
+      }
+    ],
+    "slots": []
+  },
+  {
+    "id": "corbel-arms-raider-camo",
+    "name": "Corbel Arms Raider Camo",
+    "category": "armour",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "laranite",
+        "quantity": 0.06,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "aslarite",
+        "quantity": 0.02,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "titanium",
+        "quantity": 0.06,
+        "unit": "SCU"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "CASING",
+        "item_id": "laranite",
+        "stat": "Damage Mitigation",
+        "q0_modifier": 0.9,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.1
+      },
+      {
+        "slot_id": "INSULATIVE LINER",
+        "item_id": "aslarite",
+        "stat": "Max Temp",
+        "q0_modifier": 0.8,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.2
+      }
+    ]
+  },
+  {
+    "id": "corbel-core-raider-camo",
+    "name": "Corbel Core Raider Camo",
+    "category": "armour",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "laranite",
+        "quantity": 0.07,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "aslarite",
+        "quantity": 0.02,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "titanium",
+        "quantity": 0.07,
+        "unit": "SCU"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "CASING",
+        "item_id": "laranite",
+        "stat": "Damage Mitigation",
+        "q0_modifier": 0.85,
+        "q500_modifier": 0.975,
+        "q1000_modifier": 1.1
+      },
+      {
+        "slot_id": "INSULATIVE LINER",
+        "item_id": "aslarite",
+        "stat": "Max Temp",
+        "q0_modifier": 0.8,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.2
+      }
+    ]
+  },
+  {
+    "id": "corbel-helmet-raider-camo",
+    "name": "Corbel Helmet Raider Camo",
+    "category": "armour",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "laranite",
+        "quantity": 0.05,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "aslarite",
+        "quantity": 0.01,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "titanium",
+        "quantity": 0.05,
+        "unit": "SCU"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "CASING",
+        "item_id": "laranite",
+        "stat": "Damage Mitigation",
+        "q0_modifier": 0.9,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.1
+      },
+      {
+        "slot_id": "INSULATIVE LINER",
+        "item_id": "aslarite",
+        "stat": "Max Temp",
+        "q0_modifier": 0.8,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.2
+      }
+    ]
+  },
+  {
+    "id": "corbel-legs-raider-camo",
+    "name": "Corbel Legs Raider Camo",
+    "category": "armour",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "laranite",
+        "quantity": 0.06,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "aslarite",
+        "quantity": 0.02,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "titanium",
+        "quantity": 0.06,
+        "unit": "SCU"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "CASING",
+        "item_id": "laranite",
+        "stat": "Damage Mitigation",
+        "q0_modifier": 0.9,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.1
+      },
+      {
+        "slot_id": "INSULATIVE LINER",
+        "item_id": "aslarite",
+        "stat": "Max Temp",
+        "q0_modifier": 0.8,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.2
+      }
+    ]
+  },
+  {
+    "id": "palatino-arms-raider-camo",
+    "name": "Palatino Arms Raider Camo",
+    "category": "armour",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "laranite",
+        "quantity": 0.06,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "aslarite",
+        "quantity": 0.02,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "savrilium",
+        "quantity": 0.06,
+        "unit": "SCU"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "CASING",
+        "item_id": "laranite",
+        "stat": "Damage Mitigation",
+        "q0_modifier": 0.9,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.1
+      },
+      {
+        "slot_id": "INSULATIVE LINER",
+        "item_id": "aslarite",
+        "stat": "Max Temp",
+        "q0_modifier": 0.8,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.2
+      }
+    ]
+  },
+  {
+    "id": "palatino-core-raider-camo",
+    "name": "Palatino Core Raider Camo",
+    "category": "armour",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "laranite",
+        "quantity": 0.07,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "aslarite",
+        "quantity": 0.02,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "savrilium",
+        "quantity": 0.07,
+        "unit": "SCU"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "CASING",
+        "item_id": "laranite",
+        "stat": "Damage Mitigation",
+        "q0_modifier": 0.9,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.1
+      },
+      {
+        "slot_id": "INSULATIVE LINER",
+        "item_id": "aslarite",
+        "stat": "Max Temp",
+        "q0_modifier": 0.8,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.2
+      }
+    ]
+  },
+  {
+    "id": "palatino-helmet-raider-camo",
+    "name": "Palatino Helmet Raider Camo",
+    "category": "armour",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "laranite",
+        "quantity": 0.05,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "aslarite",
+        "quantity": 0.01,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "savrilium",
+        "quantity": 0.05,
+        "unit": "SCU"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "CASING",
+        "item_id": "laranite",
+        "stat": "Damage Mitigation",
+        "q0_modifier": 0.9,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.1
+      },
+      {
+        "slot_id": "INSULATIVE LINER",
+        "item_id": "aslarite",
+        "stat": "Max Temp",
+        "q0_modifier": 0.8,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.2
+      }
+    ]
+  },
+  {
+    "id": "palatino-legs-raider-camo",
+    "name": "Palatino Legs Raider Camo",
+    "category": "armour",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "laranite",
+        "quantity": 0.06,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "aslarite",
+        "quantity": 0.02,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "savrilium",
+        "quantity": 0.06,
+        "unit": "SCU"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "CASING",
+        "item_id": "laranite",
+        "stat": "Damage Mitigation",
+        "q0_modifier": 0.9,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.1
+      },
+      {
+        "slot_id": "INSULATIVE LINER",
+        "item_id": "aslarite",
+        "stat": "Max Temp",
+        "q0_modifier": 0.8,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.2
+      }
+    ]
+  },
+  {
+    "id": "tailwind-flight-suit-raider-camo",
+    "name": "Tailwind Flight Suit Raider Camo",
+    "category": "armour",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "silicon",
+        "quantity": 0.06,
+        "unit": "SCU"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "SUIT UNDERLAY",
+        "item_id": "silicon",
+        "stat": "Max Temp",
+        "q0_modifier": 0.8,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.2
+      }
+    ]
+  },
+  {
+    "id": "tailwind-helmet-raider-camo",
+    "name": "Tailwind Helmet Raider Camo",
+    "category": "armour",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "silicon",
+        "quantity": 0.03,
+        "unit": "SCU"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "SUIT UNDERLAY",
+        "item_id": "silicon",
+        "stat": "Max Temp",
+        "q0_modifier": 0.8,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.2
+      }
+    ]
+  },
+  {
+    "id": "neutrino-racing-flight-suit-mirai",
+    "name": "Neutrino Racing Flight Suit Mirai",
+    "category": "armour",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "silicon",
+        "quantity": 0.06,
+        "unit": "SCU"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "SUIT UNDERLAY",
+        "item_id": "silicon",
+        "stat": "Max Temp",
+        "q0_modifier": 0.8,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.2
+      }
+    ]
+  },
+  {
+    "id": "skarnov-raider-camo-rifle",
+    "name": "Skarnov \"Raider Camo\" Rifle",
+    "category": "weapon",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "corundum",
+        "quantity": 0.04,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "copper",
+        "quantity": 0.02,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "sadaryx",
+        "quantity": 1,
+        "unit": "count"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "FRAME",
+        "item_id": "corundum",
+        "stat": "Recoil Smoothness",
+        "q0_modifier": 1.4,
+        "q500_modifier": 1,
+        "q1000_modifier": 0.6
+      },
+      {
+        "slot_id": "WIRING:",
+        "item_id": "copper",
+        "stat": "Fire Rate",
+        "q0_modifier": 0.88,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.12
+      },
+      {
+        "slot_id": "LENSES",
+        "item_id": "sadaryx",
+        "stat": "Impact Force",
+        "q0_modifier": 0.925,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.075
+      }
+    ]
+  },
+  {
+    "id": "deterrent",
+    "name": "Deterrent",
+    "category": "ship_component",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "riccite",
+        "quantity": 3.5,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "riccite",
+        "quantity": 5.7,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "beradom",
+        "quantity": 495,
+        "unit": "count"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "SHELL",
+        "item_id": "riccite",
+        "stat": "Integrity",
+        "q0_modifier": 0.8,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.2
+      },
+      {
+        "slot_id": "FIELD ARRAY",
+        "item_id": "riccite",
+        "stat": "Max. Shield Strength",
+        "q0_modifier": 0.9,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.1
+      },
+      {
+        "slot_id": "FREQUENCY CONTROLLER",
+        "item_id": "beradom",
+        "stat": "Max. Shield Strength",
+        "q0_modifier": 0.9,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.1
+      }
+    ]
+  },
+  {
+    "id": "m3a-cannon-raider-camo",
+    "name": "M3A Cannon Raider Camo",
+    "category": "ship_component",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "agricium",
+        "quantity": 0.36,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "hadanite",
+        "quantity": 7,
+        "unit": "count"
+      },
+      {
+        "item_id": "dolivine",
+        "quantity": 7,
+        "unit": "count"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "FRAME",
+        "item_id": "agricium",
+        "stat": "Integrity",
+        "q0_modifier": 0.9,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.1
+      },
+      {
+        "slot_id": "EMITTER",
+        "item_id": "hadanite",
+        "stat": "Impact Force",
+        "q0_modifier": 0.95,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.05
+      },
+      {
+        "slot_id": "APERTURE IRIS",
+        "item_id": "dolivine",
+        "stat": "Impact Force",
+        "q0_modifier": 0.95,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.05
+      }
+    ]
+  },
+  {
+    "id": "m4a-cannon-raider-camo",
+    "name": "M4A Cannon Raider Camo",
+    "category": "ship_component",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "agricium",
+        "quantity": 0.64,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "hadanite",
+        "quantity": 13,
+        "unit": "count"
+      },
+      {
+        "item_id": "dolivine",
+        "quantity": 13,
+        "unit": "count"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "FRAME",
+        "item_id": "agricium",
+        "stat": "Integrity",
+        "q0_modifier": 0.9,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.1
+      },
+      {
+        "slot_id": "EMITTER",
+        "item_id": "hadanite",
+        "stat": "Impact Force",
+        "q0_modifier": 0.95,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.05
+      },
+      {
+        "slot_id": "APERTURE IRIS",
+        "item_id": "dolivine",
+        "stat": "Impact Force",
+        "q0_modifier": 0.95,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.05
+      }
+    ]
+  },
+  {
+    "id": "m5a-cannon-raider-camo",
+    "name": "M5A Cannon Raider Camo",
+    "category": "ship_component",
+    "tier": 0,
+    "output_qty": 1,
+    "output_image_url": null,
+    "ingredients": [
+      {
+        "item_id": "agricium",
+        "quantity": 1.16,
+        "unit": "SCU"
+      },
+      {
+        "item_id": "hadanite",
+        "quantity": 23,
+        "unit": "count"
+      },
+      {
+        "item_id": "dolivine",
+        "quantity": 23,
+        "unit": "count"
+      }
+    ],
+    "slots": [
+      {
+        "slot_id": "FRAME",
+        "item_id": "agricium",
+        "stat": "Integrity",
+        "q0_modifier": 0.9,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.1
+      },
+      {
+        "slot_id": "EMITTER",
+        "item_id": "hadanite",
+        "stat": "Impact Force",
+        "q0_modifier": 0.95,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.05
+      },
+      {
+        "slot_id": "APERTURE IRIS",
+        "item_id": "dolivine",
+        "stat": "Impact Force",
+        "q0_modifier": 0.95,
+        "q500_modifier": 1,
+        "q1000_modifier": 1.05
+      }
+    ]
   }
 ]

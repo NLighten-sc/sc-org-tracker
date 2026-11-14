@@ -1,6 +1,6 @@
 {
- "_source": "https://sc-craft.tools/api/blueprints (sc-craft.tools, extracted from game files)",
- "game_version": "LIVE-4.10.2-12881860",
+ "_source": "https://sc-craft.tools/api/blueprints (sc-craft.tools, extracted from game files) + game files via scripts/import-crafting.mjs (SC Crafter backup)",
+ "game_version": "LIVE-4.10.2-12881860 + game files 4.10.3",
  "fetched_at": "2026-10-28T22:54:58.570Z",
  "blueprints": {
   "10-series-greatsword-cannon": {
@@ -109765,6 +109765,1148 @@
     }
    ],
    "base_stats": {}
+  },
+  "skarnov-rifle-battery-30-cap": {
+   "craft_time_seconds": 10,
+   "slots": [
+    {
+     "slot": "MAGAZINE",
+     "item_id": "hephaestanite",
+     "item_name": "Hephaestanite",
+     "quantity": 0.02,
+     "min_quality": null,
+     "effects": []
+    },
+    {
+     "slot": "CHARGE CHAMBER",
+     "item_id": "gold",
+     "item_name": "Gold",
+     "quantity": 0.01,
+     "min_quality": null,
+     "effects": []
+    }
+   ],
+   "base_stats": {}
+  },
+  "monde-helmet-hemlock-camo": {
+   "craft_time_seconds": 270,
+   "slots": [
+    {
+     "slot": "ARMOURED CARAPACE",
+     "item_id": "ouratite",
+     "item_name": "Ouratite",
+     "quantity": 0.03,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Damage Mitigation",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.9,
+       "at_max": 1.1
+      }
+     ]
+    },
+    {
+     "slot": "INSULATIVE LINER",
+     "item_id": "aslarite",
+     "item_name": "Aslarite",
+     "quantity": 0.01,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Min Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      },
+      {
+       "stat": "Max Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      }
+     ]
+    },
+    {
+     "slot": "SUPPORT STRUCTURE",
+     "item_id": "savrilium",
+     "item_name": "Savrilium",
+     "quantity": 0.03,
+     "min_quality": null,
+     "effects": []
+    }
+   ],
+   "base_stats": {
+    "Min Temp": {
+     "value": -70,
+     "unit": "°C"
+    },
+    "Max Temp": {
+     "value": 100,
+     "unit": "°C"
+    }
+   }
+  },
+  "palatino-backpack-raider-camo": {
+   "craft_time_seconds": 105,
+   "slots": [
+    {
+     "slot": "FRAME",
+     "item_id": "ouratite",
+     "item_name": "Ouratite",
+     "quantity": 0.06,
+     "min_quality": null,
+     "effects": []
+    }
+   ],
+   "base_stats": {}
+  },
+  "corbel-arms-raider-camo": {
+   "craft_time_seconds": 90,
+   "slots": [
+    {
+     "slot": "CASING",
+     "item_id": "laranite",
+     "item_name": "Laranite",
+     "quantity": 0.06,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Damage Mitigation",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.9,
+       "at_max": 1.1
+      }
+     ]
+    },
+    {
+     "slot": "INSULATIVE LINER",
+     "item_id": "aslarite",
+     "item_name": "Aslarite",
+     "quantity": 0.02,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Max Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      },
+      {
+       "stat": "Min Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      }
+     ]
+    },
+    {
+     "slot": "CASING WEAVE",
+     "item_id": "titanium",
+     "item_name": "Titanium",
+     "quantity": 0.06,
+     "min_quality": null,
+     "effects": []
+    }
+   ],
+   "base_stats": {
+    "Min Temp": {
+     "value": -70,
+     "unit": "°C"
+    },
+    "Max Temp": {
+     "value": 100,
+     "unit": "°C"
+    }
+   }
+  },
+  "corbel-core-raider-camo": {
+   "craft_time_seconds": 90,
+   "slots": [
+    {
+     "slot": "CASING",
+     "item_id": "laranite",
+     "item_name": "Laranite",
+     "quantity": 0.07,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Damage Mitigation",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.85,
+       "at_max": 1.1
+      }
+     ]
+    },
+    {
+     "slot": "INSULATIVE LINER",
+     "item_id": "aslarite",
+     "item_name": "Aslarite",
+     "quantity": 0.02,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Max Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      },
+      {
+       "stat": "Min Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      }
+     ]
+    },
+    {
+     "slot": "CASING WEAVE",
+     "item_id": "titanium",
+     "item_name": "Titanium",
+     "quantity": 0.07,
+     "min_quality": 500,
+     "effects": []
+    }
+   ],
+   "base_stats": {
+    "Min Temp": {
+     "value": -70,
+     "unit": "°C"
+    },
+    "Max Temp": {
+     "value": 100,
+     "unit": "°C"
+    }
+   }
+  },
+  "corbel-helmet-raider-camo": {
+   "craft_time_seconds": 90,
+   "slots": [
+    {
+     "slot": "CASING",
+     "item_id": "laranite",
+     "item_name": "Laranite",
+     "quantity": 0.05,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Damage Mitigation",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.9,
+       "at_max": 1.1
+      }
+     ]
+    },
+    {
+     "slot": "INSULATIVE LINER",
+     "item_id": "aslarite",
+     "item_name": "Aslarite",
+     "quantity": 0.01,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Max Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      },
+      {
+       "stat": "Min Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      }
+     ]
+    },
+    {
+     "slot": "CASING WEAVE",
+     "item_id": "titanium",
+     "item_name": "Titanium",
+     "quantity": 0.05,
+     "min_quality": null,
+     "effects": []
+    }
+   ],
+   "base_stats": {
+    "Min Temp": {
+     "value": -70,
+     "unit": "°C"
+    },
+    "Max Temp": {
+     "value": 100,
+     "unit": "°C"
+    }
+   }
+  },
+  "corbel-legs-raider-camo": {
+   "craft_time_seconds": 90,
+   "slots": [
+    {
+     "slot": "CASING",
+     "item_id": "laranite",
+     "item_name": "Laranite",
+     "quantity": 0.06,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Damage Mitigation",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.9,
+       "at_max": 1.1
+      }
+     ]
+    },
+    {
+     "slot": "INSULATIVE LINER",
+     "item_id": "aslarite",
+     "item_name": "Aslarite",
+     "quantity": 0.02,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Max Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      },
+      {
+       "stat": "Min Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      }
+     ]
+    },
+    {
+     "slot": "CASING WEAVE",
+     "item_id": "titanium",
+     "item_name": "Titanium",
+     "quantity": 0.06,
+     "min_quality": null,
+     "effects": []
+    }
+   ],
+   "base_stats": {
+    "Min Temp": {
+     "value": -70,
+     "unit": "°C"
+    },
+    "Max Temp": {
+     "value": 100,
+     "unit": "°C"
+    }
+   }
+  },
+  "palatino-arms-raider-camo": {
+   "craft_time_seconds": 270,
+   "slots": [
+    {
+     "slot": "CASING",
+     "item_id": "laranite",
+     "item_name": "Laranite",
+     "quantity": 0.06,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Damage Mitigation",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.9,
+       "at_max": 1.1
+      }
+     ]
+    },
+    {
+     "slot": "INSULATIVE LINER",
+     "item_id": "aslarite",
+     "item_name": "Aslarite",
+     "quantity": 0.02,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Max Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      },
+      {
+       "stat": "Min Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      }
+     ]
+    },
+    {
+     "slot": "CASING WEAVE",
+     "item_id": "savrilium",
+     "item_name": "Savrilium",
+     "quantity": 0.06,
+     "min_quality": null,
+     "effects": []
+    }
+   ],
+   "base_stats": {
+    "Min Temp": {
+     "value": -70,
+     "unit": "°C"
+    },
+    "Max Temp": {
+     "value": 100,
+     "unit": "°C"
+    }
+   }
+  },
+  "palatino-core-raider-camo": {
+   "craft_time_seconds": 270,
+   "slots": [
+    {
+     "slot": "CASING",
+     "item_id": "laranite",
+     "item_name": "Laranite",
+     "quantity": 0.07,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Damage Mitigation",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.9,
+       "at_max": 1.1
+      }
+     ]
+    },
+    {
+     "slot": "INSULATIVE LINER",
+     "item_id": "aslarite",
+     "item_name": "Aslarite",
+     "quantity": 0.02,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Max Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      },
+      {
+       "stat": "Min Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      }
+     ]
+    },
+    {
+     "slot": "CASING WEAVE",
+     "item_id": "savrilium",
+     "item_name": "Savrilium",
+     "quantity": 0.07,
+     "min_quality": null,
+     "effects": []
+    }
+   ],
+   "base_stats": {
+    "Min Temp": {
+     "value": -70,
+     "unit": "°C"
+    },
+    "Max Temp": {
+     "value": 100,
+     "unit": "°C"
+    }
+   }
+  },
+  "palatino-helmet-raider-camo": {
+   "craft_time_seconds": 270,
+   "slots": [
+    {
+     "slot": "CASING",
+     "item_id": "laranite",
+     "item_name": "Laranite",
+     "quantity": 0.05,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Damage Mitigation",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.9,
+       "at_max": 1.1
+      }
+     ]
+    },
+    {
+     "slot": "INSULATIVE LINER",
+     "item_id": "aslarite",
+     "item_name": "Aslarite",
+     "quantity": 0.01,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Max Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      },
+      {
+       "stat": "Min Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      }
+     ]
+    },
+    {
+     "slot": "CASING WEAVE",
+     "item_id": "savrilium",
+     "item_name": "Savrilium",
+     "quantity": 0.05,
+     "min_quality": null,
+     "effects": []
+    }
+   ],
+   "base_stats": {
+    "Min Temp": {
+     "value": -70,
+     "unit": "°C"
+    },
+    "Max Temp": {
+     "value": 100,
+     "unit": "°C"
+    }
+   }
+  },
+  "palatino-legs-raider-camo": {
+   "craft_time_seconds": 270,
+   "slots": [
+    {
+     "slot": "CASING",
+     "item_id": "laranite",
+     "item_name": "Laranite",
+     "quantity": 0.06,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Damage Mitigation",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.9,
+       "at_max": 1.1
+      }
+     ]
+    },
+    {
+     "slot": "INSULATIVE LINER",
+     "item_id": "aslarite",
+     "item_name": "Aslarite",
+     "quantity": 0.02,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Max Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      },
+      {
+       "stat": "Min Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      }
+     ]
+    },
+    {
+     "slot": "CASING WEAVE",
+     "item_id": "savrilium",
+     "item_name": "Savrilium",
+     "quantity": 0.06,
+     "min_quality": null,
+     "effects": []
+    }
+   ],
+   "base_stats": {
+    "Min Temp": {
+     "value": -70,
+     "unit": "°C"
+    },
+    "Max Temp": {
+     "value": 100,
+     "unit": "°C"
+    }
+   }
+  },
+  "tailwind-flight-suit-raider-camo": {
+   "craft_time_seconds": 90,
+   "slots": [
+    {
+     "slot": "SUIT UNDERLAY",
+     "item_id": "silicon",
+     "item_name": "Silicon",
+     "quantity": 0.06,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Max Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      },
+      {
+       "stat": "Min Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      }
+     ]
+    }
+   ],
+   "base_stats": {
+    "Min Temp": {
+     "value": -30,
+     "unit": "°C"
+    },
+    "Max Temp": {
+     "value": 60,
+     "unit": "°C"
+    }
+   }
+  },
+  "tailwind-helmet-raider-camo": {
+   "craft_time_seconds": 90,
+   "slots": [
+    {
+     "slot": "SUIT UNDERLAY",
+     "item_id": "silicon",
+     "item_name": "Silicon",
+     "quantity": 0.03,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Max Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      },
+      {
+       "stat": "Min Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      }
+     ]
+    }
+   ],
+   "base_stats": {
+    "Min Temp": {
+     "value": -30,
+     "unit": "°C"
+    },
+    "Max Temp": {
+     "value": 60,
+     "unit": "°C"
+    }
+   }
+  },
+  "neutrino-racing-flight-suit-mirai": {
+   "craft_time_seconds": 90,
+   "slots": [
+    {
+     "slot": "SUIT UNDERLAY",
+     "item_id": "silicon",
+     "item_name": "Silicon",
+     "quantity": 0.06,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Max Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      },
+      {
+       "stat": "Min Temp",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2
+      }
+     ]
+    }
+   ],
+   "base_stats": {
+    "Min Temp": {
+     "value": -30,
+     "unit": "°C"
+    },
+    "Max Temp": {
+     "value": 60,
+     "unit": "°C"
+    }
+   }
+  },
+  "skarnov-raider-camo-rifle": {
+   "craft_time_seconds": 150,
+   "slots": [
+    {
+     "slot": "FRAME",
+     "item_id": "corundum",
+     "item_name": "Corundum",
+     "quantity": 0.04,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Recoil Smoothness",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 1.4,
+       "at_max": 0.6
+      },
+      {
+       "stat": "Recoil Handling",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 1.4,
+       "at_max": 0.6
+      },
+      {
+       "stat": "Recoil Kick",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 1.4,
+       "at_max": 0.6
+      }
+     ]
+    },
+    {
+     "slot": "WIRING:",
+     "item_id": "copper",
+     "item_name": "Copper",
+     "quantity": 0.02,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Fire Rate",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.88,
+       "at_max": 1.12
+      }
+     ]
+    },
+    {
+     "slot": "LENSES",
+     "item_id": "sadaryx",
+     "item_name": "Sadaryx",
+     "quantity": 1,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Impact Force",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.925,
+       "at_max": 1.075
+      }
+     ]
+    }
+   ],
+   "base_stats": {
+    "Fire Rate": {
+     "value": 375,
+     "unit": "rpm"
+    }
+   }
+  },
+  "metamaterial-test-146": {
+   "craft_time_seconds": 70,
+   "slots": [
+    {
+     "slot": "SUBSTRATE",
+     "item_id": "titanium",
+     "item_name": "Titanium",
+     "quantity": 2,
+     "min_quality": 900,
+     "effects": []
+    },
+    {
+     "slot": "LATTICE",
+     "item_id": "riccite",
+     "item_name": "Riccite",
+     "quantity": 2,
+     "min_quality": 800,
+     "effects": []
+    },
+    {
+     "slot": "FILAMENT COATING",
+     "item_id": "yormandi_eye",
+     "item_name": "Yormandi Eye",
+     "quantity": 4,
+     "min_quality": null,
+     "effects": []
+    }
+   ],
+   "base_stats": {}
+  },
+  "probe": {
+   "craft_time_seconds": 10,
+   "slots": [
+    {
+     "slot": "FRAME",
+     "item_id": "aluminum",
+     "item_name": "Aluminum",
+     "quantity": 0.2,
+     "min_quality": null,
+     "effects": []
+    },
+    {
+     "slot": "ELECTRONICS",
+     "item_id": "silicon",
+     "item_name": "Silicon",
+     "quantity": 0.2,
+     "min_quality": null,
+     "effects": []
+    }
+   ],
+   "base_stats": {}
+  },
+  "th-01-propulsor": {
+   "craft_time_seconds": 10,
+   "slots": [
+    {
+     "slot": "FRAME",
+     "item_id": "aluminum",
+     "item_name": "Aluminum",
+     "quantity": 0.05,
+     "min_quality": 600,
+     "effects": []
+    }
+   ],
+   "base_stats": {}
+  },
+  "metamaterial-test-152": {
+   "craft_time_seconds": 10,
+   "slots": [
+    {
+     "slot": "CASE",
+     "item_id": "stileron",
+     "item_name": "Stileron",
+     "quantity": 0.5,
+     "min_quality": 700,
+     "effects": []
+    },
+    {
+     "slot": "SUPPORT STRUCUTRE",
+     "item_id": "ouratite",
+     "item_name": "Ouratite",
+     "quantity": 0.3,
+     "min_quality": 800,
+     "effects": []
+    }
+   ],
+   "base_stats": {}
+  },
+  "deterrent": {
+   "craft_time_seconds": 90,
+   "slots": [
+    {
+     "slot": "SHELL",
+     "item_id": "riccite",
+     "item_name": "Riccite",
+     "quantity": 3.5,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Integrity",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.8,
+       "at_max": 1.2,
+       "ranges": [
+        {
+         "q_min": 0,
+         "q_max": 500,
+         "at_min": 0.8,
+         "at_max": 1
+        },
+        {
+         "q_min": 501,
+         "q_max": 1000,
+         "at_min": 1,
+         "at_max": 1.2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slot": "FIELD ARRAY",
+     "item_id": "riccite",
+     "item_name": "Riccite",
+     "quantity": 5.7,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Max. Shield Strength",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.9,
+       "at_max": 1.1,
+       "ranges": [
+        {
+         "q_min": 0,
+         "q_max": 500,
+         "at_min": 0.9,
+         "at_max": 1
+        },
+        {
+         "q_min": 501,
+         "q_max": 1000,
+         "at_min": 1,
+         "at_max": 1.1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slot": "FREQUENCY CONTROLLER",
+     "item_id": "beradom",
+     "item_name": "Beradom",
+     "quantity": 495,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Max. Shield Strength",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.9,
+       "at_max": 1.1,
+       "ranges": [
+        {
+         "q_min": 0,
+         "q_max": 500,
+         "at_min": 0.9,
+         "at_max": 1
+        },
+        {
+         "q_min": 501,
+         "q_max": 1000,
+         "at_min": 1,
+         "at_max": 1.1
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "base_stats": {}
+  },
+  "m3a-cannon-raider-camo": {
+   "craft_time_seconds": 540,
+   "slots": [
+    {
+     "slot": "FRAME",
+     "item_id": "agricium",
+     "item_name": "Agricium",
+     "quantity": 0.36,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Integrity",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.9,
+       "at_max": 1.1
+      }
+     ]
+    },
+    {
+     "slot": "EMITTER",
+     "item_id": "hadanite",
+     "item_name": "Hadanite",
+     "quantity": 7,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Impact Force",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.95,
+       "at_max": 1.05
+      }
+     ]
+    },
+    {
+     "slot": "APERTURE IRIS",
+     "item_id": "dolivine",
+     "item_name": "Dolivine",
+     "quantity": 7,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Impact Force",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.95,
+       "at_max": 1.05
+      }
+     ]
+    }
+   ],
+   "base_stats": {
+    "Fire Rate": {
+     "value": 100,
+     "unit": "rpm"
+    }
+   }
+  },
+  "m4a-cannon-raider-camo": {
+   "craft_time_seconds": 960,
+   "slots": [
+    {
+     "slot": "FRAME",
+     "item_id": "agricium",
+     "item_name": "Agricium",
+     "quantity": 0.64,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Integrity",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.9,
+       "at_max": 1.1
+      }
+     ]
+    },
+    {
+     "slot": "EMITTER",
+     "item_id": "hadanite",
+     "item_name": "Hadanite",
+     "quantity": 13,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Impact Force",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.95,
+       "at_max": 1.05
+      }
+     ]
+    },
+    {
+     "slot": "APERTURE IRIS",
+     "item_id": "dolivine",
+     "item_name": "Dolivine",
+     "quantity": 13,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Impact Force",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.95,
+       "at_max": 1.05
+      }
+     ]
+    }
+   ],
+   "base_stats": {
+    "Fire Rate": {
+     "value": 100,
+     "unit": "rpm"
+    }
+   }
+  },
+  "m5a-cannon-raider-camo": {
+   "craft_time_seconds": 1680,
+   "slots": [
+    {
+     "slot": "FRAME",
+     "item_id": "agricium",
+     "item_name": "Agricium",
+     "quantity": 1.16,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Integrity",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.9,
+       "at_max": 1.1
+      }
+     ]
+    },
+    {
+     "slot": "EMITTER",
+     "item_id": "hadanite",
+     "item_name": "Hadanite",
+     "quantity": 23,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Impact Force",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.95,
+       "at_max": 1.05
+      }
+     ]
+    },
+    {
+     "slot": "APERTURE IRIS",
+     "item_id": "dolivine",
+     "item_name": "Dolivine",
+     "quantity": 23,
+     "min_quality": null,
+     "effects": [
+      {
+       "stat": "Impact Force",
+       "q_min": 0,
+       "q_max": 1000,
+       "at_min": 0.95,
+       "at_max": 1.05
+      }
+     ]
+    }
+   ],
+   "base_stats": {
+    "Fire Rate": {
+     "value": 100,
+     "unit": "rpm"
+    }
+   }
   }
  }
 }
