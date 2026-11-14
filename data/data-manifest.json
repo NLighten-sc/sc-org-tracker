@@ -1,6 +1,6 @@
 {
   "patch_version": "4.10.3",
-  "published_at": "2026-11-12T19:10:32Z",
+  "published_at": "2026-11-14T18:56:49Z",
   "sync_server_url": "https://rpi4.tailbafedc.ts.net",
   "files": {
     "materials.json": {
@@ -12,7 +12,7 @@
       "url": "wikelo-contracts.json"
     },
     "crafting-blueprints.json": {
-      "version": "4.10.2-r3",
+      "version": "4.10.3-r1",
       "url": "crafting-blueprints.json"
     },
     "log-patterns.json": {
@@ -68,11 +68,11 @@
       "url": "mission-givers.json"
     },
     "blueprint-quality.json": {
-      "version": "4.10.2-r3",
+      "version": "4.10.3-r1",
       "url": "blueprint-quality.json"
     },
     "blueprint-sources.json": {
-      "version": "4.10.2-r2",
+      "version": "4.10.3-r1",
       "url": "blueprint-sources.json"
     },
     "reputation-ladders.json": {
@@ -92,11 +92,11 @@
       "url": "mining-reference.json"
     },
     "ships.json": {
-      "version": "4.10.3-r1",
+      "version": "4.10.3-r2",
       "url": "ships.json"
     },
     "ship-components.json": {
-      "version": "4.10.3-r1",
+      "version": "4.10.3-r2",
       "url": "ship-components.json"
     }
   }
