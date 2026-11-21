@@ -16,7 +16,7 @@
       "url": "crafting-blueprints.json"
     },
     "log-patterns.json": {
-      "version": "4.10.2-r22",
+      "version": "4.10.2-r23",
       "url": "log-patterns.json"
     },
     "locations.json": {
@@ -92,11 +92,11 @@
       "url": "mining-reference.json"
     },
     "ships.json": {
-      "version": "4.10.3-r2",
+      "version": "4.10.3-r3",
       "url": "ships.json"
     },
     "ship-components.json": {
-      "version": "4.10.3-r3",
+      "version": "4.10.3-r4",
       "url": "ship-components.json"
     }
   }

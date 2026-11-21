@@ -1,5 +1,5 @@
 {
-  "data_version": "4.10.2-r22",
+  "data_version": "4.10.2-r23",
   "patch_version": "4.10.2",
   "_comment": "Verified against real Game.log files (patches 3.21-4.10.2). Named groups are read by the parser. 'toggle' links a pattern to a Settings > Log Reader switch.",
   "patterns": {
@@ -207,6 +207,8 @@
     "RR_JP_PyroNyx": "nyx_gateway_pyr",
     "RR_JP_StantonMagnus": "nyx_gateway_stan",
     "RR_JP_NyxCastra": "stanton_gateway_nyx",
+    "RR_JP_NyxPyro": "pyro_gateway_nyx",
+    "RR_JP_StantonTerra": "terra_gateway",
     "TheCollectorAsteroid_Stanton1": "sm:02069d4a-e37a-474c-9229-691ce013bdc1",
     "TheCollectorAsteroid_Stanton2": "sm:920f7536-09dc-483e-9d87-2557a3425559",
     "TheCollectorAsteroid_Stanton4": "sm:67ae7907-1fd9-4e84-a83f-2b7e96b2bf60",
