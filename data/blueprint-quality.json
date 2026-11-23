@@ -65891,44 +65891,6 @@
     }
    }
   },
-  "neutrino-racing-flight-suit-mirai-n": {
-   "craft_time_seconds": 90,
-   "slots": [
-    {
-     "slot": "SUIT UNDERLAY",
-     "item_id": "silicon",
-     "item_name": "Silicon",
-     "quantity": 0.06,
-     "min_quality": null,
-     "effects": [
-      {
-       "stat": "Max Temp",
-       "q_min": 0,
-       "q_max": 1000,
-       "at_min": 0.8,
-       "at_max": 1.2
-      },
-      {
-       "stat": "Min Temp",
-       "q_min": 0,
-       "q_max": 1000,
-       "at_min": 0.8,
-       "at_max": 1.2
-      }
-     ]
-    }
-   ],
-   "base_stats": {
-    "Min Temp": {
-     "value": -30,
-     "unit": "°C"
-    },
-    "Max Temp": {
-     "value": 60,
-     "unit": "°C"
-    }
-   }
-  },
   "neutrino-racing-flight-suit-whitehot": {
    "craft_time_seconds": 90,
    "slots": [

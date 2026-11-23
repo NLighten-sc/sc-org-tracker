@@ -37505,31 +37505,6 @@
     ]
   },
   {
-    "id": "neutrino-racing-flight-suit-mirai-n",
-    "name": "Neutrino Racing Flight Suit Mirai\\n",
-    "category": "armour",
-    "tier": 0,
-    "output_qty": 1,
-    "output_image_url": null,
-    "ingredients": [
-      {
-        "item_id": "silicon",
-        "quantity": 0.06,
-        "unit": "SCU"
-      }
-    ],
-    "slots": [
-      {
-        "slot_id": "SUIT UNDERLAY",
-        "item_id": "silicon",
-        "stat": "Max Temp",
-        "q0_modifier": 0.8,
-        "q500_modifier": 1,
-        "q1000_modifier": 1.2
-      }
-    ]
-  },
-  {
     "id": "neutrino-racing-flight-suit-whitehot",
     "name": "Neutrino Racing Flight Suit WhiteHot",
     "category": "armour",
@@ -58645,52 +58620,6 @@
   },
   {
     "id": "glacis-shld-orig-s04-890j-scitem",
-    "name": "Glacis",
-    "category": "ship_component",
-    "tier": 0,
-    "output_qty": 1,
-    "output_image_url": null,
-    "ingredients": [
-      {
-        "item_id": "riccite",
-        "quantity": 9.2,
-        "unit": "SCU"
-      },
-      {
-        "item_id": "beradom",
-        "quantity": 495,
-        "unit": "count"
-      }
-    ],
-    "slots": [
-      {
-        "slot_id": "SHELL",
-        "item_id": "riccite",
-        "stat": "Integrity",
-        "q0_modifier": 0.8,
-        "q500_modifier": 0.9,
-        "q1000_modifier": 1
-      },
-      {
-        "slot_id": "FIELD ARRAY",
-        "item_id": "riccite",
-        "stat": "Max. Shield Strength",
-        "q0_modifier": 0.9,
-        "q500_modifier": 0.95,
-        "q1000_modifier": 1
-      },
-      {
-        "slot_id": "FREQUENCY CONTROLLER",
-        "item_id": "beradom",
-        "stat": "Max. Shield Strength",
-        "q0_modifier": 0.9,
-        "q500_modifier": 0.95,
-        "q1000_modifier": 1
-      }
-    ]
-  },
-  {
-    "id": "glacis-shld-rsi-s04-polaris-scitem",
     "name": "Glacis",
     "category": "ship_component",
     "tier": 0,

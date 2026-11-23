@@ -151,19 +151,23 @@
   },
   "a03-canuto-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "a03-lodestone-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "a03-luckbringer-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "a03-scorched-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "a03-sniper-rifle": {
     "default_owned": false,
@@ -175,6 +179,10 @@
       "Eliminate Fuel Stores",
       "Eradicate All Traces of Headhunter Data",
       "Reduce Outlaw's Operational Readiness"
+    ],
+    "missions_not_offered": [
+      "Take Headhunter Stronghold Offline",
+      "Halt Narcotics Operation"
     ]
   },
   "a03-sniper-rifle-magazine-15-cap": {
@@ -187,15 +195,21 @@
       "Eliminate Fuel Stores",
       "Eradicate All Traces of Headhunter Data",
       "Reduce Outlaw's Operational Readiness"
+    ],
+    "missions_not_offered": [
+      "Take Headhunter Stronghold Offline",
+      "Halt Narcotics Operation"
     ]
   },
   "a23-flight-helmet-woodland": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "abetti": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "abrade-scraper-module": {
     "default_owned": false,
@@ -214,7 +228,6 @@
       "Salvager Needed (Med. Supply of RMC)",
       "Salvager Needed (Small Supply of RMC / UCM)",
       "Salvager Needed (Small Supply of RMC)",
-      "Battaglia",
       "Blackbox Retrieval",
       "Blackbox Retrieval Very Dangerous",
       "Blackbox Retrieval w/Danger",
@@ -231,7 +244,8 @@
   },
   "absolutezero": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "ad4b-ballistic-gatling": {
     "default_owned": false,
@@ -259,87 +273,108 @@
   },
   "adp-arms-modified": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-aqua": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-crusader-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-dark-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-hurston-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-imperial": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-olive": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-orange": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-seagreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-sienna": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-tan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-arms-woodland": {
     "default_owned": false,
@@ -353,11 +388,19 @@
       "Eliminate Fuel Stores",
       "Reduce Outlaw's Operational Readiness",
       "Take Outlaws at ~mission(Location) Offline"
+    ],
+    "missions_not_offered": [
+      "Clear Outlaw Data Center",
+      "Limit Outlaw Operational Capacity",
+      "Halt Narcotics Operation",
+      "Wipe Headhunter Data Servers",
+      "Assistance Needed Against XenoThreat Raid"
     ]
   },
   "adp-arms-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core": {
     "default_owned": false,
@@ -371,175 +414,224 @@
       "Eliminate Fuel Stores",
       "Reduce Outlaw's Operational Readiness",
       "Take Outlaws at ~mission(Location) Offline"
+    ],
+    "missions_not_offered": [
+      "Clear Outlaw Data Center",
+      "Limit Outlaw Operational Capacity",
+      "Halt Narcotics Operation",
+      "Wipe Headhunter Data Servers",
+      "Assistance Needed Against XenoThreat Raid"
     ]
   },
   "adp-core-modified": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-aqua": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-crusader-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-dark-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-hurston-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-imperial": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-olive": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-orange": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-seagreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-sienna": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-tan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-core-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-aqua": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-crusader-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-dark-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-hurston-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-imperial": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-olive": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-orange": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-seagreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-sienna": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-tan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-legs-woodland": {
     "default_owned": false,
@@ -553,18 +645,25 @@
       "Eliminate Fuel Stores",
       "Reduce Outlaw's Operational Readiness",
       "Take Outlaws at ~mission(Location) Offline"
+    ],
+    "missions_not_offered": [
+      "Clear Outlaw Data Center",
+      "Limit Outlaw Operational Capacity",
+      "Halt Narcotics Operation",
+      "Wipe Headhunter Data Servers",
+      "Assistance Needed Against XenoThreat Raid"
     ]
   },
   "adp-legs-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "adp-mk4-arms-secondwind": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Cds Combat Heavy Arms 01 02 02",
-      "Cds Combat Heavy Arms 01 02 02"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "adp-mk4-arms-woodland": {
     "default_owned": false,
@@ -578,14 +677,20 @@
       "Eliminate Fuel Stores",
       "Reduce Outlaw's Operational Readiness",
       "Take Outlaws at ~mission(Location) Offline"
+    ],
+    "missions_not_offered": [
+      "Clear Outlaw Data Center",
+      "Limit Outlaw Operational Capacity",
+      "Halt Narcotics Operation",
+      "Wipe Headhunter Data Servers",
+      "Assistance Needed Against XenoThreat Raid"
     ]
   },
   "adp-mk4-core-secondwind": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Cds Combat Heavy Core 01 02 02",
-      "Cds Combat Heavy Core 01 02 02"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "adp-mk4-core-woodland": {
     "default_owned": false,
@@ -599,14 +704,20 @@
       "Eliminate Fuel Stores",
       "Reduce Outlaw's Operational Readiness",
       "Take Outlaws at ~mission(Location) Offline"
+    ],
+    "missions_not_offered": [
+      "Clear Outlaw Data Center",
+      "Limit Outlaw Operational Capacity",
+      "Halt Narcotics Operation",
+      "Wipe Headhunter Data Servers",
+      "Assistance Needed Against XenoThreat Raid"
     ]
   },
   "adp-mk4-helmet-secondwind": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Cds Combat Heavy Helmet 01 02 02",
-      "Cds Combat Heavy Helmet 01 02 02"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "adp-mk4-helmet-woodland": {
     "default_owned": false,
@@ -620,14 +731,20 @@
       "Eliminate Fuel Stores",
       "Reduce Outlaw's Operational Readiness",
       "Take Outlaws at ~mission(Location) Offline"
+    ],
+    "missions_not_offered": [
+      "Clear Outlaw Data Center",
+      "Limit Outlaw Operational Capacity",
+      "Halt Narcotics Operation",
+      "Wipe Headhunter Data Servers",
+      "Assistance Needed Against XenoThreat Raid"
     ]
   },
   "adp-mk4-legs-secondwind": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Cds Combat Heavy Legs 01 02 02",
-      "Cds Combat Heavy Legs 01 02 02"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "adp-mk4-legs-woodland": {
     "default_owned": false,
@@ -641,6 +758,13 @@
       "Eliminate Fuel Stores",
       "Reduce Outlaw's Operational Readiness",
       "Take Outlaws at ~mission(Location) Offline"
+    ],
+    "missions_not_offered": [
+      "Clear Outlaw Data Center",
+      "Limit Outlaw Operational Capacity",
+      "Halt Narcotics Operation",
+      "Wipe Headhunter Data Servers",
+      "Assistance Needed Against XenoThreat Raid"
     ]
   },
   "agni": {
@@ -653,27 +777,33 @@
   },
   "agrippa": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "agure": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aither": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "algid": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "allegro": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "allstop": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "antium-arms": {
     "default_owned": false,
@@ -703,7 +833,8 @@
   },
   "antium-arms-midnight-sun": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "antium-arms-moss-camo": {
     "default_owned": false,
@@ -729,6 +860,11 @@
       "Yellow Level Contract: Limiting Potential Threat",
       "Yellow Level Contract: Merc Work",
       "Yellow Level Contract: Ship Under Attack"
+    ],
+    "missions_not_offered": [
+      "Knock Out New Drug Op",
+      "Destroy Illegal Drugs",
+      "Destroy Dangerous Drugs"
     ]
   },
   "antium-arms-sand": {
@@ -814,11 +950,17 @@
       "Yellow Level Contract: Limiting Potential Threat",
       "Yellow Level Contract: Merc Work",
       "Yellow Level Contract: Ship Under Attack"
+    ],
+    "missions_not_offered": [
+      "Knock Out New Drug Op",
+      "Destroy Illegal Drugs",
+      "Destroy Dangerous Drugs"
     ]
   },
   "antium-core-midnight-sun": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "antium-core-moss-camo": {
     "default_owned": false,
@@ -844,6 +986,11 @@
       "Yellow Level Contract: Limiting Potential Threat",
       "Yellow Level Contract: Merc Work",
       "Yellow Level Contract: Ship Under Attack"
+    ],
+    "missions_not_offered": [
+      "Knock Out New Drug Op",
+      "Destroy Illegal Drugs",
+      "Destroy Dangerous Drugs"
     ]
   },
   "antium-core-sand": {
@@ -907,6 +1054,11 @@
       "Yellow Level Contract: Limiting Potential Threat",
       "Yellow Level Contract: Merc Work",
       "Yellow Level Contract: Ship Under Attack"
+    ],
+    "missions_not_offered": [
+      "Knock Out New Drug Op",
+      "Destroy Illegal Drugs",
+      "Destroy Dangerous Drugs"
     ]
   },
   "antium-helmet-maroon": {
@@ -933,11 +1085,17 @@
       "Yellow Level Contract: Limiting Potential Threat",
       "Yellow Level Contract: Merc Work",
       "Yellow Level Contract: Ship Under Attack"
+    ],
+    "missions_not_offered": [
+      "Knock Out New Drug Op",
+      "Destroy Illegal Drugs",
+      "Destroy Dangerous Drugs"
     ]
   },
   "antium-helmet-midnight-sun": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "antium-helmet-moss-camo": {
     "default_owned": false,
@@ -963,6 +1121,11 @@
       "Yellow Level Contract: Limiting Potential Threat",
       "Yellow Level Contract: Merc Work",
       "Yellow Level Contract: Ship Under Attack"
+    ],
+    "missions_not_offered": [
+      "Knock Out New Drug Op",
+      "Destroy Illegal Drugs",
+      "Destroy Dangerous Drugs"
     ]
   },
   "antium-helmet-sand": {
@@ -1037,11 +1200,17 @@
       "Yellow Level Contract: Limiting Potential Threat",
       "Yellow Level Contract: Merc Work",
       "Yellow Level Contract: Ship Under Attack"
+    ],
+    "missions_not_offered": [
+      "Knock Out New Drug Op",
+      "Destroy Illegal Drugs",
+      "Destroy Dangerous Drugs"
     ]
   },
   "antium-legs-midnight-sun": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "antium-legs-moss-camo": {
     "default_owned": false,
@@ -1067,6 +1236,11 @@
       "Yellow Level Contract: Limiting Potential Threat",
       "Yellow Level Contract: Merc Work",
       "Yellow Level Contract: Ship Under Attack"
+    ],
+    "missions_not_offered": [
+      "Knock Out New Drug Op",
+      "Destroy Illegal Drugs",
+      "Destroy Dangerous Drugs"
     ]
   },
   "antium-legs-sand": {
@@ -1093,7 +1267,8 @@
   },
   "anysta": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "arbor-mh1-mining-laser": {
     "default_owned": false,
@@ -1108,7 +1283,6 @@
       "Mjr. Purchase Order: Ship Mined Ore",
       "Special Purchase Order: Mined Materials",
       "XL Purchase Order: Ship Mined Ore",
-      "Battaglia",
       "Blackbox Retrieval",
       "Blackbox Retrieval Very Dangerous",
       "Blackbox Retrieval w/Danger",
@@ -1170,7 +1344,8 @@
   },
   "arclight-executive-edition-pistol": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "arclight-herrero-pistol": {
     "default_owned": false,
@@ -1292,7 +1467,8 @@
   },
   "arctic": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "arcticstorm": {
     "default_owned": false,
@@ -1307,7 +1483,8 @@
   },
   "arden-cl-backpack": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "arden-sl-arms": {
     "default_owned": false,
@@ -1335,7 +1512,8 @@
   },
   "argo-ore-pod": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet": {
     "default_owned": false,
@@ -1347,31 +1525,41 @@
       "Eliminate Fuel Stores",
       "Eradicate All Traces of Headhunter Data",
       "Reduce Outlaw's Operational Readiness"
+    ],
+    "missions_not_offered": [
+      "Take Headhunter Stronghold Offline",
+      "Halt Narcotics Operation"
     ]
   },
   "argus-helmet-aqua-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-black-aqua-silver": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-black-gold-silver": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-black-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-black-grey-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-black-pink-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-black-silver": {
     "default_owned": false,
@@ -1379,51 +1567,63 @@
   },
   "argus-helmet-black-silver-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-black-silver-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-black-silver-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-black-white-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-gold-grey-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-grey-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-red-silver": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-scorched": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-silver-gold-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-white-silver-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-yellow-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "argus-helmet-yellow-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aril-arms": {
     "default_owned": false,
@@ -1442,7 +1642,8 @@
   },
   "aril-backpack": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aril-core": {
     "default_owned": false,
@@ -1491,7 +1692,8 @@
   },
   "armada": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "armor": {
     "default_owned": false,
@@ -1506,39 +1708,48 @@
   },
   "arrowhead-boneyard-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "arrowhead-desert-shadow-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "arrowhead-executive-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "arrowhead-midnight-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "arrowhead-nightstalker-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "arrowhead-pathfinder-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "arrowhead-stormfall-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "arrowhead-voyager-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "arrowhead-warhawk-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "arrowhead-sniper-rifle": {
     "default_owned": false,
@@ -1601,15 +1812,18 @@
   },
   "artimex-arms-chairman-s-club": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-arms-elysium": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-arms-hurston-dynamics-executive-security": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-arms-lodestone": {
     "default_owned": false,
@@ -1624,16 +1838,21 @@
   },
   "artimex-arms-red-alert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-arms-starchaser": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-arms-wildwood": {
     "default_owned": false,
     "missions": [
       "Defenders needed against Headhunters"
+    ],
+    "missions_not_offered": [
+      "Reclaim Headhunter Outpost"
     ]
   },
   "artimex-core": {
@@ -1673,15 +1892,18 @@
   },
   "artimex-core-chairman-s-club": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-core-elysium": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-core-hurston-dynamics-executive-security": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-core-lodestone": {
     "default_owned": false,
@@ -1696,16 +1918,21 @@
   },
   "artimex-core-red-alert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-core-starchaser": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-core-wildwood": {
     "default_owned": false,
     "missions": [
       "Defenders needed against Headhunters"
+    ],
+    "missions_not_offered": [
+      "Reclaim Headhunter Outpost"
     ]
   },
   "artimex-helmet": {
@@ -1734,15 +1961,18 @@
   },
   "artimex-helmet-chairman-s-club": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-helmet-elysium": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-helmet-hurston-dynamics-executive-security": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-helmet-lodestone": {
     "default_owned": false,
@@ -1757,16 +1987,21 @@
   },
   "artimex-helmet-red-alert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-helmet-starchaser": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-helmet-wildwood": {
     "default_owned": false,
     "missions": [
       "Defenders needed against Headhunters"
+    ],
+    "missions_not_offered": [
+      "Reclaim Headhunter Outpost"
     ]
   },
   "artimex-legs": {
@@ -1795,15 +2030,18 @@
   },
   "artimex-legs-chairman-s-club": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-legs-elysium": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-legs-hurston-dynamics-executive-security": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-legs-lodestone": {
     "default_owned": false,
@@ -1818,25 +2056,32 @@
   },
   "artimex-legs-red-alert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-legs-starchaser": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "artimex-legs-wildwood": {
     "default_owned": false,
     "missions": [
       "Defenders needed against Headhunters"
+    ],
+    "missions_not_offered": [
+      "Reclaim Headhunter Outpost"
     ]
   },
   "aspis": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "atlas": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "attrition-1-repeater": {
     "default_owned": false,
@@ -1882,11 +2127,13 @@
   },
   "atvs-repeater": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "atzkav-deadeye-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "atzkav-igniter-sniper-rifle": {
     "default_owned": false,
@@ -1907,6 +2154,20 @@
       "Taking out some XenoThreat trash",
       "Taking XenoThreat Turf",
       "Turf War"
+    ],
+    "missions_not_offered": [
+      "Reputation Management",
+      "~mission(Location|Address) under attack",
+      "The Yard's under attack",
+      "Don't let Windfall Fall",
+      "Take back Carvers Ridge",
+      "Rally at ~mission(Location)",
+      "Halt XenoThreat Expansion",
+      "Wipe ~mission(Location) out",
+      "Deal with Kopions at ~mission(Location)",
+      "Kill Kopions at ~mission(Location)",
+      "Butcher Kopion Pack at ~mission(Location)",
+      "A tricky tricky task"
     ]
   },
   "atzkav-mirage-sniper-rifle": {
@@ -1928,11 +2189,26 @@
       "Taking out some XenoThreat trash",
       "Taking XenoThreat Turf",
       "Turf War"
+    ],
+    "missions_not_offered": [
+      "Reputation Management",
+      "~mission(Location|Address) under attack",
+      "The Yard's under attack",
+      "Don't let Windfall Fall",
+      "Take back Carvers Ridge",
+      "Rally at ~mission(Location)",
+      "Halt XenoThreat Expansion",
+      "Wipe ~mission(Location) out",
+      "Deal with Kopions at ~mission(Location)",
+      "Kill Kopions at ~mission(Location)",
+      "Butcher Kopion Pack at ~mission(Location)",
+      "A tricky tricky task"
     ]
   },
   "atzkav-venom-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "atzkav-sniper-rifle": {
     "default_owned": false,
@@ -1953,6 +2229,20 @@
       "Taking out some XenoThreat trash",
       "Taking XenoThreat Turf",
       "Turf War"
+    ],
+    "missions_not_offered": [
+      "Reputation Management",
+      "~mission(Location|Address) under attack",
+      "The Yard's under attack",
+      "Don't let Windfall Fall",
+      "Take back Carvers Ridge",
+      "Rally at ~mission(Location)",
+      "Halt XenoThreat Expansion",
+      "Wipe ~mission(Location) out",
+      "Deal with Kopions at ~mission(Location)",
+      "Kill Kopions at ~mission(Location)",
+      "Butcher Kopion Pack at ~mission(Location)",
+      "A tricky tricky task"
     ]
   },
   "atzkav-sniper-rifle-battery-8-cap": {
@@ -1974,6 +2264,20 @@
       "Taking out some XenoThreat trash",
       "Taking XenoThreat Turf",
       "Turf War"
+    ],
+    "missions_not_offered": [
+      "Reputation Management",
+      "~mission(Location|Address) under attack",
+      "The Yard's under attack",
+      "Don't let Windfall Fall",
+      "Take back Carvers Ridge",
+      "Rally at ~mission(Location)",
+      "Halt XenoThreat Expansion",
+      "Wipe ~mission(Location) out",
+      "Deal with Kopions at ~mission(Location)",
+      "Kill Kopions at ~mission(Location)",
+      "Butcher Kopion Pack at ~mission(Location)",
+      "A tricky tricky task"
     ]
   },
   "aufeis": {
@@ -2093,76 +2397,96 @@
   },
   "aves-talon-arms": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aves-talon-core": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aves-talon-helmet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aves-talon-legs": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aztalan-arms": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aztalan-core": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aztalan-galena-arms": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aztalan-galena-core": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aztalan-galena-helmet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aztalan-galena-legs": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aztalan-helmet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aztalan-legs": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aztalan-tamarack-arms": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aztalan-tamarack-core": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aztalan-tamarack-helmet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "aztalan-tamarack-legs": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "backlund": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "badami-helmet": {
     "default_owned": false,
     "missions": [
       "All Things Come To An End"
+    ],
+    "missions_not_offered": [
+      "A Challenging Contract"
     ]
   },
   "balandin": {
@@ -2184,95 +2508,124 @@
       "Eliminate Fuel Stores",
       "Reduce Outlaw's Operational Readiness",
       "Take Outlaws at ~mission(Location) Offline"
+    ],
+    "missions_not_offered": [
+      "Clear Outlaw Data Center",
+      "Limit Outlaw Operational Capacity",
+      "Halt Narcotics Operation",
+      "Wipe Headhunter Data Servers",
+      "Assistance Needed Against XenoThreat Raid"
     ]
   },
   "balor-hch-helmet-aqua": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-crusader-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-dark-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-hurston-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-imperial": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-olive": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-orange": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-seagreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-sienna": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-tan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "balor-hch-helmet-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "bamoty": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "barbican": {
     "default_owned": false,
@@ -2283,15 +2636,18 @@
   },
   "battani": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "beacon": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "beacon-undersuit": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "bellator-jacket": {
     "default_owned": false,
@@ -2371,7 +2727,8 @@
   },
   "bolon": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "bolt": {
     "default_owned": false,
@@ -2382,17 +2739,18 @@
   },
   "boreal": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "br-2-permafrost-shotgun": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "br-2-purgatory-camo-shotgun": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 15 06"
+      "Raid on Xenothreat"
     ]
   },
   "br-2-shotgun": {
@@ -2407,6 +2765,13 @@
       "Eliminate Fuel Stores",
       "Reduce Outlaw's Operational Readiness",
       "Take Outlaws at ~mission(Location) Offline"
+    ],
+    "missions_not_offered": [
+      "Clear Outlaw Data Center",
+      "Limit Outlaw Operational Capacity",
+      "Halt Narcotics Operation",
+      "Wipe Headhunter Data Servers",
+      "Assistance Needed Against XenoThreat Raid"
     ]
   },
   "br-2-shotgun-magazine-12-cap": {
@@ -2421,18 +2786,25 @@
       "Eliminate Fuel Stores",
       "Reduce Outlaw's Operational Readiness",
       "Take Outlaws at ~mission(Location) Offline"
+    ],
+    "missions_not_offered": [
+      "Clear Outlaw Data Center",
+      "Limit Outlaw Operational Capacity",
+      "Halt Narcotics Operation",
+      "Wipe Headhunter Data Servers",
+      "Assistance Needed Against XenoThreat Raid"
     ]
   },
   "bracer": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "breton": {
     "default_owned": false,
-    "missions": [
-      "Red Wind",
-      "Bp Rewards Redwind"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "broadspec": {
     "default_owned": false,
@@ -2481,7 +2853,8 @@
   },
   "brvs-repeater": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "bul-h4-armor": {
     "default_owned": false,
@@ -2509,11 +2882,13 @@
   },
   "bulwark": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "burst": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "c-788-cannon": {
     "default_owned": false,
@@ -2524,15 +2899,18 @@
   },
   "c54-justified-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "c54-luckbringer-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "c54-scorched-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "c54-smg": {
     "default_owned": false,
@@ -2556,7 +2934,8 @@
   },
   "calico-arms-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "calico-arms-tactical": {
     "default_owned": false,
@@ -2577,11 +2956,26 @@
       "Taking out some XenoThreat trash",
       "Taking XenoThreat Turf",
       "Turf War"
+    ],
+    "missions_not_offered": [
+      "Reputation Management",
+      "~mission(Location|Address) under attack",
+      "The Yard's under attack",
+      "Don't let Windfall Fall",
+      "Take back Carvers Ridge",
+      "Rally at ~mission(Location)",
+      "Halt XenoThreat Expansion",
+      "Wipe ~mission(Location) out",
+      "Deal with Kopions at ~mission(Location)",
+      "Kill Kopions at ~mission(Location)",
+      "Butcher Kopion Pack at ~mission(Location)",
+      "A tricky tricky task"
     ]
   },
   "calico-core-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "calico-core-tactical": {
     "default_owned": false,
@@ -2602,11 +2996,26 @@
       "Taking out some XenoThreat trash",
       "Taking XenoThreat Turf",
       "Turf War"
+    ],
+    "missions_not_offered": [
+      "Reputation Management",
+      "~mission(Location|Address) under attack",
+      "The Yard's under attack",
+      "Don't let Windfall Fall",
+      "Take back Carvers Ridge",
+      "Rally at ~mission(Location)",
+      "Halt XenoThreat Expansion",
+      "Wipe ~mission(Location) out",
+      "Deal with Kopions at ~mission(Location)",
+      "Kill Kopions at ~mission(Location)",
+      "Butcher Kopion Pack at ~mission(Location)",
+      "A tricky tricky task"
     ]
   },
   "calico-helmet-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "calico-helmet-tactical": {
     "default_owned": false,
@@ -2627,11 +3036,26 @@
       "Taking out some XenoThreat trash",
       "Taking XenoThreat Turf",
       "Turf War"
+    ],
+    "missions_not_offered": [
+      "Reputation Management",
+      "~mission(Location|Address) under attack",
+      "The Yard's under attack",
+      "Don't let Windfall Fall",
+      "Take back Carvers Ridge",
+      "Rally at ~mission(Location)",
+      "Halt XenoThreat Expansion",
+      "Wipe ~mission(Location) out",
+      "Deal with Kopions at ~mission(Location)",
+      "Kill Kopions at ~mission(Location)",
+      "Butcher Kopion Pack at ~mission(Location)",
+      "A tricky tricky task"
     ]
   },
   "calico-legs-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "calico-legs-tactical": {
     "default_owned": false,
@@ -2652,19 +3076,36 @@
       "Taking out some XenoThreat trash",
       "Taking XenoThreat Turf",
       "Turf War"
+    ],
+    "missions_not_offered": [
+      "Reputation Management",
+      "~mission(Location|Address) under attack",
+      "The Yard's under attack",
+      "Don't let Windfall Fall",
+      "Take back Carvers Ridge",
+      "Rally at ~mission(Location)",
+      "Halt XenoThreat Expansion",
+      "Wipe ~mission(Location) out",
+      "Deal with Kopions at ~mission(Location)",
+      "Kill Kopions at ~mission(Location)",
+      "Butcher Kopion Pack at ~mission(Location)",
+      "A tricky tricky task"
     ]
   },
   "calva-racing-helmet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "capston": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "capsulo": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "carnifex-armor-core": {
     "default_owned": false,
@@ -2682,19 +3123,23 @@
   },
   "cascade": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cassandra": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "castra": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-aqua": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-base": {
     "default_owned": false,
@@ -2706,79 +3151,101 @@
       "Eliminate Fuel Stores",
       "Eradicate All Traces of Headhunter Data",
       "Reduce Outlaw's Operational Readiness"
+    ],
+    "missions_not_offered": [
+      "Take Headhunter Stronghold Offline",
+      "Halt Narcotics Operation"
     ]
   },
   "cbh-3-helmet-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-dark-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-imperial": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-olive": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-orange": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-seagreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-sienna": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-tan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cbh-3-helmet-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "celestial": {
     "default_owned": false,
@@ -2793,7 +3260,8 @@
   },
   "centurion": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cf-117-bulldog-hazard-zone-repeater": {
     "default_owned": false,
@@ -2809,8 +3277,7 @@
       "Moraine Movements",
       "Salvage Job: Large",
       "Salvage Job: Mid",
-      "Salvage Job: Small",
-      "Battagliaexclusive"
+      "Salvage Job: Small"
     ]
   },
   "cf-117-bulldog-repeater": {
@@ -2835,8 +3302,7 @@
       "Moraine Movements",
       "Salvage Job: Large",
       "Salvage Job: Mid",
-      "Salvage Job: Small",
-      "Battagliaexclusive"
+      "Salvage Job: Small"
     ]
   },
   "cf-227-badger-repeater": {
@@ -2861,8 +3327,7 @@
       "Moraine Movements",
       "Salvage Job: Large",
       "Salvage Job: Mid",
-      "Salvage Job: Small",
-      "Battagliaexclusive"
+      "Salvage Job: Small"
     ]
   },
   "cf-337-panther-repeater": {
@@ -2899,65 +3364,67 @@
   },
   "charger": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "chernykh": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "chill-max": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "chiron-arms": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "chiron-arms-purgatory-camo": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 15 01"
+      "Raid on Xenothreat"
     ]
   },
   "chiron-backpack-purgatory-camo": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 15 02"
+      "Raid on Xenothreat"
     ]
   },
   "chiron-core": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "chiron-core-purgatory-camo": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 15 03"
+      "Raid on Xenothreat"
     ]
   },
   "chiron-helmet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "chiron-helmet-purgatory-camo": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 15 05"
+      "Raid on Xenothreat"
     ]
   },
   "chiron-legs": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "chiron-legs-purgatory-camo": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 15 04"
+      "Raid on Xenothreat"
     ]
   },
   "cinch-scraper-module": {
@@ -2977,7 +3444,6 @@
       "Salvager Needed (Med. Supply of RMC)",
       "Salvager Needed (Small Supply of RMC / UCM)",
       "Salvager Needed (Small Supply of RMC)",
-      "Battaglia",
       "Blackbox Retrieval",
       "Blackbox Retrieval Very Dangerous",
       "Blackbox Retrieval w/Danger",
@@ -3013,7 +3479,8 @@
   },
   "citadel-arms-modified": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "citadel-arms-base": {
     "default_owned": false,
@@ -3024,11 +3491,13 @@
   },
   "citadel-arms-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "citadel-core-modified": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "citadel-core-base": {
     "default_owned": false,
@@ -3039,7 +3508,8 @@
   },
   "citadel-core-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "citadel-legs-base": {
     "default_owned": false,
@@ -3050,7 +3520,8 @@
   },
   "citadel-legs-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "clearcut-module": {
     "default_owned": false,
@@ -3060,7 +3531,8 @@
   },
   "cloak": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "coda-big-boss-pistol": {
     "default_owned": false,
@@ -3073,6 +3545,13 @@
       "Shot in the chaos",
       "Wanted: ~mission(TargetName)",
       "XenoThreat Lieutenant needs some killing"
+    ],
+    "missions_not_offered": [
+      "Kill the king",
+      "Hit on XenoThreat at the Yard",
+      "Head of the snake",
+      "Need a scalpel at Carver's",
+      "Need a hit on the Riviera"
     ]
   },
   "coda-nighthawk-pistol": {
@@ -3086,11 +3565,19 @@
       "Shot in the chaos",
       "Wanted: ~mission(TargetName)",
       "XenoThreat Lieutenant needs some killing"
+    ],
+    "missions_not_offered": [
+      "Kill the king",
+      "Hit on XenoThreat at the Yard",
+      "Head of the snake",
+      "Need a scalpel at Carver's",
+      "Need a hit on the Riviera"
     ]
   },
   "coda-ultraviolet-pistol": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "coda-pistol": {
     "default_owned": false,
@@ -3103,11 +3590,19 @@
       "Shot in the chaos",
       "Wanted: ~mission(TargetName)",
       "XenoThreat Lieutenant needs some killing"
+    ],
+    "missions_not_offered": [
+      "Kill the king",
+      "Hit on XenoThreat at the Yard",
+      "Head of the snake",
+      "Need a scalpel at Carver's",
+      "Need a hit on the Riviera"
     ]
   },
   "coda-pistol-modified": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "coda-pistol-magazine-6-cap": {
     "default_owned": false,
@@ -3120,6 +3615,13 @@
       "Shot in the chaos",
       "Wanted: ~mission(TargetName)",
       "XenoThreat Lieutenant needs some killing"
+    ],
+    "missions_not_offered": [
+      "Kill the king",
+      "Hit on XenoThreat at the Yard",
+      "Head of the snake",
+      "Need a scalpel at Carver's",
+      "Need a hit on the Riviera"
     ]
   },
   "coldsnap": {
@@ -3169,7 +3671,6 @@
       "Salvager Needed (Med. Supply of RMC)",
       "Salvager Needed (Small Supply of RMC / UCM)",
       "Salvager Needed (Small Supply of RMC)",
-      "Battaglia",
       "Blackbox Retrieval",
       "Blackbox Retrieval Very Dangerous",
       "Blackbox Retrieval w/Danger",
@@ -3186,7 +3687,8 @@
   },
   "cool-aegs-s04-javelin-scitem": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cool-s04-cnou-pioneer": {
     "default_owned": false,
@@ -3194,11 +3696,13 @@
   },
   "coolcore": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "corbel-arms-crush": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "corbel-arms-halcyon": {
     "default_owned": false,
@@ -3226,7 +3730,8 @@
   },
   "corbel-core-crush": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "corbel-core-halcyon": {
     "default_owned": false,
@@ -3254,7 +3759,8 @@
   },
   "corbel-helmet-crush": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "corbel-helmet-halcyon": {
     "default_owned": false,
@@ -3282,7 +3788,8 @@
   },
   "corbel-legs-crush": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "corbel-legs-halcyon": {
     "default_owned": false,
@@ -3322,7 +3829,8 @@
   },
   "crossfield": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "cryo-star": {
     "default_owned": false,
@@ -3370,35 +3878,43 @@
   },
   "csp-68h-backpack": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "csp-68l-backpack": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "csp-68m-backpack": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "custodian-big-boss-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "custodian-boneyard-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "custodian-brimstone-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "custodian-desert-shadow-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "custodian-executive-edition-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "custodian-midnight-smg": {
     "default_owned": false,
@@ -3408,7 +3924,8 @@
   },
   "custodian-nightstalker-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "custodian-scorched-smg": {
     "default_owned": false,
@@ -3418,7 +3935,8 @@
   },
   "custodian-warhawk-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "custodian-smg": {
     "default_owned": false,
@@ -3434,7 +3952,8 @@
   },
   "cvsa-cannon": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "daybreak": {
     "default_owned": false,
@@ -3487,6 +4006,9 @@
     "default_owned": false,
     "missions": [
       "All Things Come To An End"
+    ],
+    "missions_not_offered": [
+      "A Challenging Contract"
     ]
   },
   "deadrig-shotgun-magazine-8-cap": {
@@ -3494,35 +4016,45 @@
     "missions": [
       "Need a death at ~mission(Location)",
       "All Things Come To An End"
+    ],
+    "missions_not_offered": [
+      "A Challenging Contract"
     ]
   },
   "deep-space-undersuit": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-arms-modified": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-arms-charcoal": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-arms-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-arms-firestarter": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-arms-hailstorm": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-arms-sunchaser": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-arms-tactical": {
     "default_owned": false,
@@ -3532,31 +4064,38 @@
   },
   "defiance-core-modified": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-core-charcoal": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-core-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-core-firestarter": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-core-hailstorm": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-core-scorched": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-core-sunchaser": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-core-tactical": {
     "default_owned": false,
@@ -3566,27 +4105,33 @@
   },
   "defiance-helmet-modified": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-helmet-charcoal": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-helmet-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-helmet-firestarter": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-helmet-hailstorm": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-helmet-sunchaser": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-helmet-tactical": {
     "default_owned": false,
@@ -3596,27 +4141,33 @@
   },
   "defiance-legs-modified": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-legs-charcoal": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-legs-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-legs-firestarter": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-legs-hailstorm": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-legs-sunchaser": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "defiance-legs-tactical": {
     "default_owned": false,
@@ -3650,33 +4201,38 @@
   "demeco-purgatory-camo-lmg": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 50 06"
+      "Raid on Xenothreat"
     ]
   },
   "demeco-lmg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "demeco-lmg-battery-100-cap": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "denning": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "devastator-brimstone-shotgun": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "devastator-desert-shadow-shotgun": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "devastator-executive-edition-shotgun": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "devastator-midnight-shotgun": {
     "default_owned": false,
@@ -3692,19 +4248,23 @@
   },
   "devastator-nightstalker-shotgun": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "devastator-pathfinder-shotgun": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "devastator-rager-shotgun": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "devastator-voyager-shotgun": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "devastator-warhawk-shotgun": {
     "default_owned": false,
@@ -3752,7 +4312,8 @@
   },
   "diligence": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "dominance-1-scattergun": {
     "default_owned": false,
@@ -3831,11 +4392,13 @@
   },
   "drake-ore-pod": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "drassik": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "draug": {
     "default_owned": false,
@@ -3857,11 +4420,13 @@
   },
   "drift": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "drifter": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "durajet": {
     "default_owned": false,
@@ -3876,10 +4441,9 @@
   },
   "durango": {
     "default_owned": false,
-    "missions": [
-      "Red Wind",
-      "Bp Rewards Redwind"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "dust-devil-armor-arms": {
     "default_owned": false,
@@ -3901,11 +4465,13 @@
   },
   "dustup-arms-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "dustup-arms-firestarter": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "dustup-arms-tactical": {
     "default_owned": false,
@@ -3919,15 +4485,20 @@
       "Need a hitter",
       "Reputation Management",
       "Time to roll on CFP"
+    ],
+    "missions_not_offered": [
+      "A tricky tricky task"
     ]
   },
   "dustup-core-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "dustup-core-firestarter": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "dustup-core-tactical": {
     "default_owned": false,
@@ -3941,15 +4512,20 @@
       "Need a hitter",
       "Reputation Management",
       "Time to roll on CFP"
+    ],
+    "missions_not_offered": [
+      "A tricky tricky task"
     ]
   },
   "dustup-helmet-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "dustup-helmet-firestarter": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "dustup-helmet-tactical": {
     "default_owned": false,
@@ -3963,6 +4539,9 @@
       "Need a hitter",
       "Reputation Management",
       "Time to roll on CFP"
+    ],
+    "missions_not_offered": [
+      "A tricky tricky task"
     ]
   },
   "dustup-legs-desert": {
@@ -3981,6 +4560,9 @@
       "Need a hitter",
       "Reputation Management",
       "Time to roll on CFP"
+    ],
+    "missions_not_offered": [
+      "A tricky tricky task"
     ]
   },
   "dynaflux": {
@@ -3991,7 +4573,8 @@
   },
   "echo": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "eclipse": {
     "default_owned": false,
@@ -4003,11 +4586,13 @@
   },
   "eco-flow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "ecouter": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "elsen": {
     "default_owned": false,
@@ -4041,31 +4626,38 @@
   },
   "eos": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "epier": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "erebos": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "evsd-cannon": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "exogen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "exotherm": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "expedition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "ezra": {
     "default_owned": false,
@@ -4080,11 +4672,13 @@
   },
   "f55-mark-i-lmg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "f55-scorched-lmg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "f55-shadowflux-lmg": {
     "default_owned": false,
@@ -4094,7 +4688,8 @@
   },
   "f55-valor-lmg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "f55-lmg": {
     "default_owned": false,
@@ -4110,54 +4705,53 @@
   },
   "fabian": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "falco": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "fawad": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "fbl-8a-arms-secondwind": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Cds Combat Light Arms 02 02 01",
-      "Cds Combat Light Arms 02 02 01"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "fbl-8a-core-secondwind": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Cds Combat Light Core 02 02 01",
-      "Cds Combat Light Core 02 02 01"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "fbl-8a-helmet-secondwind": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Cds Combat Light Helmet 02 02 01",
-      "Cds Combat Light Helmet 02 02 01"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "fbl-8a-legs-secondwind": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Cds Combat Light Legs 02 02 01",
-      "Cds Combat Light Legs 02 02 01"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "fbl-8u-undersuit-secondwind": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Cds Undersuit 01 02 02",
-      "Cds Undersuit 01 02 02"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "fidele": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "field-recon-suit-arms": {
     "default_owned": true,
@@ -4184,7 +4778,8 @@
   },
   "fissure": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "fl-11-cannon": {
     "default_owned": false,
@@ -4215,7 +4810,8 @@
   },
   "flash": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "flashfreeze": {
     "default_owned": false,
@@ -4230,15 +4826,18 @@
   },
   "fleming": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "flood": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "forceflex-undersuit-black-gold": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "forcewall": {
     "default_owned": false,
@@ -4255,28 +4854,29 @@
   },
   "fortifier-helmet-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "fortitude": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "foxfire": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "fr-66": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 85 01"
+      "Raid on Xenothreat"
     ]
   },
   "fr-76": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 85 02"
+      "Raid on Xenothreat"
     ]
   },
   "fr-86": {
@@ -4332,7 +4932,8 @@
   },
   "frontline": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "frost-star": {
     "default_owned": false,
@@ -4402,15 +5003,18 @@
   },
   "fs-9-blacklist-lmg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "fs-9-finish-line-lmg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "fs-9-stoneface-lmg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "fs-9-lmg": {
     "default_owned": false,
@@ -4424,6 +5028,13 @@
       "Eliminate Fuel Stores",
       "Reduce Outlaw's Operational Readiness",
       "Take Outlaws at ~mission(Location) Offline"
+    ],
+    "missions_not_offered": [
+      "Clear Outlaw Data Center",
+      "Limit Outlaw Operational Capacity",
+      "Halt Narcotics Operation",
+      "Wipe Headhunter Data Servers",
+      "Assistance Needed Against XenoThreat Raid"
     ]
   },
   "fs-9-magazine-75-cap": {
@@ -4438,6 +5049,13 @@
       "Eliminate Fuel Stores",
       "Reduce Outlaw's Operational Readiness",
       "Take Outlaws at ~mission(Location) Offline"
+    ],
+    "missions_not_offered": [
+      "Clear Outlaw Data Center",
+      "Limit Outlaw Operational Capacity",
+      "Halt Narcotics Operation",
+      "Wipe Headhunter Data Servers",
+      "Assistance Needed Against XenoThreat Raid"
     ]
   },
   "fulgur": {
@@ -4526,95 +5144,118 @@
   },
   "fullstop": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-aqua": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-covalex-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-crusader-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-cry-astro-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-dark-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-greycat-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-imperial": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-orange": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-seagreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-sienna": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-tan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "g-2-helmet-woodland": {
     "default_owned": false,
@@ -4628,39 +5269,48 @@
   },
   "g-2-helmet-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "galinstan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "gallant-boneyard-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "gallant-desert-shadow-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "gallant-executive-edition-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "gallant-midnight-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "gallant-nightstalker-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "gallant-stormfall-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "gallant-warhawk-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "gallant-rifle": {
     "default_owned": false,
@@ -4674,6 +5324,13 @@
       "Eliminate Fuel Stores",
       "Reduce Outlaw's Operational Readiness",
       "Take Outlaws at ~mission(Location) Offline"
+    ],
+    "missions_not_offered": [
+      "Clear Outlaw Data Center",
+      "Limit Outlaw Operational Capacity",
+      "Halt Narcotics Operation",
+      "Wipe Headhunter Data Servers",
+      "Assistance Needed Against XenoThreat Raid"
     ]
   },
   "gallant-rifle-battery-45-cap": {
@@ -4688,6 +5345,13 @@
       "Eliminate Fuel Stores",
       "Reduce Outlaw's Operational Readiness",
       "Take Outlaws at ~mission(Location) Offline"
+    ],
+    "missions_not_offered": [
+      "Clear Outlaw Data Center",
+      "Limit Outlaw Operational Capacity",
+      "Halt Narcotics Operation",
+      "Wipe Headhunter Data Servers",
+      "Assistance Needed Against XenoThreat Raid"
     ]
   },
   "gammamax": {
@@ -4731,7 +5395,8 @@
   },
   "geist-armor-arms-snow-camo": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "geist-armor-arms-whiteout": {
     "default_owned": false,
@@ -4772,7 +5437,8 @@
   },
   "geist-armor-core-snow-camo": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "geist-armor-core-whiteout": {
     "default_owned": false,
@@ -4813,7 +5479,8 @@
   },
   "geist-armor-helmet-snow-camo": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "geist-armor-helmet-whiteout": {
     "default_owned": false,
@@ -4854,7 +5521,8 @@
   },
   "geist-armor-legs-snow-camo": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "geist-armor-legs-whiteout": {
     "default_owned": false,
@@ -4876,14 +5544,14 @@
   },
   "genoa": {
     "default_owned": false,
-    "missions": [
-      "Red Wind",
-      "Bp Rewards Redwind"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "ginzel": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "glacier": {
     "default_owned": false,
@@ -4905,7 +5573,8 @@
   },
   "goliath": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "graupel": {
     "default_owned": false,
@@ -4938,7 +5607,8 @@
   },
   "gvsr-repeater": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "h4-pbf-ammo-carrier": {
     "default_owned": false,
@@ -4954,7 +5624,8 @@
   },
   "haltur": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "harkin": {
     "default_owned": false,
@@ -4962,7 +5633,6 @@
       "CRITICAL REFUEL REQUEST: ~mission(Ship)",
       "REFUEL REQUEST: ~mission(Ship)",
       "URGENT REFUEL REQUEST: ~mission(Ship)",
-      "Battaglia",
       "Crew Hasn’t Checked In",
       "Full Area Scan for Ore",
       "Missing Mining Team",
@@ -4992,7 +5662,6 @@
       "Salvager Needed (Med. Supply of RMC)",
       "Salvager Needed (Small Supply of RMC / UCM)",
       "Salvager Needed (Small Supply of RMC)",
-      "Battaglia",
       "Blackbox Retrieval",
       "Blackbox Retrieval Very Dangerous",
       "Blackbox Retrieval w/Danger",
@@ -5073,7 +5742,6 @@
       "Mjr. Purchase Order: Ship Mined Ore",
       "Special Purchase Order: Mined Materials",
       "XL Purchase Order: Ship Mined Ore",
-      "Battaglia",
       "Blackbox Retrieval",
       "Blackbox Retrieval Very Dangerous",
       "Blackbox Retrieval w/Danger",
@@ -5111,7 +5779,8 @@
   },
   "hemera": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "hex": {
     "default_owned": false,
@@ -5137,7 +5806,6 @@
       "Mjr. Purchase Order: Ship Mined Ore",
       "Special Purchase Order: Mined Materials",
       "XL Purchase Order: Ship Mined Ore",
-      "Battaglia",
       "Blackbox Retrieval",
       "Blackbox Retrieval Very Dangerous",
       "Blackbox Retrieval w/Danger",
@@ -5167,7 +5835,8 @@
   },
   "holdstrong": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "horizon-helmet": {
     "default_owned": false,
@@ -5186,7 +5855,8 @@
   },
   "hunter": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "huracan": {
     "default_owned": false,
@@ -5198,27 +5868,33 @@
   },
   "hydrocel": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "hydrojet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "hydropulse": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "hypergen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "hyperion": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "ice-flush": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "icebox": {
     "default_owned": false,
@@ -5239,11 +5915,13 @@
   },
   "icedive": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "iceplunge": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "impact-i-mining-laser": {
     "default_owned": false,
@@ -5258,7 +5936,6 @@
       "Mjr. Purchase Order: Ship Mined Ore",
       "Special Purchase Order: Mined Materials",
       "XL Purchase Order: Ship Mined Ore",
-      "Battaglia",
       "Blackbox Retrieval",
       "Blackbox Retrieval Very Dangerous",
       "Blackbox Retrieval w/Danger",
@@ -5288,7 +5965,8 @@
   },
   "impulse": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "ink": {
     "default_owned": false,
@@ -5303,11 +5981,13 @@
   },
   "inquisitor-arms-aqua": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-base": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-black": {
     "default_owned": false,
@@ -5317,19 +5997,23 @@
   },
   "inquisitor-arms-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-dark-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-grey": {
     "default_owned": false,
@@ -5339,59 +6023,73 @@
   },
   "inquisitor-arms-imperial": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-olive": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-orange": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-seagreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-sienna": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-tan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-arms-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-aqua": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-black": {
     "default_owned": false,
@@ -5401,19 +6099,23 @@
   },
   "inquisitor-core-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-dark-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-grey": {
     "default_owned": false,
@@ -5423,7 +6125,8 @@
   },
   "inquisitor-core-imperial": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-olive": {
     "default_owned": false,
@@ -5431,51 +6134,63 @@
   },
   "inquisitor-core-orange": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-seagreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-sienna": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-tan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-core-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-aqua": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-base": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-black": {
     "default_owned": false,
@@ -5485,19 +6200,23 @@
   },
   "inquisitor-legs-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-dark-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-grey": {
     "default_owned": false,
@@ -5507,55 +6226,68 @@
   },
   "inquisitor-legs-imperial": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-olive": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-orange": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-scorched": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-seagreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-sienna": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-tan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "inquisitor-legs-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "ionburst": {
     "default_owned": false,
@@ -5603,11 +6335,13 @@
   },
   "jaghte": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "jennet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "js-300": {
     "default_owned": false,
@@ -5629,11 +6363,13 @@
   },
   "kama": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "karna-alpine-sunset-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "karna-brimstone-rifle": {
     "default_owned": false,
@@ -5661,6 +6397,9 @@
     "default_owned": false,
     "missions": [
       "Defenders needed against Headhunters"
+    ],
+    "missions_not_offered": [
+      "Reclaim Headhunter Outpost"
     ]
   },
   "karna-valor-rifle": {
@@ -5732,7 +6471,8 @@
   },
   "khaos": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "killshot-dominion-camo-rifle": {
     "default_owned": false,
@@ -5744,12 +6484,18 @@
     "default_owned": false,
     "missions": [
       "All Things Come To An End"
+    ],
+    "missions_not_offered": [
+      "A Challenging Contract"
     ]
   },
   "killshot-rifle-magazine-45-cap": {
     "default_owned": false,
     "missions": [
       "All Things Come To An End"
+    ],
+    "missions_not_offered": [
+      "A Challenging Contract"
     ]
   },
   "klein-s1-mining-laser": {
@@ -5765,7 +6511,6 @@
       "Mjr. Purchase Order: Ship Mined Ore",
       "Special Purchase Order: Mined Materials",
       "XL Purchase Order: Ship Mined Ore",
-      "Battaglia",
       "Blackbox Retrieval",
       "Blackbox Retrieval Very Dangerous",
       "Blackbox Retrieval w/Danger",
@@ -5806,7 +6551,8 @@
   },
   "lamont-undersuit": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lancet-mh1-mining-laser": {
     "default_owned": false,
@@ -5856,7 +6602,6 @@
       "Small Purchase Order: Ship Mined Ore",
       "Special Purchase Order: Mined Materials",
       "XL Purchase Order: Ship Mined Ore",
-      "Battaglia",
       "Minor Mining Job",
       "Need Some Ore Mined",
       "Ore Scan Needed",
@@ -5866,43 +6611,53 @@
   },
   "levin-undersuit-refurbished": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lh86-boneyard-pistol": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lh86-desert-shadow-pistol": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lh86-luckbringer-pistol": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lh86-nightstalker-pistol": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lh86-pathfinder-pistol": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lh86-permafrost-pistol": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lh86-scorched-pistol": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lh86-stormfall-pistol": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lh86-warhawk-pistol": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lh86-pistol": {
     "default_owned": false,
@@ -5912,7 +6667,8 @@
   },
   "lh86-pistol-magazine-25-cap": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lightblossom": {
     "default_owned": false,
@@ -5927,7 +6683,8 @@
   },
   "lightfire": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lightstrike-i-cannon": {
     "default_owned": false,
@@ -5995,7 +6752,6 @@
       "CRITICAL REFUEL REQUEST: ~mission(Ship)",
       "REFUEL REQUEST: ~mission(Ship)",
       "URGENT REFUEL REQUEST: ~mission(Ship)",
-      "Battaglia",
       "Crew Hasn’t Checked In",
       "Full Area Scan for Ore",
       "Missing Mining Team",
@@ -6021,18 +6777,19 @@
   },
   "lumacore": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lumin-v-secondwind-smg": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Klwe Smg Energy 01 Mr01",
-      "Klwe Smg Energy 01 Mr01"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "lumin-v-valor-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lumin-v-smg": {
     "default_owned": false,
@@ -6062,7 +6819,8 @@
   },
   "luxcore": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lynx-arms": {
     "default_owned": false,
@@ -6072,7 +6830,8 @@
   },
   "lynx-arms-cold-steel": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lynx-core": {
     "default_owned": false,
@@ -6082,7 +6841,8 @@
   },
   "lynx-core-cold-steel": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "lynx-legs": {
     "default_owned": false,
@@ -6092,7 +6852,8 @@
   },
   "lynx-legs-cold-steel": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "m3a-cannon": {
     "default_owned": false,
@@ -6180,23 +6941,28 @@
   },
   "macflex-rucksack-backpack": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "macflex-arms": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "macflex-core": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "macflex-legs": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "maelstrom": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "magnabloom": {
     "default_owned": false,
@@ -6229,7 +6995,8 @@
   },
   "markanda-undersuit-refurbished": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "marlin": {
     "default_owned": false,
@@ -6237,7 +7004,6 @@
       "CRITICAL REFUEL REQUEST: ~mission(Ship)",
       "REFUEL REQUEST: ~mission(Ship)",
       "URGENT REFUEL REQUEST: ~mission(Ship)",
-      "Battaglia",
       "Minor Mining Job",
       "Need Some Ore Mined",
       "Ore Scan Needed",
@@ -6257,27 +7023,33 @@
   },
   "mercury": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "metis": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "microid-battle-suit-arms": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "microid-battle-suit-core": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "microid-battle-suit-helmet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "microid-battle-suit-legs": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "mirage": {
     "default_owned": false,
@@ -6295,9 +7067,9 @@
   },
   "misc-ore-pod": {
     "default_owned": false,
-    "missions": [
-      "Cargo Shipmining Pod Prospector"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "monde-arms": {
     "default_owned": false,
@@ -6328,11 +7100,19 @@
   },
   "monde-arms-crimson-camo": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "missions_not_offered": [
+      "High-Risk Bounty: ~mission(TargetName) at QV Breaker Station",
+      "End of a Salamander"
+    ]
   },
   "monde-arms-daimyo": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "missions_not_offered": [
+      "High-Risk Bounty: ~mission(TargetName) at QV Breaker Station",
+      "End of a Salamander"
+    ]
   },
   "monde-arms-delta-camo": {
     "default_owned": false,
@@ -6382,8 +7162,7 @@
   "monde-arms-purgatory-camo": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 50 02"
+      "Raid on Xenothreat"
     ]
   },
   "monde-core": {
@@ -6415,11 +7194,19 @@
   },
   "monde-core-crimson-camo": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "missions_not_offered": [
+      "High-Risk Bounty: ~mission(TargetName) at QV Breaker Station",
+      "End of a Salamander"
+    ]
   },
   "monde-core-daimyo": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "missions_not_offered": [
+      "High-Risk Bounty: ~mission(TargetName) at QV Breaker Station",
+      "End of a Salamander"
+    ]
   },
   "monde-core-delta-camo": {
     "default_owned": false,
@@ -6469,8 +7256,7 @@
   "monde-core-purgatory-camo": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 50 03"
+      "Raid on Xenothreat"
     ]
   },
   "monde-helmet": {
@@ -6502,11 +7288,19 @@
   },
   "monde-helmet-crimson-camo": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "missions_not_offered": [
+      "High-Risk Bounty: ~mission(TargetName) at QV Breaker Station",
+      "End of a Salamander"
+    ]
   },
   "monde-helmet-daimyo": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "missions_not_offered": [
+      "High-Risk Bounty: ~mission(TargetName) at QV Breaker Station",
+      "End of a Salamander"
+    ]
   },
   "monde-helmet-delta-camo": {
     "default_owned": false,
@@ -6547,8 +7341,7 @@
   "monde-helmet-purgatory-camo": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 50 05"
+      "Raid on Xenothreat"
     ]
   },
   "monde-legs": {
@@ -6580,11 +7373,19 @@
   },
   "monde-legs-crimson-camo": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "missions_not_offered": [
+      "High-Risk Bounty: ~mission(TargetName) at QV Breaker Station",
+      "End of a Salamander"
+    ]
   },
   "monde-legs-daimyo": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "missions_not_offered": [
+      "High-Risk Bounty: ~mission(TargetName) at QV Breaker Station",
+      "End of a Salamander"
+    ]
   },
   "monde-legs-delta-camo": {
     "default_owned": false,
@@ -6634,13 +7435,13 @@
   "monde-legs-purgatory-camo": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 50 04"
+      "Raid on Xenothreat"
     ]
   },
   "monolith-armor-arms": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "monolith-armor-arms-shadowflux": {
     "default_owned": false,
@@ -6650,7 +7451,8 @@
   },
   "monolith-armor-core": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "monolith-armor-core-shadowflux": {
     "default_owned": false,
@@ -6660,7 +7462,8 @@
   },
   "monolith-armor-legs": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "monolith-armor-legs-shadowflux": {
     "default_owned": false,
@@ -6670,7 +7473,8 @@
   },
   "monolith-backpack": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "monolith-backpack-shadowflux": {
     "default_owned": false,
@@ -6680,7 +7484,8 @@
   },
   "monolith-helmet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "monolith-helmet-shadowflux": {
     "default_owned": false,
@@ -6696,7 +7501,8 @@
   },
   "morozov-ch-backpack": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-arms": {
     "default_owned": false,
@@ -6709,23 +7515,34 @@
       "Shot in the chaos",
       "Wanted: ~mission(TargetName)",
       "XenoThreat Lieutenant needs some killing"
+    ],
+    "missions_not_offered": [
+      "Kill the king",
+      "Hit on XenoThreat at the Yard",
+      "Head of the snake",
+      "Need a scalpel at Carver's",
+      "Need a hit on the Riviera"
     ]
   },
   "morozov-sh-arms-modified": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-arms-aftershock": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-arms-snowdrift": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-arms-terracotta": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-arms-thule": {
     "default_owned": false,
@@ -6750,23 +7567,34 @@
       "Shot in the chaos",
       "Wanted: ~mission(TargetName)",
       "XenoThreat Lieutenant needs some killing"
+    ],
+    "missions_not_offered": [
+      "Kill the king",
+      "Hit on XenoThreat at the Yard",
+      "Head of the snake",
+      "Need a scalpel at Carver's",
+      "Need a hit on the Riviera"
     ]
   },
   "morozov-sh-core-modified": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-core-aftershock": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-core-snowdrift": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-core-terracotta": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-core-thule": {
     "default_owned": false,
@@ -6791,27 +7619,39 @@
       "Shot in the chaos",
       "Wanted: ~mission(TargetName)",
       "XenoThreat Lieutenant needs some killing"
+    ],
+    "missions_not_offered": [
+      "Kill the king",
+      "Hit on XenoThreat at the Yard",
+      "Head of the snake",
+      "Need a scalpel at Carver's",
+      "Need a hit on the Riviera"
     ]
   },
   "morozov-sh-helmet-aftershock": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-helmet-iceflow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-helmet-scorched-x": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-helmet-snowdrift": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-helmet-terracotta": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-helmet-thule": {
     "default_owned": false,
@@ -6836,27 +7676,39 @@
       "Shot in the chaos",
       "Wanted: ~mission(TargetName)",
       "XenoThreat Lieutenant needs some killing"
+    ],
+    "missions_not_offered": [
+      "Kill the king",
+      "Hit on XenoThreat at the Yard",
+      "Head of the snake",
+      "Need a scalpel at Carver's",
+      "Need a hit on the Riviera"
     ]
   },
   "morozov-sh-legs-modified": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-legs-aftershock": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-legs-scorched": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-legs-snowdrift": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-legs-terracotta": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "morozov-sh-legs-thule": {
     "default_owned": false,
@@ -6872,27 +7724,25 @@
   },
   "mvsa-cannon": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "ndb-26-repeater": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 100 01"
+      "Raid on Xenothreat"
     ]
   },
   "ndb-28-repeater": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 100 02"
+      "Raid on Xenothreat"
     ]
   },
   "ndb-30-repeater": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 100 03"
+      "Raid on Xenothreat"
     ]
   },
   "neutrino-racing-flight-suit-blackfire": {
@@ -6906,10 +7756,6 @@
     "missions": [
       "Tactical Strike Group Needed"
     ]
-  },
-  "neutrino-racing-flight-suit-mirai-n": {
-    "default_owned": false,
-    "missions": []
   },
   "neutrino-racing-flight-suit-whitehot": {
     "default_owned": false,
@@ -6931,7 +7777,8 @@
   },
   "neutrino-racing-helmet-mirai": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "neutrino-racing-helmet-whitehot": {
     "default_owned": false,
@@ -7024,7 +7871,6 @@
       "CRITICAL REFUEL REQUEST: ~mission(Ship)",
       "REFUEL REQUEST: ~mission(Ship)",
       "URGENT REFUEL REQUEST: ~mission(Ship)",
-      "Battaglia",
       "Crew Hasn’t Checked In",
       "Full Area Scan for Ore",
       "Missing Mining Team",
@@ -7039,7 +7885,8 @@
   },
   "nova": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "novian-ghostmaker-crossbow": {
     "default_owned": false,
@@ -7122,31 +7969,38 @@
   },
   "observer": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "observer-go": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "observer-lite": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "observer-max": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "odyssey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "odyssey-ii-racing-helmet-alpha": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "odyssey-ii-undersuit-alpha": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "omnisky-iii-cannon": {
     "default_owned": false,
@@ -7192,7 +8046,8 @@
   },
   "oracle-helmet-cold-steel": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms": {
     "default_owned": false,
@@ -7206,99 +8061,123 @@
   },
   "orc-mkv-arms-aqua": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-covalex-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-crusader-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-cry-astro-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-dark-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-greycat-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-imperial": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-orange": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-scorched": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-seagreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-sienna": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-tan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-arms-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core": {
     "default_owned": false,
@@ -7312,107 +8191,133 @@
   },
   "orc-mkv-core-modified": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-aqua": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-covalex-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-crusader-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-cry-astro-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-dark-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-greycat-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-imperial": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-microtech-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-orange": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-scorched": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-seagreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-sienna": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-tan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-core-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs": {
     "default_owned": false,
@@ -7426,130 +8331,159 @@
   },
   "orc-mkv-legs-modified": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-aqua": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-covalex-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-crusader-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-cry-astro-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-dark-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-greycat-edition": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-imperial": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-orange": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-scorched": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-seagreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-sienna": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-tan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkv-legs-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-arms-modified": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-arms-arctic": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-arms-autumn": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-arms-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-arms-secondwind": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Cds Combat Medium Arms 01 02 01",
-      "Cds Combat Medium Arms 01 02 01"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "orc-mkx-arms-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-arms-woodland": {
     "default_owned": false,
@@ -7563,26 +8497,29 @@
   },
   "orc-mkx-core-arctic": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-core-autumn": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-core-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-core-secondwind": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Cds Combat Medium Core 01 02 01",
-      "Cds Combat Medium Core 01 02 01"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "orc-mkx-core-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-core-woodland": {
     "default_owned": false,
@@ -7596,28 +8533,29 @@
   },
   "orc-mkx-helmet-arctic": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-helmet-autumn": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-helmet-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-helmet-secondwind": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Cds Combat Medium Helmet 01 02 01",
-      "Bp Reward Ds Combat Medium Helmet 01 02 01",
-      "Ds Combat Medium Helmet 01 02 01",
-      "Cds Combat Medium Helmet 01 02 01"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "orc-mkx-helmet-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-helmet-woodland": {
     "default_owned": false,
@@ -7631,26 +8569,29 @@
   },
   "orc-mkx-legs-arctic": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-legs-autumn": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-legs-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-legs-secondwind": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Cds Combat Medium Legs 01 02 01",
-      "Cds Combat Medium Legs 01 02 01"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "orc-mkx-legs-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "orc-mkx-legs-woodland": {
     "default_owned": false,
@@ -7664,30 +8605,43 @@
   },
   "overdrive": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "overlord-arms-supernova": {
     "default_owned": false,
     "missions": [
       "All Things Come To An End"
+    ],
+    "missions_not_offered": [
+      "A Challenging Contract"
     ]
   },
   "overlord-core-supernova": {
     "default_owned": false,
     "missions": [
       "All Things Come To An End"
+    ],
+    "missions_not_offered": [
+      "A Challenging Contract"
     ]
   },
   "overlord-helmet-supernova": {
     "default_owned": false,
     "missions": [
       "All Things Come To An End"
+    ],
+    "missions_not_offered": [
+      "A Challenging Contract"
     ]
   },
   "overlord-legs-supernova": {
     "default_owned": false,
     "missions": [
       "All Things Come To An End"
+    ],
+    "missions_not_offered": [
+      "A Challenging Contract"
     ]
   },
   "overrun-module": {
@@ -7698,26 +8652,29 @@
   },
   "p4-ar-blacklist-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "p4-ar-desert-shadow-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "p4-ar-nightstalker-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "p4-ar-secondwind-rifle": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Behr Rifle Ballistic 01 Mr01",
-      "Behr Rifle Ballistic 01 Mr01"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "p4-ar-warhawk-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "p4-ar-magazine-40-cap": {
     "default_owned": true,
@@ -7729,15 +8686,18 @@
   },
   "p6-lr-archangel-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "p6-lr-blacklist-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "p6-lr-rime-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "p6-lr-magazine-8-cap": {
     "default_owned": false,
@@ -7749,6 +8709,10 @@
       "Eliminate Fuel Stores",
       "Eradicate All Traces of Headhunter Data",
       "Reduce Outlaw's Operational Readiness"
+    ],
+    "missions_not_offered": [
+      "Take Headhunter Stronghold Offline",
+      "Halt Narcotics Operation"
     ]
   },
   "p6-lr-sniper-rifle": {
@@ -7761,47 +8725,64 @@
       "Eliminate Fuel Stores",
       "Eradicate All Traces of Headhunter Data",
       "Reduce Outlaw's Operational Readiness"
+    ],
+    "missions_not_offered": [
+      "Take Headhunter Stronghold Offline",
+      "Halt Narcotics Operation"
     ]
   },
   "p8-ar-rifle": {
     "default_owned": false,
     "missions": [
       "Additional Resources For Research"
+    ],
+    "missions_not_offered": [
+      "Verified Bounty: ~mission(TargetName) | ~mission(Danger)"
     ]
   },
   "p8-ar-rifle-magazine-15-cap": {
     "default_owned": false,
     "missions": [
       "Additional Resources For Research"
+    ],
+    "missions_not_offered": [
+      "Verified Bounty: ~mission(TargetName) | ~mission(Danger)"
     ]
   },
   "p8-sc-boneyard-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "p8-sc-desert-shadow-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "p8-sc-executive-edition-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "p8-sc-midnight-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "p8-sc-nightstalker-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "p8-sc-stormfall-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "p8-sc-warhawk-smg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "p8-sc-smg": {
     "default_owned": false,
@@ -7833,83 +8814,106 @@
       "Eliminate Fuel Stores",
       "Eradicate All Traces of Headhunter Data",
       "Reduce Outlaw's Operational Readiness"
+    ],
+    "missions_not_offered": [
+      "Take Headhunter Stronghold Offline",
+      "Halt Narcotics Operation"
     ]
   },
   "pab-1-arms-aqua": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-dark-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-imperial": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-orange": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-seagreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-sienna": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-tan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-arms-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core": {
     "default_owned": false,
@@ -7921,83 +8925,106 @@
       "Eliminate Fuel Stores",
       "Eradicate All Traces of Headhunter Data",
       "Reduce Outlaw's Operational Readiness"
+    ],
+    "missions_not_offered": [
+      "Take Headhunter Stronghold Offline",
+      "Halt Narcotics Operation"
     ]
   },
   "pab-1-core-aqua": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-dark-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-imperial": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-orange": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-seagreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-sienna": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-tan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-core-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs": {
     "default_owned": false,
@@ -8009,88 +9036,114 @@
       "Eliminate Fuel Stores",
       "Eradicate All Traces of Headhunter Data",
       "Reduce Outlaw's Operational Readiness"
+    ],
+    "missions_not_offered": [
+      "Take Headhunter Stronghold Offline",
+      "Halt Narcotics Operation"
     ]
   },
   "pab-1-legs-aqua": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-dark-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-dark-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-desert": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-imperial": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-orange": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-seagreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-sienna": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-tan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-twilight": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pab-1-legs-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "palatino-arms": {
     "default_owned": false,
     "missions": [
       "Additional Resources For Research"
+    ],
+    "missions_not_offered": [
+      "Verified Bounty: ~mission(TargetName) | ~mission(Danger)"
     ]
   },
   "palatino-arms-daystar": {
@@ -8109,11 +9162,15 @@
     "default_owned": false,
     "missions": [
       "Additional Resources For Research"
+    ],
+    "missions_not_offered": [
+      "Verified Bounty: ~mission(TargetName) | ~mission(Danger)"
     ]
   },
   "palatino-arms-necropolis": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "palatino-arms-sunstone": {
     "default_owned": false,
@@ -8125,6 +9182,9 @@
     "default_owned": false,
     "missions": [
       "Additional Resources For Research"
+    ],
+    "missions_not_offered": [
+      "Verified Bounty: ~mission(TargetName) | ~mission(Danger)"
     ]
   },
   "palatino-core-daystar": {
@@ -8143,11 +9203,15 @@
     "default_owned": false,
     "missions": [
       "Additional Resources For Research"
+    ],
+    "missions_not_offered": [
+      "Verified Bounty: ~mission(TargetName) | ~mission(Danger)"
     ]
   },
   "palatino-core-necropolis": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "palatino-core-sunstone": {
     "default_owned": false,
@@ -8159,6 +9223,9 @@
     "default_owned": false,
     "missions": [
       "Additional Resources For Research"
+    ],
+    "missions_not_offered": [
+      "Verified Bounty: ~mission(TargetName) | ~mission(Danger)"
     ]
   },
   "palatino-helmet-daystar": {
@@ -8177,6 +9244,9 @@
     "default_owned": false,
     "missions": [
       "Additional Resources For Research"
+    ],
+    "missions_not_offered": [
+      "Verified Bounty: ~mission(TargetName) | ~mission(Danger)"
     ]
   },
   "palatino-helmet-sunstone": {
@@ -8189,6 +9259,9 @@
     "default_owned": false,
     "missions": [
       "Additional Resources For Research"
+    ],
+    "missions_not_offered": [
+      "Verified Bounty: ~mission(TargetName) | ~mission(Danger)"
     ]
   },
   "palatino-legs-daystar": {
@@ -8207,11 +9280,15 @@
     "default_owned": false,
     "missions": [
       "Additional Resources For Research"
+    ],
+    "missions_not_offered": [
+      "Verified Bounty: ~mission(TargetName) | ~mission(Danger)"
     ]
   },
   "palatino-legs-necropolis": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "palatino-legs-sunstone": {
     "default_owned": false,
@@ -8316,11 +9393,13 @@
   },
   "pelerous": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pembroke-backpack": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pembroke-exploration-suit": {
     "default_owned": false,
@@ -8352,18 +9431,27 @@
     "default_owned": false,
     "missions": [
       "All Things Come To An End"
+    ],
+    "missions_not_offered": [
+      "A Challenging Contract"
     ]
   },
   "piecemeal-armor-core": {
     "default_owned": false,
     "missions": [
       "All Things Come To An End"
+    ],
+    "missions_not_offered": [
+      "A Challenging Contract"
     ]
   },
   "piecemeal-armor-legs": {
     "default_owned": false,
     "missions": [
       "All Things Come To An End"
+    ],
+    "missions_not_offered": [
+      "A Challenging Contract"
     ]
   },
   "pin": {
@@ -8390,7 +9478,6 @@
       "Mjr. Purchase Order: Ship Mined Ore",
       "Special Purchase Order: Mined Materials",
       "XL Purchase Order: Ship Mined Ore",
-      "Battaglia",
       "Crew Hasn’t Checked In",
       "Full Area Scan for Ore",
       "Missing Mining Team",
@@ -8408,7 +9495,8 @@
   },
   "pontes": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "powerbolt": {
     "default_owned": false,
@@ -8423,7 +9511,8 @@
   },
   "predator": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "predator-scattergun": {
     "default_owned": false,
@@ -8435,7 +9524,8 @@
   },
   "prevenir": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "prism-bonedust-laser-shotgun": {
     "default_owned": false,
@@ -8469,7 +9559,8 @@
   },
   "prophet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "pulse-blacklist-pistol": {
     "default_owned": false,
@@ -8539,20 +9630,19 @@
   },
   "pyroburst-scattergun": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "quadracell": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 60 01"
+      "Raid on Xenothreat"
     ]
   },
   "quadracell-mt": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 60 02"
+      "Raid on Xenothreat"
     ]
   },
   "quadracell-mx": {
@@ -8628,11 +9718,13 @@
   },
   "quest": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "quikcool": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "r97-kismet-shotgun": {
     "default_owned": false,
@@ -8654,7 +9746,11 @@
   },
   "r97-scorched-shotgun": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "missions_not_offered": [
+      "High-Risk Bounty: ~mission(TargetName) at QV Breaker Station",
+      "End of a Salamander"
+    ]
   },
   "r97-shotgun": {
     "default_owned": false,
@@ -8681,6 +9777,10 @@
       "Terrorist ~mission(TargetName) to be Neutralized",
       "Verified Bounty: ~mission(TargetName)",
       "Verified Bounty: ~mission(TargetName) at QV Breaker Station"
+    ],
+    "missions_not_offered": [
+      "High-Risk Bounty: ~mission(TargetName) at QV Breaker Station",
+      "End of a Salamander"
     ]
   },
   "r97-shotgun-magazine-18-cap": {
@@ -8712,6 +9812,10 @@
       "Terrorist ~mission(TargetName) to be Neutralized",
       "Verified Bounty: ~mission(TargetName)",
       "Verified Bounty: ~mission(TargetName) at QV Breaker Station"
+    ],
+    "missions_not_offered": [
+      "High-Risk Bounty: ~mission(TargetName) at QV Breaker Station",
+      "End of a Salamander"
     ]
   },
   "radiance": {
@@ -8738,15 +9842,18 @@
   },
   "radr-gnrp-s03-idris-temp": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "radr-rsi-s04-polaris": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "radr-wlop-s03-lephari": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "rampart": {
     "default_owned": false,
@@ -8757,15 +9864,18 @@
   },
   "ranger": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "rapidcool": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "ravager-212-outcast-twin-shotgun": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "ravager-212-twin-shotgun": {
     "default_owned": false,
@@ -8781,19 +9891,23 @@
   },
   "regulus": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "reign-3-repeater": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "reliance": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "resolu": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "revenant-gatling": {
     "default_owned": false,
@@ -8814,7 +9928,6 @@
       "CRITICAL REFUEL REQUEST: ~mission(Ship)",
       "REFUEL REQUEST: ~mission(Ship)",
       "URGENT REFUEL REQUEST: ~mission(Ship)",
-      "Battaglia",
       "Minor Mining Job",
       "Need Some Ore Mined",
       "Ore Scan Needed",
@@ -8827,7 +9940,8 @@
   },
   "roughneck": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "rpel": {
     "default_owned": false,
@@ -8842,22 +9956,24 @@
   },
   "rs-barrier": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "rush": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "s-38-scorched-pistol": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "s-38-secondwind-pistol": {
     "default_owned": false,
-    "missions": [
-      "Bp Reward Behr Pistol Ballistic 01 Mr01",
-      "Behr Pistol Ballistic 01 Mr01"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "s-38-magazine-20-cap": {
     "default_owned": true,
@@ -8887,7 +10003,6 @@
       "Small Purchase Order: Ship Mined Ore",
       "Special Purchase Order: Mined Materials",
       "XL Purchase Order: Ship Mined Ore",
-      "Battaglia",
       "Crew Hasn’t Checked In",
       "Full Area Scan for Ore",
       "Missing Mining Team",
@@ -8917,7 +10032,6 @@
       "Small Purchase Order: Ship Mined Ore",
       "Special Purchase Order: Mined Materials",
       "XL Purchase Order: Ship Mined Ore",
-      "Battaglia",
       "Minor Mining Job",
       "Need Some Ore Mined",
       "Ore Scan Needed",
@@ -8927,17 +10041,18 @@
   },
   "s71-bullseye-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "s71-justified-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "s71-purgatory-camo-rifle": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 25 06"
+      "Raid on Xenothreat"
     ]
   },
   "s71-rifle": {
@@ -8962,27 +10077,33 @@
   },
   "sabine-undersuit": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "salvo-esteban-frag-pistol": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "salvo-frag-pistol": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "savoir": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "scaleweave-undersuit": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "scalpel-permafrost-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "scalpel-sniper-rifle": {
     "default_owned": false,
@@ -8995,6 +10116,13 @@
       "Shot in the chaos",
       "Wanted: ~mission(TargetName)",
       "XenoThreat Lieutenant needs some killing"
+    ],
+    "missions_not_offered": [
+      "Kill the king",
+      "Hit on XenoThreat at the Yard",
+      "Head of the snake",
+      "Need a scalpel at Carver's",
+      "Need a hit on the Riviera"
     ]
   },
   "scalpel-sniper-rifle-magazine-12-cap": {
@@ -9008,6 +10136,13 @@
       "Shot in the chaos",
       "Wanted: ~mission(TargetName)",
       "XenoThreat Lieutenant needs some killing"
+    ],
+    "missions_not_offered": [
+      "Kill the king",
+      "Hit on XenoThreat at the Yard",
+      "Head of the snake",
+      "Need a scalpel at Carver's",
+      "Need a hit on the Riviera"
     ]
   },
   "scorpion-gt-215-gatling": {
@@ -9020,19 +10155,23 @@
   },
   "second-life-undersuit": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "securehyde": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "securescreen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "secureshield": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "sedulity": {
     "default_owned": false,
@@ -9076,7 +10215,8 @@
   },
   "shroud": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "siebe-helmet": {
     "default_owned": false,
@@ -9137,7 +10277,8 @@
   },
   "sinkhole-backpack": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "siren": {
     "default_owned": false,
@@ -9207,7 +10348,8 @@
   },
   "smartgen": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "snowblind": {
     "default_owned": false,
@@ -9228,47 +10370,58 @@
   },
   "snowfall": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "snowpack": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "sns-r5x": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "sns-r6": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "sns-r6x": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "sns-r7x": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "snsr5": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "snsr7": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "socoria": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "sojourn": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "solarflare": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "soniclite": {
     "default_owned": false,
@@ -9284,7 +10437,8 @@
   },
   "sparkfire": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "sparkjet": {
     "default_owned": false,
@@ -9330,25 +10484,29 @@
   },
   "spyglass": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "stampede-module": {
     "default_owned": false,
-    "missions": [
-      "Mining Modules Active Stampede"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "starburn": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "starheart": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "steadfast": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "stellate": {
     "default_owned": false,
@@ -9356,15 +10514,18 @@
   },
   "steward": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "stirling-exploration-backpack": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "stirling-exploration-helmet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "stirling-exploration-suit": {
     "default_owned": false,
@@ -9398,7 +10559,8 @@
   },
   "strata-arms-amber": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-arms-levski-edition": {
     "default_owned": false,
@@ -9409,25 +10571,28 @@
       "Moraine Data Retrieval",
       "Ore Deposit Needs Scanning",
       "Ore Needs Gathering",
-      "Scan And Mining Needed",
-      "Battagliaexclusive"
+      "Scan And Mining Needed"
     ]
   },
   "strata-arms-lodestar": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-arms-neptune": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-arms-shire": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-backpack": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-backpack-levski-edition": {
     "default_owned": false,
@@ -9438,8 +10603,7 @@
       "Moraine Data Retrieval",
       "Ore Deposit Needs Scanning",
       "Ore Needs Gathering",
-      "Scan And Mining Needed",
-      "Battagliaexclusive"
+      "Scan And Mining Needed"
     ]
   },
   "strata-core": {
@@ -9457,7 +10621,8 @@
   },
   "strata-core-amber": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-core-levski-edition": {
     "default_owned": false,
@@ -9468,33 +10633,38 @@
       "Moraine Data Retrieval",
       "Ore Deposit Needs Scanning",
       "Ore Needs Gathering",
-      "Scan And Mining Needed",
-      "Battagliaexclusive"
+      "Scan And Mining Needed"
     ]
   },
   "strata-core-lodestar": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-core-neptune": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-core-shire": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-helmet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-helmet-amber": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-helmet-calico": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-helmet-levski-edition": {
     "default_owned": false,
@@ -9505,29 +10675,33 @@
       "Moraine Data Retrieval",
       "Ore Deposit Needs Scanning",
       "Ore Needs Gathering",
-      "Scan And Mining Needed",
-      "Battagliaexclusive"
+      "Scan And Mining Needed"
     ]
   },
   "strata-helmet-lodestar": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-helmet-neptune": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-helmet-onyx": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-helmet-piston": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-helmet-shire": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-helmet-shooting-star": {
     "default_owned": false,
@@ -9557,7 +10731,8 @@
   },
   "strata-legs-amber": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-legs-levski-edition": {
     "default_owned": false,
@@ -9568,21 +10743,23 @@
       "Moraine Data Retrieval",
       "Ore Deposit Needs Scanning",
       "Ore Needs Gathering",
-      "Scan And Mining Needed",
-      "Battagliaexclusive"
+      "Scan And Mining Needed"
     ]
   },
   "strata-legs-lodestar": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-legs-neptune": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strata-legs-shire": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "strife-mass-driver-cannon": {
     "default_owned": false,
@@ -9603,7 +10780,8 @@
   },
   "stronghold": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "suckerpunch-cannon": {
     "default_owned": false,
@@ -9634,64 +10812,71 @@
   },
   "sunfire": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "sunflare": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "superdrive": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "suregrip-hv-s1-tractor-beam": {
     "default_owned": false,
-    "missions": [
-      "Red Wind",
-      "Bp Rewards Redwind"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "suregrip-hv-s2-tractor-beam": {
     "default_owned": false,
-    "missions": [
-      "Red Wind",
-      "Bp Rewards Redwind"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "suregrip-hv-s3-tractor-beam": {
     "default_owned": false,
-    "missions": [
-      "Red Wind",
-      "Bp Rewards Redwind"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "suregrip-pr-s1-tractor-beam": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "suregrip-pr-s2-tractor-beam": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "suregrip-pr-s3-tractor-beam": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "suregrip-s1-tractor-beam": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "suregrip-s2-tractor-beam": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "suregrip-s3-tractor-beam": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "surestop": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "surveyor": {
     "default_owned": false,
@@ -9909,11 +11094,13 @@
   },
   "targa": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "tcs-4-undersuit": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "tempest": {
     "default_owned": false,
@@ -9972,8 +11159,7 @@
   "testudo-arms-purgatory-camo": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 25 01"
+      "Raid on Xenothreat"
     ]
   },
   "testudo-arms-turfwar": {
@@ -10018,8 +11204,7 @@
   "testudo-backpack-purgatory-camo": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 25 02"
+      "Raid on Xenothreat"
     ]
   },
   "testudo-backpack-turfwar": {
@@ -10070,8 +11255,7 @@
   "testudo-core-purgatory-camo": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 25 03"
+      "Raid on Xenothreat"
     ]
   },
   "testudo-core-turfwar": {
@@ -10122,8 +11306,7 @@
   "testudo-helmet-purgatory-camo": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 25 05"
+      "Raid on Xenothreat"
     ]
   },
   "testudo-helmet-turfwar": {
@@ -10174,8 +11357,7 @@
   "testudo-legs-purgatory-camo": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 25 04"
+      "Raid on Xenothreat"
     ]
   },
   "testudo-legs-turfwar": {
@@ -10188,19 +11370,23 @@
   },
   "the-butcher-helmet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "thermalcore": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "thermax": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "thlilye-laser-gatling": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "tige": {
     "default_owned": false,
@@ -10233,13 +11419,14 @@
   },
   "torrent": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "torrent-iii-module": {
     "default_owned": false,
-    "missions": [
-      "Mining Modules Passive Torrent Mk3"
-    ]
+    "missions": [],
+    "no_source": true,
+    "past_event": true
   },
   "torrez": {
     "default_owned": false,
@@ -10273,7 +11460,8 @@
   },
   "trenta": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "tripledown-pistol": {
     "default_owned": false,
@@ -10291,7 +11479,8 @@
   },
   "trommel": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms": {
     "default_owned": false,
@@ -10303,31 +11492,41 @@
       "Eliminate Fuel Stores",
       "Eradicate All Traces of Headhunter Data",
       "Reduce Outlaw's Operational Readiness"
+    ],
+    "missions_not_offered": [
+      "Take Headhunter Stronghold Offline",
+      "Halt Narcotics Operation"
     ]
   },
   "truedef-pro-arms-aqua-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-black-aqua-silver": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-black-gold-silver": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-black-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-black-grey-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-black-pink-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-black-silver": {
     "default_owned": false,
@@ -10335,51 +11534,63 @@
   },
   "truedef-pro-arms-black-silver-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-black-silver-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-black-silver-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-black-white-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-gold-grey-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-grey-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-red-silver": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-silver-gold-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-white-silver-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-yellow-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-arms-yellow-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-aqua-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-base": {
     "default_owned": false,
@@ -10391,27 +11602,36 @@
       "Eliminate Fuel Stores",
       "Eradicate All Traces of Headhunter Data",
       "Reduce Outlaw's Operational Readiness"
+    ],
+    "missions_not_offered": [
+      "Take Headhunter Stronghold Offline",
+      "Halt Narcotics Operation"
     ]
   },
   "truedef-pro-core-black-aqua-silver": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-black-gold-silver": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-black-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-black-grey-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-black-pink-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-black-silver": {
     "default_owned": false,
@@ -10419,43 +11639,53 @@
   },
   "truedef-pro-core-black-silver-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-black-silver-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-black-silver-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-black-white-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-gold-grey-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-grey-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-red-silver": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-white-silver-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-yellow-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-core-yellow-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs": {
     "default_owned": false,
@@ -10467,31 +11697,41 @@
       "Eliminate Fuel Stores",
       "Eradicate All Traces of Headhunter Data",
       "Reduce Outlaw's Operational Readiness"
+    ],
+    "missions_not_offered": [
+      "Take Headhunter Stronghold Offline",
+      "Halt Narcotics Operation"
     ]
   },
   "truedef-pro-legs-aqua-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-black-aqua-silver": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-black-gold-silver": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-black-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-black-grey-red": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-black-pink-purple": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-black-silver": {
     "default_owned": false,
@@ -10499,47 +11739,58 @@
   },
   "truedef-pro-legs-black-silver-blue": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-black-silver-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-black-silver-yellow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-black-white-violet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-gold-grey-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-grey-green": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-red-silver": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-silver-gold-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-white-silver-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-yellow-black": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "truedef-pro-legs-yellow-grey": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "ts-2": {
     "default_owned": false,
@@ -10550,19 +11801,23 @@
   },
   "tundra": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "turbodrive": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "tyche": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "ultra-flow": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "ultraflux": {
     "default_owned": false,
@@ -10645,7 +11900,8 @@
   },
   "vendetta-hmg": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "venture-arms": {
     "default_owned": false,
@@ -10679,7 +11935,8 @@
   },
   "venture-helmet-white": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "venture-legs": {
     "default_owned": false,
@@ -10698,11 +11955,13 @@
   },
   "venture-undersuit-base": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "vesta": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "vigilance": {
     "default_owned": false,
@@ -10714,15 +11973,18 @@
   },
   "viselock-s1-tractor-beam": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "viselock-s2-tractor-beam": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "viselock-s3-tractor-beam": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "vk-00": {
     "default_owned": false,
@@ -10733,42 +11995,49 @@
   },
   "vogel": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "voir": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "vortex": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "voyage": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "vulcan": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "wanderer": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "ward": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "warden-backpack-purgatory-camo": {
     "default_owned": false,
     "missions": [
-      "Raid on Xenothreat",
-      "Bp Rewards Xenothreat2 50 01"
+      "Raid on Xenothreat"
     ]
   },
   "wayfare": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "web": {
     "default_owned": false,
@@ -10805,7 +12074,8 @@
   },
   "why-not-flight-helmet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "winter-star": {
     "default_owned": false,
@@ -10853,11 +12123,13 @@
   },
   "xanthule-flight-helmet": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "xanthule-flight-suit": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "xl-1": {
     "default_owned": false,
@@ -10868,7 +12140,8 @@
   },
   "yaluk": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "yeager": {
     "default_owned": false,
@@ -10897,6 +12170,9 @@
       "Need a hitter",
       "Reputation Management",
       "Time to roll on CFP"
+    ],
+    "missions_not_offered": [
+      "A tricky tricky task"
     ]
   },
   "yubarev-mirage-pistol": {
@@ -10911,11 +12187,15 @@
       "Need a hitter",
       "Reputation Management",
       "Time to roll on CFP"
+    ],
+    "missions_not_offered": [
+      "A tricky tricky task"
     ]
   },
   "yubarev-venom-pistol": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "yubarev-pistol": {
     "default_owned": false,
@@ -10929,6 +12209,9 @@
       "Need a hitter",
       "Reputation Management",
       "Time to roll on CFP"
+    ],
+    "missions_not_offered": [
+      "A tricky tricky task"
     ]
   },
   "yubarev-pistol-battery-10-cap": {
@@ -10943,6 +12226,9 @@
       "Need a hitter",
       "Reputation Management",
       "Time to roll on CFP"
+    ],
+    "missions_not_offered": [
+      "A tricky tricky task"
     ]
   },
   "zapjet": {
@@ -10970,7 +12256,8 @@
   },
   "zenith-snow-camo-laser-sniper-rifle": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "zenith-thunderstrike-laser-sniper-rifle": {
     "default_owned": false,
@@ -11000,7 +12287,8 @@
   },
   "zerorush": {
     "default_owned": false,
-    "missions": []
+    "missions": [],
+    "no_source": true
   },
   "skarnov-rifle-battery-30-cap": {
     "default_owned": false,
@@ -11143,5 +12431,121 @@
     "missions": [
       "Draw Out Maulers"
     ]
+  },
+  "dustup-legs-desert-armor-medium-legs-01-01-13": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "dustup-legs-desert-armor-medium-legs-01-01-15": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "truedef-pro-arms-black-silver-armor-light-arms-01-01-11": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "truedef-pro-arms-black-silver-armor-light-arms-01-01-15": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "truedef-pro-core-black-silver-armor-light-core-01-01-11": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "truedef-pro-core-black-silver-armor-light-core-01-01-15": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "argus-helmet-black-silver-armor-light-helmet-01-01-11": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "argus-helmet-black-silver-armor-light-helmet-01-01-15": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "truedef-pro-legs-black-silver-armor-light-legs-01-01-11": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "truedef-pro-legs-black-silver-armor-light-legs-01-01-15": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "inquisitor-core-olive-legacy-armor-medium-core-01-01-20": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "inquisitor-core-olive-legacy-armor-medium-core-01-01-21": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "neutrino-racing-flight-suit-mirai": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "probe": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true,
+    "past_event": true
+  },
+  "serac-cool-orig-s04-890j-scitem": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "serac-cool-rsi-s04-polaris-scitem": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "main-powerplant-powr-aegs-s04-idris-scitem": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "main-powerplant-powr-aegs-s04-reclaimer-scitem": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "stellate-powr-orig-s04-890j-scitem": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "stellate-powr-rsi-s04-polaris-scitem": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "glacis-shld-orig-s04-890j-scitem": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "deterrent": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
+  },
+  "bp-craft-cool-s04-cnou-pioneer": {
+    "default_owned": false,
+    "missions": [],
+    "no_source": true
   }
 }
