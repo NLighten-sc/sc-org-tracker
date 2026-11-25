@@ -96,7 +96,7 @@
       "url": "ships.json"
     },
     "ship-components.json": {
-      "version": "4.10.3-r4",
+      "version": "4.10.3-r5",
       "url": "ship-components.json"
     }
   }
